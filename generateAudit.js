@@ -18,34 +18,42 @@ const nameMap = {},
       },
       heights = [],
       widths = [],
-      doors = [],
       floors = [],
+      floorsSpecial = [],
       walls = [],
       wallsSpecial = [],
       water = [],
       waterSpecial = [],
       window = [],
       removed = [],
-      voids = [];
+      voids = [],
+      doors = [];
+
+let errors = 0;
+
+function error(name,index,prefab){
+  errors++;
+  console.log(`ERROR [${name}]: @index=${index},name=${prefab.name}`.red);
+} //end error()
 
 prefabs.forEach((prefab,index)=>{
 
   // name audit
   if(!prefab.name){
-    console.log(`ERROR [missing name]: @index=${index}`.red);
+    error('missing name',index,prefab);
   }else if(nameMap[prefab.name]){
-    console.log(`ERROR [duplicate name]: @index=${index},name=${prefab.name}`.red);
+    error('duplicate name',index,prefab);
   }else{
     nameMap[prefab.name] = true;
   } //end if
 
   // audit of the sizes
   if(!prefab.data.length){
-    console.log(`ERROR [data missing]: @index=${index},@name=${prefab.name}`.red);
+    error('height data missing',index,prefab);
   }else{
     heights.push(prefab.data.length);
     if(!prefab.data[0].length){
-      console.log(`ERROR [width data missing]: @index=${index},@name=${prefab.name}`.red);
+      error('width data missing',index,prefab);
     }else{
       widths.push(
         prefab.data.reduce((max,cur)=> max>cur.length?max:cur.length,0)
@@ -53,7 +61,7 @@ prefabs.forEach((prefab,index)=>{
       const prefabDoors = prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char==='+'?cur+1:cur,cur),0);
 
       if(!prefabDoors){
-        console.log(`ERROR [no doors]: @index=${index},@name=${prefab.name}`.red);
+        error('no doors',index,prefab);
       }else{
         doors.push(prefabDoors);
       } //end if
@@ -61,9 +69,12 @@ prefabs.forEach((prefab,index)=>{
         return line.split('').find(char=> !allowedChars[char]);
       })
       if(illegalCharLine){
-        console.log(`ERROR [illegal character]: @index=${index},@name=${prefab.name},@char=${illegalCharLine.split('').find(char=> !allowedChars[char])}`.red);
-      }
+        const char = illegalCharLine.split('').find(char=>!allowedChars[char]);
+
+        error(`illegal character: ${char}`,index,prefab);
+      } //end if
       floors.push(prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char==='.'?cur+1:cur,cur),0));
+      floorsSpecial.push(prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char===','?cur+1:cur,cur),0));
       walls.push(prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char==='#'?cur+1:cur,cur),0));
       wallsSpecial.push(prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char==='%'?cur+1:cur,cur),0));
       water.push(prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char==='~'?cur+1:cur,cur),0));
@@ -75,6 +86,9 @@ prefabs.forEach((prefab,index)=>{
   } //end if
 });
 
+if(errors>0){
+  console.log(`Total errors: ${errors}`.red);
+} //end if
 const heightsMin = Math.min(...heights),
       heightsMax = Math.max(...heights),
       heightsAverage = heights.reduce((a,b)=>a+b,0)/heights.length,
@@ -87,6 +101,9 @@ const heightsMin = Math.min(...heights),
       floorsMin = Math.min(...floors),
       floorsMax = Math.max(...floors),
       floorsAverage = floors.reduce((a,b)=>a+b,0)/floors.length,
+      floorsSpecialMin = Math.min(...floorsSpecial),
+      floorsSpecialMax = Math.max(...floorsSpecial),
+      floorsSpecialAverage = floorsSpecial.reduce((a,b)=>a+b,0)/floorsSpecial.length,
       wallsMin = Math.min(...walls),
       wallsMax = Math.max(...walls),
       wallsAverage = walls.reduce((a,b)=>a+b,0)/wallsSpecial.length,
@@ -109,70 +126,85 @@ const heightsMin = Math.min(...heights),
       voidsMax = Math.max(...voids),
       voidsAverage = voids.reduce((a,b)=>a+b,0)/voids.length;
 
-console.log('[name]      [minimum]  [maximum]  [average]'.cyan);
+const column1width = 14,
+      column2width = 10,
+      column3width = 10;
+
 console.log(
-  'height'.padEnd(12).brightCyan+
-  (''+heightsMin).padEnd(11).yellow+
-  (''+heightsMax).padEnd(11).yellow+
-  (''+heightsAverage).yellow
+  '[name]'.padEnd(column1width).cyan+
+  '[minimum]'.padEnd(column2width).cyan+
+  '[maximum]'.padEnd(column3width).cyan+
+  '[average]'.cyan
 );
 console.log(
-  'width'.padEnd(12).brightCyan+
-  (''+widthsMin).padEnd(11).yellow+
-  (''+widthsMax).padEnd(11).yellow+
-  (''+widthsAverage).yellow
+  'height'.padEnd(column1width).brightCyan+
+  (''+heightsMin).padEnd(column2width).yellow+
+  (''+heightsMax).padEnd(column3width).yellow+
+  heightsAverage.toFixed(4).yellow
 );
 console.log(
-  'doors'.padEnd(12).brightCyan+
-  (''+doorsMin).padEnd(11).yellow+
-  (''+doorsMax).padEnd(11).yellow+
-  (''+doorsAverage).yellow
+  'width'.padEnd(column1width).brightCyan+
+  (''+widthsMin).padEnd(column2width).yellow+
+  (''+widthsMax).padEnd(column3width).yellow+
+  widthsAverage.toFixed(4).yellow
 );
 console.log(
-  'floors'.padEnd(12).brightCyan+
-  (''+floorsMin).padEnd(11).yellow+
-  (''+floorsMax).padEnd(11).yellow+
-  (''+floorsAverage).yellow
+  'doors'.padEnd(column1width).brightCyan+
+  (''+doorsMin).padEnd(column2width).yellow+
+  (''+doorsMax).padEnd(column3width).yellow+
+  doorsAverage.toFixed(4).yellow
 );
 console.log(
-  'walls'.padEnd(12).brightCyan+
-  (''+wallsMin).padEnd(11).yellow+
-  (''+wallsMax).padEnd(11).yellow+
-  (''+wallsAverage).yellow
+  'floors'.padEnd(column1width).brightCyan+
+  (''+floorsMin).padEnd(column2width).yellow+
+  (''+floorsMax).padEnd(column3width).yellow+
+  floorsAverage.toFixed(4).yellow
 );
 console.log(
-  'wallsSpecial'.padEnd(12).brightCyan+
-  (''+wallsSpecialMin).padEnd(11).yellow+
-  (''+wallsSpecialMax).padEnd(11).yellow+
-  (''+wallsSpecialAverage).yellow
+  'floorsSpecial'.padEnd(column1width).brightCyan+
+  (''+floorsSpecialMin).padEnd(column2width).yellow+
+  (''+floorsSpecialMax).padEnd(column3width).yellow+
+  floorsSpecialAverage.toFixed(4).yellow
 );
 console.log(
-  'water'.padEnd(12).brightCyan+
-  (''+waterMin).padEnd(11).yellow+
-  (''+waterMax).padEnd(11).yellow+
-  (''+waterAverage).yellow
+  'walls'.padEnd(column1width).brightCyan+
+  (''+wallsMin).padEnd(column2width).yellow+
+  (''+wallsMax).padEnd(column3width).yellow+
+  wallsAverage.toFixed(4).yellow
 );
 console.log(
-  'waterSpecial'.padEnd(12).brightCyan+
-  (''+waterSpecialMin).padEnd(11).yellow+
-  (''+waterSpecialMax).padEnd(11).yellow+
-  (''+waterSpecialAverage).yellow
+  'wallsSpecial'.padEnd(column1width).brightCyan+
+  (''+wallsSpecialMin).padEnd(column2width).yellow+
+  (''+wallsSpecialMax).padEnd(column3width).yellow+
+  wallsSpecialAverage.toFixed(4).yellow
 );
 console.log(
-  'windows'.padEnd(12).brightCyan+
-  (''+windowMin).padEnd(11).yellow+
-  (''+windowMax).padEnd(11).yellow+
-  (''+windowAverage).yellow
+  'water'.padEnd(column1width).brightCyan+
+  (''+waterMin).padEnd(column2width).yellow+
+  (''+waterMax).padEnd(column3width).yellow+
+  waterAverage.toFixed(4).yellow
 );
 console.log(
-  'removed'.padEnd(12).brightCyan+
-  (''+removedMin).padEnd(11).yellow+
-  (''+removedMax).padEnd(11).yellow+
-  (''+removedAverage).yellow
+  'waterSpecial'.padEnd(column1width).brightCyan+
+  (''+waterSpecialMin).padEnd(column2width).yellow+
+  (''+waterSpecialMax).padEnd(column3width).yellow+
+  waterSpecialAverage.toFixed(4).yellow
 );
 console.log(
-  'voids'.padEnd(12).brightCyan+
-  (''+voidsMin).padEnd(11).yellow+
-  (''+voidsMax).padEnd(11).yellow+
-  (''+voidsAverage).yellow
+  'windows'.padEnd(column1width).brightCyan+
+  (''+windowMin).padEnd(column2width).yellow+
+  (''+windowMax).padEnd(column3width).yellow+
+  windowAverage.toFixed(4).yellow
+);
+console.log(
+  'removed'.padEnd(column1width).brightCyan+
+  (''+removedMin).padEnd(column2width).yellow+
+  (''+removedMax).padEnd(column3width).yellow+
+  removedAverage.toFixed(4).yellow
+);
+console.log(
+  'voids'.padEnd(column1width).brightCyan+
+  (''+voidsMin).padEnd(column2width).yellow+
+  (''+voidsMax).padEnd(column3width).yellow+
+  voidsAverage.toFixed(4).yellow
 );
