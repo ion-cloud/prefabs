@@ -3,6 +3,19 @@ const fs = require('fs');
 const colors = require('colors');
 
 const nameMap = {},
+      allowedChars = {
+        ' ': 'isEmpty',
+        '.': 'isFloor',
+        ',': 'isFloorSpecial',
+        '#': 'isWall',
+        '%': 'isWallSpecial',
+        '~': 'isWater',
+        '-': 'isWaterSpecial',
+        '*': 'isWindow',
+        'x': 'isRemoved',
+        '?': 'isVoid',
+        '+': 'isDoor'
+      },
       heights = [],
       widths = [],
       doors = [],
@@ -44,6 +57,12 @@ prefabs.forEach((prefab,index)=>{
       }else{
         doors.push(prefabDoors);
       } //end if
+      const illegalCharLine = prefab.data.find(line=>{
+        return line.split('').find(char=> !allowedChars[char]);
+      })
+      if(illegalCharLine){
+        console.log(`ERROR [illegal character]: @index=${index},@name=${prefab.name},@char=${illegalCharLine.split('').find(char=> !allowedChars[char])}`.red);
+      }
       floors.push(prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char==='.'?cur+1:cur,cur),0));
       walls.push(prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char==='#'?cur+1:cur,cur),0));
       wallsSpecial.push(prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char==='%'?cur+1:cur,cur),0));
