@@ -1,4 +1,5 @@
 const {prefabs} = require('./index.js');
+const colors = require('colors');
 
 const nameMap = {};
 
@@ -12,4 +13,17 @@ prefabs.forEach(prefab=>{
     nameMap[prefab.name] = true;
   } //end if
 });
-console.log(`Finished parsing with ${warnings} warnings.`);
+
+if(warnings.length){
+  console.log(
+    'Finished parsing with '.yellow+
+    (''+warnings).red+
+    ' warnings.'.yellow
+  );
+}else{
+  console.log(
+    'Finished parsing with '.yellow+
+    (''+warnings).green+
+    ' warnings.'.yellow
+  );
+} //end if
