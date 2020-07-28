@@ -10,7 +10,7 @@
 //  'x': isRemoved
 //  '?': isVoid
 //  '+': isDoor (possibility only, could be wall)
-export const prefabs = [
+const prefabs = [
   {
     name: 'smaebesnl',
     data: [
@@ -261,11 +261,11 @@ export const prefabs = [
   {
     name: 'wrip',
     data: [
-      '    #####',
+      '    ##+##',
       '  ###...###',
       '###.......###',
       '#...........#',
-      '#...........#',
+      '+...........+',
       '#...........#',
       '##.........##',
       ' #.........#',
@@ -274,15 +274,15 @@ export const prefabs = [
       '  ##.....##',
       '   #.....#',
       '   ##...##',
-      '    #####'
+      '    ##+##'
     ]
   },
   {
     name: 'frim',
     data: [
-      '#################',
+      '########+########',
       '#...............#',
-      '#...............#',
+      '+...............+',
       '#...............#',
       '####.........####',
       '   #.........#',
@@ -290,15 +290,15 @@ export const prefabs = [
       '   ####...####',
       '      #...#',
       '      #...#',
-      '      #####'
+      '      ##+##'
     ]
   },
   {
     name: 'twep',
     data: [
-      '#################',
+      '########+########',
       '#...............#',
-      '#...............#',
+      '+...............+',
       '#...............#',
       '###...........###',
       '  ###.......###',
@@ -306,27 +306,27 @@ export const prefabs = [
       '     #.....#',
       '     ##...##',
       '      #...#',
-      '      #####'
+      '      ##+##'
     ]
   },
   {
     name: 'twawoi',
     data: [
-      '#####################',
+      '##########+##########',
       '#...................#',
-      '#...................#',
+      '+...................+',
       '#...................#',
       '###...............###',
       '  ###...........###',
       '    ###.......###',
       '      ###...###',
-      '        #####'
+      '        ##+##'
     ]
   },
   {
     name: 'chamenispsk',
     data: [
-      '#################',
+      '########+########',
       '#...............#',
       '#...............#',
       '#...............#',
@@ -338,27 +338,27 @@ export const prefabs = [
       '   #.........#',
       '   ##.......##',
       '    #.......#',
-      '    #########'
+      '    ####+####'
     ]
   },
   {
     name: 'shangi',
     data: [
-      '     #####',
+      '     ##+##',
       '     #...#',
       '     #...#',
       '    ##...##',
       '   ##.....##',
       '####.......####',
       '#.............#',
-      '#.............#',
+      '+.............+',
       '#.............#',
       '####.......####',
       '   ##.....##',
       '    ##...##',
       '     #...#',
       '     #...#',
-      '     #####'
+      '     ##+##'
     ]
   },
   {
@@ -3567,7 +3567,7 @@ export const prefabs = [
     ]
   },
   {
-    name: 'akyla',
+    name: 'akyli',
     data: [
       '        #####',
       '        #...#',
@@ -4608,7 +4608,7 @@ export const prefabs = [
     ]
   },
   {
-    name: 'ilasa',
+    name: 'ilaso',
     data: [
       '#########         #########',
       '#.......###     ###.......#',
@@ -6740,7 +6740,7 @@ export const prefabs = [
     ]
   },
   {
-    name: 'bilas',
+    name: 'bilis',
     data: [
       '     #####           #####',
       '     #...#           #...#',
@@ -8130,7 +8130,7 @@ export const prefabs = [
     ]
   },
   {
-    name: 'halamen',
+    name: 'halamil',
     data: [
       '                    ######',
       '                  ###....#',
@@ -10900,7 +10900,7 @@ export const prefabs = [
     ]
   },
   {
-    name: 'vesomen',
+    name: 'vesomil',
     data: [
       '                       ####',
       '                      ##..#',
@@ -12419,7 +12419,7 @@ export const prefabs = [
     ]
   },
   {
-    name: 'throspr',
+    name: 'throspoke',
     data: [
       '                 #####',
       '                 #...#',
@@ -13197,7 +13197,7 @@ export const prefabs = [
     ]
   },
   {
-    name: 'menilas',
+    name: 'menilaso',
     data: [
       '       #########################',
       '    ####.......................####',
@@ -14998,7 +14998,7 @@ export const prefabs = [
     ]
   },
   {
-    name: 'uryna',
+    name: 'urynak',
     data: [
       '             ####               ####',
       '            ##..#               #..##',
@@ -15577,7 +15577,7 @@ export const prefabs = [
     ]
   },
   {
-    name: 'ohala',
+    name: 'ohalamre',
     data: [
       '           #########',
       '        ####.......###',
@@ -17794,7 +17794,7 @@ export const prefabs = [
     ]
   },
   {
-    name: 'ilasie',
+    name: 'ilasiemre',
     data: [
       '#####        #####                   #####        #####',
       '#...#        #...#                   #...#        #...#',
@@ -21460,7 +21460,7 @@ export const prefabs = [
     ]
   },
   {
-    name: 'bahal',
+    name: 'sobahal',
     data: [
       '              ###########',
       '            ###.........###',
@@ -22020,7 +22020,7 @@ export const prefabs = [
     ]
   },
   {
-    name: 'menolas',
+    name: 'menolasil',
     data: [
       '                               ####',
       '                             ###..#',
@@ -23769,7 +23769,7 @@ export const prefabs = [
     ]
   },
   {
-    name: 'obie',
+    name: 'obieka',
     data: [
       '                     #######',
       '                   ###.....###',
@@ -25016,7 +25016,7 @@ export const prefabs = [
     ]
   },
   {
-    name: 'bamen',
+    name: 'bamenok',
     data: [
       '                                           #####',
       '                                           #...#',
@@ -25467,7 +25467,7 @@ export const prefabs = [
     ]
   },
   {
-    name: 'ilo',
+    name: 'ilokentok',
     data: [
       '########',
       '#......###',
@@ -29185,7 +29185,7 @@ export const prefabs = [
     ]
   },
   {
-    name: 'ima',
+    name: 'imashek',
     data: [
       '                             #####                   #####',
       '                            ##...##                 ##...##',
@@ -30529,7 +30529,7 @@ export const prefabs = [
     ]
   },
   {
-    name: 'vesalas',
+    name: 'vesamenra',
     data: [
       '      #####',
       '     ##...##',
@@ -35760,7 +35760,7 @@ export const prefabs = [
     ]
   },
   {
-    name: 'kerukyl',
+    name: 'kerukylos',
     data: [
       '      ####               ####',
       '      #..##             ##..#',
@@ -39067,7 +39067,7 @@ export const prefabs = [
     ]
   },
   {
-    name: 'aryna',
+    name: 'arynamook',
     data: [
       '                  #########',
       '               ####.......####',
@@ -39117,7 +39117,7 @@ export const prefabs = [
     ]
   },
   {
-    name: 'ihala',
+    name: 'ihalatores',
     data: [
       '                      #####',
       '                      #...#',
@@ -39780,7 +39780,7 @@ export const prefabs = [
     ]
   },
   {
-    name: 'aryna',
+    name: 'arynas',
     data: [
       '                      #######',
       '                     ##.....##',
@@ -41596,7 +41596,7 @@ export const prefabs = [
     ]
   },
   {
-    name: 'dararyn',
+    name: 'darashek',
     data: [
       '       #####               #####',
       '       #...#               #...#',
@@ -42536,3 +42536,4 @@ export const prefabs = [
     ]
   }
 ];
+module.exports = {prefabs};
