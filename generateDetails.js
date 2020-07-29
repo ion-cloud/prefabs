@@ -7,6 +7,7 @@ prefabs.forEach(prefab=>{
     height: prefab.data.length,
     width: prefab.data.reduce((max,cur)=> max>cur.length?max:cur.length,0),
     floors: prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char==='.'?cur+1:cur,cur),0),
+    floorsSpecial: prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char===','?cur+1:cur,cur),0),
     walls: prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char==='#'?cur+1:cur,cur),0),
     wallsSpecial: prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char==='%'?cur+1:cur,cur),0),
     water: prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char==='~'?cur+1:cur,cur),0),

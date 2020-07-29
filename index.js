@@ -9,7 +9,21 @@ const prefabs = [
       '#.......#',
       '##.....##',
       ' ###+###'
-    ]
+    ],
+    details: {
+      height: 7,
+      width: 9,
+      floors: 31,
+      floorsSpecial: 0,
+      walls: 24,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'dariof',
@@ -23,7 +37,21 @@ const prefabs = [
       '#.....#',
       '##...##',
       ' ##+##'
-    ]
+    ],
+    details: {
+      height: 9,
+      width: 7,
+      floors: 31,
+      floorsSpecial: 0,
+      walls: 24,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ovesahal',
@@ -37,7 +65,21 @@ const prefabs = [
       '###...###',
       '  #...#',
       '  ##+##'
-    ]
+    ],
+    details: {
+      height: 9,
+      width: 9,
+      floors: 33,
+      floorsSpecial: 0,
+      walls: 28,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'fastio',
@@ -50,7 +92,21 @@ const prefabs = [
       ' ##.....##',
       '  ##...##',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 8,
+      width: 11,
+      floors: 42,
+      floorsSpecial: 0,
+      walls: 32,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'eibo',
@@ -66,7 +122,21 @@ const prefabs = [
       ' #.....#',
       ' ##...##',
       '  ##+##'
-    ]
+    ],
+    details: {
+      height: 11,
+      width: 9,
+      floors: 53,
+      floorsSpecial: 0,
+      walls: 34,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'tibahalsh',
@@ -82,7 +152,21 @@ const prefabs = [
       '###.....###',
       '  #.....#',
       '  ###+###'
-    ]
+    ],
+    details: {
+      height: 11,
+      width: 11,
+      floors: 65,
+      floorsSpecial: 0,
+      walls: 36,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'menosynalsyn',
@@ -98,7 +182,21 @@ const prefabs = [
       ' ##.......##',
       '  ###...###',
       '    ##+##'
-    ]
+    ],
+    details: {
+      height: 11,
+      width: 13,
+      floors: 83,
+      floorsSpecial: 0,
+      walls: 42,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'smoprillt',
@@ -112,7 +210,21 @@ const prefabs = [
       '###...........###',
       '  ###.......###',
       '    ####+####'
-    ]
+    ],
+    details: {
+      height: 9,
+      width: 17,
+      floors: 81,
+      floorsSpecial: 0,
+      walls: 44,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'shamen',
@@ -129,7 +241,21 @@ const prefabs = [
       '    #...#',
       '    #...#',
       '    ##+##'
-    ]
+    ],
+    details: {
+      height: 12,
+      width: 13,
+      floors: 64,
+      floorsSpecial: 0,
+      walls: 44,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'oscrikyl',
@@ -147,7 +273,21 @@ const prefabs = [
       '   ##...##',
       '    ##.##',
       '     #+#'
-    ]
+    ],
+    details: {
+      height: 13,
+      width: 13,
+      floors: 61,
+      floorsSpecial: 0,
+      walls: 44,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'asyniryn',
@@ -165,7 +305,21 @@ const prefabs = [
       '  ##.....##',
       '   ##...##',
       '    ##+##'
-    ]
+    ],
+    details: {
+      height: 13,
+      width: 13,
+      floors: 81,
+      floorsSpecial: 0,
+      walls: 44,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'mnin',
@@ -183,7 +337,21 @@ const prefabs = [
       '  ##.....##',
       '   #.....#',
       '   ###+###'
-    ]
+    ],
+    details: {
+      height: 13,
+      width: 13,
+      floors: 89,
+      floorsSpecial: 0,
+      walls: 44,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'vesekyl',
@@ -204,7 +372,21 @@ const prefabs = [
       '   #...#',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 16,
+      width: 11,
+      floors: 78,
+      floorsSpecial: 0,
+      walls: 48,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'avesich',
@@ -225,7 +407,21 @@ const prefabs = [
       '   #...#',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 16,
+      width: 11,
+      floors: 80,
+      floorsSpecial: 0,
+      walls: 46,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'aemenu',
@@ -244,7 +440,21 @@ const prefabs = [
       '  ##.....##',
       '   #.....#',
       '   ###+###'
-    ]
+    ],
+    details: {
+      height: 14,
+      width: 13,
+      floors: 92,
+      floorsSpecial: 0,
+      walls: 46,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'wrip',
@@ -263,7 +473,21 @@ const prefabs = [
       '   #.....#',
       '   ##...##',
       '    ##+##'
-    ]
+    ],
+    details: {
+      height: 14,
+      width: 13,
+      floors: 88,
+      floorsSpecial: 0,
+      walls: 46,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'frim',
@@ -279,7 +503,21 @@ const prefabs = [
       '      #...#',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 11,
+      width: 17,
+      floors: 81,
+      floorsSpecial: 0,
+      walls: 48,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'twep',
@@ -295,7 +533,21 @@ const prefabs = [
       '     ##...##',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 11,
+      width: 17,
+      floors: 79,
+      floorsSpecial: 0,
+      walls: 48,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'twawoi',
@@ -309,7 +561,21 @@ const prefabs = [
       '    ###.......###',
       '      ###...###',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 9,
+      width: 21,
+      floors: 93,
+      floorsSpecial: 0,
+      walls: 52,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'chamenispsk',
@@ -327,7 +593,21 @@ const prefabs = [
       '   ##.......##',
       '    #.......#',
       '    ####+####'
-    ]
+    ],
+    details: {
+      height: 13,
+      width: 17,
+      floors: 125,
+      floorsSpecial: 0,
+      walls: 54,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'shangi',
@@ -347,7 +627,21 @@ const prefabs = [
       '     #...#',
       '     #...#',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 15,
+      width: 15,
+      floors: 81,
+      floorsSpecial: 0,
+      walls: 52,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'halimenoclkyl',
@@ -367,7 +661,21 @@ const prefabs = [
       '  ##.......##',
       '   #.......#',
       '   ####+####'
-    ]
+    ],
+    details: {
+      height: 15,
+      width: 15,
+      floors: 137,
+      floorsSpecial: 0,
+      walls: 52,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'aemenal',
@@ -384,7 +692,21 @@ const prefabs = [
       '     ##.....##',
       '      ##...##',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 12,
+      width: 19,
+      floors: 114,
+      floorsSpecial: 0,
+      walls: 54,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'wriemeny',
@@ -407,7 +729,21 @@ const prefabs = [
       '    #...#',
       '    ##.##',
       '     #+#'
-    ]
+    ],
+    details: {
+      height: 18,
+      width: 13,
+      floors: 64,
+      floorsSpecial: 0,
+      walls: 54,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'avesilas',
@@ -430,7 +766,21 @@ const prefabs = [
       '    #...#',
       '    ##.##',
       '     #+#'
-    ]
+    ],
+    details: {
+      height: 18,
+      width: 13,
+      floors: 68,
+      floorsSpecial: 0,
+      walls: 54,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'lam',
@@ -449,7 +799,21 @@ const prefabs = [
       '    ##.....##',
       '     ##...##',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 14,
+      width: 17,
+      floors: 126,
+      floorsSpecial: 0,
+      walls: 54,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'gludiokyln',
@@ -468,7 +832,21 @@ const prefabs = [
       '      #...#',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 14,
+      width: 17,
+      floors: 90,
+      floorsSpecial: 0,
+      walls: 54,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'aesweih',
@@ -489,7 +867,21 @@ const prefabs = [
       '     #...#',
       '     #...#',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 16,
+      width: 15,
+      floors: 116,
+      floorsSpecial: 0,
+      walls: 54,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'swusyn',
@@ -513,7 +905,21 @@ const prefabs = [
       '  ##.....##',
       '   ##...##',
       '    ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 13,
+      floors: 123,
+      floorsSpecial: 0,
+      walls: 56,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'sakylibrmen',
@@ -535,7 +941,21 @@ const prefabs = [
       '   ##.....##',
       '    #.....#',
       '    ###+###'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 15,
+      floors: 143,
+      floorsSpecial: 0,
+      walls: 56,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'vesagro',
@@ -555,7 +975,21 @@ const prefabs = [
       '  ###.......###',
       '    ###...###',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 15,
+      width: 17,
+      floors: 141,
+      floorsSpecial: 0,
+      walls: 56,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kylisyn',
@@ -576,7 +1010,21 @@ const prefabs = [
       '     #.....#',
       '     #.....#',
       '     ###+###'
-    ]
+    ],
+    details: {
+      height: 16,
+      width: 17,
+      floors: 126,
+      floorsSpecial: 0,
+      walls: 58,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'halimeno',
@@ -594,7 +1042,21 @@ const prefabs = [
       '    ###.......###',
       '      ###...###',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 13,
+      width: 21,
+      floors: 129,
+      floorsSpecial: 0,
+      walls: 60,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'alaso',
@@ -618,7 +1080,21 @@ const prefabs = [
       '     #...#',
       '     #...#',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 15,
+      floors: 99,
+      floorsSpecial: 0,
+      walls: 60,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'tabli',
@@ -638,7 +1114,21 @@ const prefabs = [
       '      ##...##',
       '       #...#',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 15,
+      width: 19,
+      floors: 149,
+      floorsSpecial: 0,
+      walls: 56,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'menahal',
@@ -660,7 +1150,21 @@ const prefabs = [
       '     ##...##',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 17,
+      floors: 141,
+      floorsSpecial: 0,
+      walls: 60,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'heir',
@@ -683,7 +1187,21 @@ const prefabs = [
       '     ##...##',
       '      ##.##',
       '       #+#'
-    ]
+    ],
+    details: {
+      height: 18,
+      width: 17,
+      floors: 154,
+      floorsSpecial: 0,
+      walls: 70,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'luriechb',
@@ -703,7 +1221,21 @@ const prefabs = [
       '       #.....#',
       '       ##...##',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 15,
+      width: 21,
+      floors: 143,
+      floorsSpecial: 0,
+      walls: 64,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kylomenethors',
@@ -727,7 +1259,21 @@ const prefabs = [
       '      #...#',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 17,
+      floors: 127,
+      floorsSpecial: 0,
+      walls: 64,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kerosk',
@@ -751,7 +1297,21 @@ const prefabs = [
       '  ##.........##',
       '   ###.....###',
       '     ###+###'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 17,
+      floors: 169,
+      floorsSpecial: 0,
+      walls: 88,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'ivesoh',
@@ -778,7 +1338,21 @@ const prefabs = [
       '     #...#',
       '     #...#',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 22,
+      width: 15,
+      floors: 148,
+      floorsSpecial: 0,
+      walls: 66,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ipoi',
@@ -799,7 +1373,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 16,
+      width: 21,
+      floors: 122,
+      floorsSpecial: 0,
+      walls: 69,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'lifl',
@@ -822,7 +1410,21 @@ const prefabs = [
       '      #.....#',
       '      #.....#',
       '      ###+###'
-    ]
+    ],
+    details: {
+      height: 18,
+      width: 19,
+      floors: 164,
+      floorsSpecial: 0,
+      walls: 66,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'darosyn',
@@ -854,7 +1456,21 @@ const prefabs = [
       '   ##...##',
       '    #...#',
       '    ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 13,
+      floors: 193,
+      floorsSpecial: 0,
+      walls: 79,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'menomeniefb',
@@ -878,7 +1494,21 @@ const prefabs = [
       '      #.....#',
       '      ##...##',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 19,
+      floors: 145,
+      floorsSpecial: 0,
+      walls: 76,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'priewo',
@@ -900,7 +1530,21 @@ const prefabs = [
       '       ##.....##',
       '        ##...##',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 23,
+      floors: 165,
+      floorsSpecial: 0,
+      walls: 74,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'frathori',
@@ -926,7 +1570,21 @@ const prefabs = [
       '       #...#',
       '       #...#',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 19,
+      floors: 163,
+      floorsSpecial: 0,
+      walls: 71,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'halitokylsyn',
@@ -950,7 +1608,21 @@ const prefabs = [
       '       ##.....##',
       '        ##...##',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 23,
+      floors: 191,
+      floorsSpecial: 0,
+      walls: 82,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'synib',
@@ -974,7 +1646,21 @@ const prefabs = [
       '        ##...##',
       '         #...#',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 23,
+      floors: 173,
+      floorsSpecial: 0,
+      walls: 76,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'thokyliqum',
@@ -1001,7 +1687,21 @@ const prefabs = [
       '+......###',
       '#...####',
       '#####'
-    ]
+    ],
+    details: {
+      height: 22,
+      width: 22,
+      floors: 238,
+      floorsSpecial: 0,
+      walls: 80,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'dributhsyn',
@@ -1026,7 +1726,21 @@ const prefabs = [
       '        #.......#',
       '        #.......#',
       '        ####+####'
-    ]
+    ],
+    details: {
+      height: 20,
+      width: 25,
+      floors: 186,
+      floorsSpecial: 0,
+      walls: 118,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kerogra',
@@ -1056,7 +1770,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 21,
+      floors: 149,
+      floorsSpecial: 0,
+      walls: 86,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'ulu',
@@ -1088,7 +1816,21 @@ const prefabs = [
       '  #...#',
       '  #...#',
       '  ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 21,
+      floors: 217,
+      floorsSpecial: 0,
+      walls: 95,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'thioghadd',
@@ -1120,7 +1862,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 24,
+      floors: 220,
+      floorsSpecial: 0,
+      walls: 106,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'kerirumenph',
@@ -1140,7 +1896,21 @@ const prefabs = [
       ' #...#...#...#',
       ' #####...#####',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 15,
+      width: 15,
+      floors: 105,
+      floorsSpecial: 0,
+      walls: 72,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'kyligli',
@@ -1164,7 +1934,21 @@ const prefabs = [
       '+...........+',
       '#...........#',
       '###+#####+###'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 13,
+      floors: 141,
+      floorsSpecial: 0,
+      walls: 80,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'haleikyleicha',
@@ -1192,7 +1976,21 @@ const prefabs = [
       '   #...#',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 11,
+      floors: 83,
+      floorsSpecial: 0,
+      walls: 70,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'alynumen',
@@ -1214,7 +2012,21 @@ const prefabs = [
       '#.....#...#.....#',
       '#.....#...#.....#',
       '###+#########+###'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 17,
+      floors: 181,
+      floorsSpecial: 0,
+      walls: 96,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'iehaloth',
@@ -1236,7 +2048,21 @@ const prefabs = [
       '#.........+.....#',
       '#.........#.....#',
       '###+###+#########'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 17,
+      floors: 191,
+      floorsSpecial: 0,
+      walls: 86,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'mamenobm',
@@ -1270,7 +2096,21 @@ const prefabs = [
       '   #...#',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 11,
+      floors: 129,
+      floorsSpecial: 0,
+      walls: 110,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'scheh',
@@ -1292,7 +2132,21 @@ const prefabs = [
       '#.....................#',
       '#.....................#',
       '#######################'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 23,
+      floors: 193,
+      floorsSpecial: 0,
+      walls: 127,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'halohala',
@@ -1320,7 +2174,21 @@ const prefabs = [
       '    ##.#...#.##',
       '     ###...###',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 19,
+      floors: 201,
+      floorsSpecial: 0,
+      walls: 124,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'oryno',
@@ -1346,7 +2214,21 @@ const prefabs = [
       '        +...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 21,
+      floors: 159,
+      floorsSpecial: 0,
+      walls: 100,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'daraclistlas',
@@ -1372,7 +2254,21 @@ const prefabs = [
       '  #######...#######',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 21,
+      floors: 205,
+      floorsSpecial: 0,
+      walls: 112,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'ati',
@@ -1398,7 +2294,21 @@ const prefabs = [
       '#.....#.......#.....#',
       '#.....#.......#.....#',
       '###+#############+###'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 21,
+      floors: 301,
+      floorsSpecial: 0,
+      walls: 128,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'singolb',
@@ -1438,7 +2348,21 @@ const prefabs = [
       '  #.......#',
       '  ###...###',
       '    ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 13,
+      floors: 237,
+      floorsSpecial: 0,
+      walls: 130,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'ushukyl',
@@ -1474,7 +2398,21 @@ const prefabs = [
       '#.............#',
       '#.............#',
       '#######+#######'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 15,
+      floors: 259,
+      floorsSpecial: 0,
+      walls: 130,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'cysynyshhal',
@@ -1507,7 +2445,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 28,
+      width: 21,
+      floors: 234,
+      floorsSpecial: 0,
+      walls: 124,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'kylioglo',
@@ -1547,7 +2499,21 @@ const prefabs = [
       '#...#       #...#',
       '#...#       #...#',
       '##+##       ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 17,
+      floors: 213,
+      floorsSpecial: 0,
+      walls: 170,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'lynola',
@@ -1587,7 +2553,21 @@ const prefabs = [
       '      #...#',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 17,
+      floors: 255,
+      floorsSpecial: 0,
+      walls: 142,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'halaelas',
@@ -1617,7 +2597,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 25,
+      floors: 252,
+      floorsSpecial: 0,
+      walls: 129,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'uhala',
@@ -1653,7 +2647,21 @@ const prefabs = [
       '#...#           #...#',
       '#...#           #...#',
       '##+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 21,
+      floors: 213,
+      floorsSpecial: 0,
+      walls: 170,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'taemen',
@@ -1681,7 +2689,21 @@ const prefabs = [
       '             #...#',
       '             #...#',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 31,
+      floors: 250,
+      floorsSpecial: 62,
+      walls: 129,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'asplalas',
@@ -1713,7 +2735,21 @@ const prefabs = [
       '        #.........#',
       '        #.........#',
       '        #####+#####'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 309,
+      floorsSpecial: 0,
+      walls: 164,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'hisu',
@@ -1745,7 +2781,21 @@ const prefabs = [
       '#...#                 #...#',
       '#...#                 #...#',
       '##+##                 ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 247,
+      floorsSpecial: 0,
+      walls: 188,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'eidaris',
@@ -1779,7 +2829,21 @@ const prefabs = [
       '            #...#',
       '            #...#',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 29,
+      floors: 253,
+      floorsSpecial: 0,
+      walls: 148,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'yhikyl',
@@ -1813,7 +2877,21 @@ const prefabs = [
       '       ###....##',
       '         ###..#',
       '           ##+#'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 29,
+      floors: 360,
+      floorsSpecial: 33,
+      walls: 132,
+      wallsSpecial: 39,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'thietu',
@@ -1837,7 +2915,21 @@ const prefabs = [
       '                 ##.......##',
       '                  ###...###',
       '                    ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 45,
+      floors: 330,
+      floorsSpecial: 0,
+      walls: 158,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'tor',
@@ -1876,7 +2968,21 @@ const prefabs = [
       '          ##...##',
       '           ##.##',
       '            #+#'
-    ]
+    ],
+    details: {
+      height: 34,
+      width: 28,
+      floors: 382,
+      floorsSpecial: 0,
+      walls: 184,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'lynesheclsch',
@@ -1912,7 +3018,21 @@ const prefabs = [
       '             #...#',
       '             ##.##',
       '              #+#'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 297,
+      floorsSpecial: 0,
+      walls: 148,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'menihali',
@@ -1948,7 +3068,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 296,
+      floorsSpecial: 0,
+      walls: 148,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'bied',
@@ -1974,7 +3108,21 @@ const prefabs = [
       '#############...##',
       '            #...#',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 55,
+      floors: 391,
+      floorsSpecial: 0,
+      walls: 199,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'snoliprhal',
@@ -2005,7 +3153,21 @@ const prefabs = [
       '     #....##                     ##....#',
       '     ##...#                       #...##',
       '      ##+##                       ##+##'
-    ]
+    ],
+    details: {
+      height: 26,
+      width: 45,
+      floors: 388,
+      floorsSpecial: 0,
+      walls: 190,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'spaspo',
@@ -2045,7 +3207,21 @@ const prefabs = [
       '             ##.....##',
       '              ##...##',
       '               ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 35,
+      floors: 370,
+      floorsSpecial: 0,
+      walls: 198,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'boihalakylr',
@@ -2060,7 +3236,21 @@ const prefabs = [
       '    #.#',
       '    #.#',
       '    #+#'
-    ]
+    ],
+    details: {
+      height: 10,
+      width: 11,
+      floors: 32,
+      floorsSpecial: 0,
+      walls: 34,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'meniesynosryn',
@@ -2088,7 +3278,21 @@ const prefabs = [
       '#.%.#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 5,
+      floors: 56,
+      floorsSpecial: 0,
+      walls: 50,
+      wallsSpecial: 7,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'bafre',
@@ -2104,7 +3308,21 @@ const prefabs = [
       '#.....#.....#',
       '#.....#.....#',
       '###+#####+###'
-    ]
+    ],
+    details: {
+      height: 11,
+      width: 13,
+      floors: 79,
+      floorsSpecial: 0,
+      walls: 45,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'glot',
@@ -2120,7 +3338,21 @@ const prefabs = [
       '#...........#',
       '#...........#',
       '###+#####+###'
-    ]
+    ],
+    details: {
+      height: 11,
+      width: 13,
+      floors: 83,
+      floorsSpecial: 0,
+      walls: 41,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'odo',
@@ -2136,7 +3368,21 @@ const prefabs = [
       ' ##.........##',
       '  ###.....###',
       '    ###+###'
-    ]
+    ],
+    details: {
+      height: 11,
+      width: 15,
+      floors: 101,
+      floorsSpecial: 0,
+      walls: 45,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'daruquikylmen',
@@ -2154,7 +3400,21 @@ const prefabs = [
       '   ##...##',
       '    ##.##',
       '     #+#'
-    ]
+    ],
+    details: {
+      height: 13,
+      width: 13,
+      floors: 61,
+      floorsSpecial: 0,
+      walls: 44,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'iedararyn',
@@ -2175,7 +3435,21 @@ const prefabs = [
       '   #...#',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 16,
+      width: 11,
+      floors: 78,
+      floorsSpecial: 0,
+      walls: 45,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'ydarielas',
@@ -2191,7 +3465,21 @@ const prefabs = [
       '  ##.........##',
       '   ###.....###',
       '     ###+###'
-    ]
+    ],
+    details: {
+      height: 11,
+      width: 17,
+      floors: 63,
+      floorsSpecial: 0,
+      walls: 61,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'voiqui',
@@ -2207,7 +3495,21 @@ const prefabs = [
       '     ##...##',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 11,
+      width: 17,
+      floors: 64,
+      floorsSpecial: 0,
+      walls: 53,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'dyhaspmen',
@@ -2223,7 +3525,21 @@ const prefabs = [
       '#...............#',
       '#...............#',
       '###+####+####+###'
-    ]
+    ],
+    details: {
+      height: 11,
+      width: 17,
+      floors: 81,
+      floorsSpecial: 0,
+      walls: 48,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'adaryn',
@@ -2251,7 +3567,21 @@ const prefabs = [
       '#.......#',
       '#.......#',
       '####+####'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 9,
+      floors: 103,
+      floorsSpecial: 0,
+      walls: 66,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'cukylangves',
@@ -2272,7 +3602,21 @@ const prefabs = [
       '    #...#',
       '    #...#',
       '    ##+##'
-    ]
+    ],
+    details: {
+      height: 16,
+      width: 13,
+      floors: 98,
+      floorsSpecial: 0,
+      walls: 50,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'dam',
@@ -2294,7 +3638,21 @@ const prefabs = [
       '    #...#',
       '    #...#',
       '    ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 13,
+      floors: 69,
+      floorsSpecial: 0,
+      walls: 52,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'mamubryn',
@@ -2316,7 +3674,21 @@ const prefabs = [
       '+...........+',
       '#...........#',
       '######+######'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 13,
+      floors: 105,
+      floorsSpecial: 0,
+      walls: 64,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'iti',
@@ -2336,7 +3708,21 @@ const prefabs = [
       '     #...#',
       '     #...#',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 15,
+      width: 15,
+      floors: 69,
+      floorsSpecial: 0,
+      walls: 52,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'oiglir',
@@ -2356,7 +3742,21 @@ const prefabs = [
       '#......##',
       '#.....##',
       '###+###'
-    ]
+    ],
+    details: {
+      height: 15,
+      width: 15,
+      floors: 97,
+      floorsSpecial: 0,
+      walls: 52,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'otu',
@@ -2376,7 +3776,21 @@ const prefabs = [
       '     #...#',
       '     #...#',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 15,
+      width: 15,
+      floors: 81,
+      floorsSpecial: 0,
+      walls: 52,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'usynaehal',
@@ -2393,7 +3807,21 @@ const prefabs = [
       '     ##.....##',
       '      ##...##',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 12,
+      width: 19,
+      floors: 114,
+      floorsSpecial: 0,
+      walls: 54,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kerona',
@@ -2409,7 +3837,21 @@ const prefabs = [
       '    ###.......###',
       '      ###...###',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 11,
+      width: 21,
+      floors: 105,
+      floorsSpecial: 0,
+      walls: 59,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'darar',
@@ -2435,7 +3877,21 @@ const prefabs = [
       '   #...#',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 11,
+      floors: 93,
+      floorsSpecial: 0,
+      walls: 56,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kyliboqum',
@@ -2458,7 +3914,21 @@ const prefabs = [
       '    #...#',
       '    ##.##',
       '     #+#'
-    ]
+    ],
+    details: {
+      height: 18,
+      width: 13,
+      floors: 64,
+      floorsSpecial: 0,
+      walls: 54,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'litaglsyn',
@@ -2479,7 +3949,21 @@ const prefabs = [
       '     #...#',
       '     #...#',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 16,
+      width: 15,
+      floors: 116,
+      floorsSpecial: 0,
+      walls: 53,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'nosyn',
@@ -2503,7 +3987,21 @@ const prefabs = [
       '+...........+',
       '#...........#',
       '######+######'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 13,
+      floors: 123,
+      floorsSpecial: 0,
+      walls: 68,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'odarahal',
@@ -2521,7 +4019,21 @@ const prefabs = [
       '##### #.....# #####',
       '      #.....#',
       '      ###+###'
-    ]
+    ],
+    details: {
+      height: 13,
+      width: 19,
+      floors: 115,
+      floorsSpecial: 0,
+      walls: 72,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'keramybm',
@@ -2545,7 +4057,21 @@ const prefabs = [
       '#.....#',
       '#.....#',
       '###+###'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 13,
+      floors: 119,
+      floorsSpecial: 0,
+      walls: 62,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'avesio',
@@ -2563,7 +4089,21 @@ const prefabs = [
       '     ##.....##',
       '      ##...##',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 13,
+      width: 19,
+      floors: 67,
+      floorsSpecial: 0,
+      walls: 72,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'bilas',
@@ -2589,7 +4129,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 12,
+      floors: 110,
+      floorsSpecial: 0,
+      walls: 59,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'salas',
@@ -2605,7 +4159,21 @@ const prefabs = [
       '#...#             #...#',
       '#...#             #...#',
       '##+##             ##+##'
-    ]
+    ],
+    details: {
+      height: 11,
+      width: 23,
+      floors: 108,
+      floorsSpecial: 0,
+      walls: 79,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'sakylie',
@@ -2626,7 +4194,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 16,
+      width: 16,
+      floors: 62,
+      floorsSpecial: 0,
+      walls: 58,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'pih',
@@ -2647,7 +4229,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 16,
+      width: 16,
+      floors: 90,
+      floorsSpecial: 0,
+      walls: 56,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'sikyl',
@@ -2681,7 +4277,21 @@ const prefabs = [
       '  #...#',
       '  #...#',
       '  ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 9,
+      floors: 105,
+      floorsSpecial: 0,
+      walls: 74,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'kerukyl',
@@ -2715,7 +4325,21 @@ const prefabs = [
       '  #...#',
       '  #...#',
       '  ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 9,
+      floors: 129,
+      floorsSpecial: 0,
+      walls: 86,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'vesiwomensyn',
@@ -2734,7 +4358,21 @@ const prefabs = [
       '#...#         #...#',
       '#...#         #...#',
       '##+##         ##+##'
-    ]
+    ],
+    details: {
+      height: 14,
+      width: 19,
+      floors: 96,
+      floorsSpecial: 0,
+      walls: 70,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'wrospl',
@@ -2755,7 +4393,21 @@ const prefabs = [
       '      #...#',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 16,
+      width: 17,
+      floors: 78,
+      floorsSpecial: 0,
+      walls: 71,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'osciryn',
@@ -2776,7 +4428,21 @@ const prefabs = [
       '     #.....#',
       '     #.....#',
       '     ###+###'
-    ]
+    ],
+    details: {
+      height: 16,
+      width: 17,
+      floors: 126,
+      floorsSpecial: 0,
+      walls: 58,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'pumen',
@@ -2797,7 +4463,21 @@ const prefabs = [
       '     #.....#',
       '     #.....#',
       '     ###+###'
-    ]
+    ],
+    details: {
+      height: 16,
+      width: 17,
+      floors: 100,
+      floorsSpecial: 0,
+      walls: 58,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kylokyl',
@@ -2815,7 +4495,21 @@ const prefabs = [
       '      ##.....##',
       '       ##...##',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 13,
+      width: 21,
+      floors: 111,
+      floorsSpecial: 0,
+      walls: 68,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ascreikyl',
@@ -2831,7 +4525,21 @@ const prefabs = [
       '#...#               #...#',
       '#...#               #...#',
       '##+##               ##+##'
-    ]
+    ],
+    details: {
+      height: 11,
+      width: 25,
+      floors: 105,
+      floorsSpecial: 0,
+      walls: 74,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'brumeniplas',
@@ -2855,7 +4563,21 @@ const prefabs = [
       '     #...#',
       '     #...#',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 15,
+      floors: 99,
+      floorsSpecial: 0,
+      walls: 60,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'edriw',
@@ -2877,7 +4599,21 @@ const prefabs = [
       '         #...#',
       '         #...#',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 17,
+      floors: 109,
+      floorsSpecial: 0,
+      walls: 68,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'keraqua',
@@ -2899,7 +4635,21 @@ const prefabs = [
       '#.....#   #.....#',
       '#.....#   #.....#',
       '###+###   ###+###'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 17,
+      floors: 153,
+      floorsSpecial: 0,
+      walls: 88,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'udiet',
@@ -2921,7 +4671,21 @@ const prefabs = [
       '#...#       #...#',
       '#...#       #...#',
       '##+##       ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 17,
+      floors: 99,
+      floorsSpecial: 0,
+      walls: 73,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'oclieck',
@@ -2943,7 +4707,21 @@ const prefabs = [
       '      #...#',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 17,
+      floors: 99,
+      floorsSpecial: 0,
+      walls: 70,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'ilo',
@@ -2965,7 +4743,21 @@ const prefabs = [
       '      #...#',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 17,
+      floors: 81,
+      floorsSpecial: 0,
+      walls: 60,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'synol',
@@ -2987,7 +4779,21 @@ const prefabs = [
       '      #...#',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 17,
+      floors: 108,
+      floorsSpecial: 0,
+      walls: 68,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'vesomen',
@@ -3009,7 +4815,21 @@ const prefabs = [
       '+....##',
       '#...##',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 17,
+      floors: 111,
+      floorsSpecial: 0,
+      walls: 60,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'achie',
@@ -3031,7 +4851,21 @@ const prefabs = [
       '#.........#',
       '#.........#',
       '#####+#####'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 17,
+      floors: 137,
+      floorsSpecial: 0,
+      walls: 72,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'bithoru',
@@ -3053,7 +4887,21 @@ const prefabs = [
       '      #...#',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 17,
+      floors: 111,
+      floorsSpecial: 0,
+      walls: 60,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'halitisprhal',
@@ -3075,7 +4923,21 @@ const prefabs = [
       '     ##...##',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 17,
+      floors: 141,
+      floorsSpecial: 0,
+      walls: 59,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'asyneh',
@@ -3107,7 +4969,21 @@ const prefabs = [
       '#.........#',
       '#.........#',
       '#####+#####'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 11,
+      floors: 143,
+      floorsSpecial: 0,
+      walls: 86,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'stimenu',
@@ -3125,7 +5001,21 @@ const prefabs = [
       '         #...#',
       '         #...#',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 13,
+      width: 23,
+      floors: 107,
+      floorsSpecial: 0,
+      walls: 65,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'arynoi',
@@ -3158,7 +5048,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 28,
+      width: 11,
+      floors: 87,
+      floorsSpecial: 0,
+      walls: 72,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'hahalimensyn',
@@ -3192,7 +5096,21 @@ const prefabs = [
       '   #...#',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 11,
+      floors: 117,
+      floorsSpecial: 0,
+      walls: 82,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'aesynol',
@@ -3214,7 +5132,21 @@ const prefabs = [
       '       #...#',
       '       #...#',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 19,
+      floors: 119,
+      floorsSpecial: 0,
+      walls: 88,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'udi',
@@ -3237,7 +5169,21 @@ const prefabs = [
       '#.........#',
       '#.........#',
       '##+##+##+##'
-    ]
+    ],
+    details: {
+      height: 18,
+      width: 18,
+      floors: 125,
+      floorsSpecial: 0,
+      walls: 82,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'squahugrt',
@@ -3255,7 +5201,21 @@ const prefabs = [
       '     ##...........##',
       '      ##.........##',
       '       ###+###+###'
-    ]
+    ],
+    details: {
+      height: 13,
+      width: 25,
+      floors: 85,
+      floorsSpecial: 0,
+      walls: 83,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'vepabves',
@@ -3270,7 +5230,21 @@ const prefabs = [
       '           ##.......##',
       '            ###...###',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 10,
+      width: 33,
+      floors: 130,
+      floorsSpecial: 0,
+      walls: 79,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'vokyl',
@@ -3290,7 +5264,21 @@ const prefabs = [
       '#..#',
       '#..#',
       '#+##'
-    ]
+    ],
+    details: {
+      height: 15,
+      width: 22,
+      floors: 73,
+      floorsSpecial: 0,
+      walls: 67,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'tasyn',
@@ -3311,7 +5299,21 @@ const prefabs = [
       '     #.........#',
       '     #.........#',
       '     #####+#####'
-    ]
+    ],
+    details: {
+      height: 16,
+      width: 21,
+      floors: 182,
+      floorsSpecial: 0,
+      walls: 66,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'grik',
@@ -3333,7 +5335,21 @@ const prefabs = [
       '   #...#',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 20,
+      floors: 99,
+      floorsSpecial: 0,
+      walls: 72,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'menob',
@@ -3369,7 +5385,21 @@ const prefabs = [
       '   #...#',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 11,
+      floors: 114,
+      floorsSpecial: 0,
+      walls: 81,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'iekerulas',
@@ -3397,7 +5427,21 @@ const prefabs = [
       '#.............#',
       '#.............#',
       '##+####+###+###'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 15,
+      floors: 211,
+      floorsSpecial: 0,
+      walls: 86,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'akylilas',
@@ -3425,7 +5469,21 @@ const prefabs = [
       '    #...#',
       '    #...#',
       '    ##+##'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 15,
+      floors: 111,
+      floorsSpecial: 0,
+      walls: 82,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'menukylu',
@@ -3444,7 +5502,21 @@ const prefabs = [
       '  #...#           #...#',
       '  #...#           #...#',
       '  ##+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 14,
+      width: 25,
+      floors: 139,
+      floorsSpecial: 0,
+      walls: 97,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'athrilas',
@@ -3462,7 +5534,21 @@ const prefabs = [
       '#...#                 #...#',
       '#...#                 #...#',
       '##+##                 ##+##'
-    ]
+    ],
+    details: {
+      height: 13,
+      width: 27,
+      floors: 141,
+      floorsSpecial: 0,
+      walls: 96,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'iospot',
@@ -3494,7 +5580,21 @@ const prefabs = [
       '  #.......#',
       '  ###...###',
       '    #####'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 13,
+      floors: 189,
+      floorsSpecial: 0,
+      walls: 84,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'schid',
@@ -3526,7 +5626,21 @@ const prefabs = [
       '##.........##',
       ' ###.....###',
       '   ###+###'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 13,
+      floors: 187,
+      floorsSpecial: 0,
+      walls: 88,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'damen',
@@ -3552,7 +5666,21 @@ const prefabs = [
       '      #...#',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 17,
+      floors: 121,
+      floorsSpecial: 0,
+      walls: 68,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'akyli',
@@ -3574,7 +5702,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 21,
+      floors: 117,
+      floorsSpecial: 0,
+      walls: 78,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'ikerir',
@@ -3598,7 +5740,21 @@ const prefabs = [
       '       #...#',
       '       #...#',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 19,
+      floors: 116,
+      floorsSpecial: 0,
+      walls: 73,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'vem',
@@ -3622,7 +5778,21 @@ const prefabs = [
       '       #...#',
       '       #...#',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 19,
+      floors: 121,
+      floorsSpecial: 0,
+      walls: 68,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'toin',
@@ -3646,7 +5816,21 @@ const prefabs = [
       '       #...#   ####',
       '       #...#',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 19,
+      floors: 117,
+      floorsSpecial: 0,
+      walls: 82,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'quequabl',
@@ -3670,7 +5854,21 @@ const prefabs = [
       '       ##.....#',
       '        ##...##',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 19,
+      floors: 192,
+      floorsSpecial: 0,
+      walls: 68,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'vesusyn',
@@ -3694,7 +5892,21 @@ const prefabs = [
       '      ##...##',
       '       ##.##',
       '        #+#'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 19,
+      floors: 104,
+      floorsSpecial: 0,
+      walls: 96,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'lospi',
@@ -3718,7 +5930,21 @@ const prefabs = [
       '            ##...##',
       '             ##.##',
       '              #+#'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 19,
+      floors: 95,
+      floorsSpecial: 0,
+      walls: 80,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'osynie',
@@ -3742,7 +5968,21 @@ const prefabs = [
       '   #+##     ##...##',
       '             ##.##',
       '              #+#'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 19,
+      floors: 117,
+      floorsSpecial: 0,
+      walls: 92,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'aecki',
@@ -3780,7 +6020,21 @@ const prefabs = [
       '   ##.....#',
       '    ###...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 11,
+      floors: 149,
+      floorsSpecial: 0,
+      walls: 88,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'drothorobrryn',
@@ -3797,7 +6051,21 @@ const prefabs = [
       '#...###      #...#      ###...#',
       '#####        #...#        #####',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 12,
+      width: 31,
+      floors: 151,
+      floorsSpecial: 0,
+      walls: 93,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'itysyn',
@@ -3824,7 +6092,21 @@ const prefabs = [
       '      #...#',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 22,
+      width: 17,
+      floors: 114,
+      floorsSpecial: 0,
+      walls: 70,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kylugh',
@@ -3844,7 +6126,21 @@ const prefabs = [
       '      ##.........##',
       '       ###.....###',
       '         ###+###'
-    ]
+    ],
+    details: {
+      height: 15,
+      width: 25,
+      floors: 111,
+      floorsSpecial: 0,
+      walls: 91,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'daruskobrlas',
@@ -3874,7 +6170,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 15,
+      floors: 99,
+      floorsSpecial: 0,
+      walls: 74,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'aboib',
@@ -3904,7 +6214,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 15,
+      floors: 150,
+      floorsSpecial: 0,
+      walls: 99,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 1
+    }
   },
   {
     name: 'idaroves',
@@ -3934,7 +6258,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 15,
+      floors: 99,
+      floorsSpecial: 0,
+      walls: 74,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'suves',
@@ -3964,7 +6302,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 15,
+      floors: 111,
+      floorsSpecial: 0,
+      walls: 81,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'shib',
@@ -3990,7 +6342,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 18,
+      floors: 130,
+      floorsSpecial: 0,
+      walls: 100,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'phoicribgh',
@@ -4013,7 +6379,21 @@ const prefabs = [
       '       ##...##',
       '        ##.##',
       '         #+#'
-    ]
+    ],
+    details: {
+      height: 18,
+      width: 21,
+      floors: 126,
+      floorsSpecial: 0,
+      walls: 85,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'amenuh',
@@ -4053,7 +6433,21 @@ const prefabs = [
       ' #.......#',
       ' ###...###',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 11,
+      floors: 201,
+      floorsSpecial: 0,
+      walls: 104,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'kylimen',
@@ -4073,7 +6467,21 @@ const prefabs = [
       '                   #.....#',
       '                   #.....#',
       '                   ###+###'
-    ]
+    ],
+    details: {
+      height: 15,
+      width: 26,
+      floors: 124,
+      floorsSpecial: 0,
+      walls: 82,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'losh',
@@ -4095,7 +6503,21 @@ const prefabs = [
       '#.....................#',
       '#.....................#',
       '##+########+########+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 23,
+      floors: 154,
+      floorsSpecial: 0,
+      walls: 116,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'fliesyn',
@@ -4119,7 +6541,21 @@ const prefabs = [
       '    ##.........##',
       '     ###.....###',
       '       ###+###'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 21,
+      floors: 167,
+      floorsSpecial: 0,
+      walls: 107,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'osech',
@@ -4143,7 +6579,21 @@ const prefabs = [
       '#...##         ##...#',
       '#...#           #...#',
       '##+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 21,
+      floors: 165,
+      floorsSpecial: 0,
+      walls: 104,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'avesulas',
@@ -4169,7 +6619,21 @@ const prefabs = [
       '       #.........#',
       '       #.......###',
       '       ##+######'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 19,
+      floors: 163,
+      floorsSpecial: 0,
+      walls: 72,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'twascra',
@@ -4195,7 +6659,21 @@ const prefabs = [
       '       #...#',
       '       #...#',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 19,
+      floors: 163,
+      floorsSpecial: 0,
+      walls: 72,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'momenytt',
@@ -4219,7 +6697,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 21,
+      floors: 109,
+      floorsSpecial: 0,
+      walls: 90,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'esyne',
@@ -4251,7 +6743,21 @@ const prefabs = [
       '#.............#',
       '#.............#',
       '##+####+####+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 15,
+      floors: 183,
+      floorsSpecial: 0,
+      walls: 94,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'elot',
@@ -4283,7 +6789,21 @@ const prefabs = [
       '     #...#',
       '     #...#',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 15,
+      floors: 135,
+      floorsSpecial: 0,
+      walls: 94,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'daroiwa',
@@ -4315,7 +6835,21 @@ const prefabs = [
       '     #...#',
       '     #...#',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 15,
+      floors: 135,
+      floorsSpecial: 0,
+      walls: 94,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'aswieh',
@@ -4334,7 +6868,21 @@ const prefabs = [
       '  ##....###       ###....##',
       '   #..###           ###..#',
       '   ####               ####'
-    ]
+    ],
+    details: {
+      height: 14,
+      width: 29,
+      floors: 186,
+      floorsSpecial: 0,
+      walls: 97,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'lynunotlas',
@@ -4365,7 +6913,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 26,
+      width: 16,
+      floors: 138,
+      floorsSpecial: 0,
+      walls: 98,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ophu',
@@ -4390,7 +6952,21 @@ const prefabs = [
       '    #...#',
       '    #...#',
       '    ##+##'
-    ]
+    ],
+    details: {
+      height: 20,
+      width: 21,
+      floors: 88,
+      floorsSpecial: 0,
+      walls: 74,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'daripuwkyl',
@@ -4420,7 +6996,21 @@ const prefabs = [
       '      #...#',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 17,
+      floors: 121,
+      floorsSpecial: 0,
+      walls: 76,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kylihal',
@@ -4450,7 +7040,21 @@ const prefabs = [
       '+...............+',
       '#...............#',
       '#################'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 17,
+      floors: 141,
+      floorsSpecial: 0,
+      walls: 100,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'vesugreimenmen',
@@ -4480,7 +7084,21 @@ const prefabs = [
       '    #...#',
       '    #...#',
       '    ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 17,
+      floors: 121,
+      floorsSpecial: 0,
+      walls: 76,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'aryna',
@@ -4510,7 +7128,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 17,
+      floors: 147,
+      floorsSpecial: 0,
+      walls: 85,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'syneba',
@@ -4528,7 +7160,21 @@ const prefabs = [
       '   ##...#################...##',
       '    #...#               #...#',
       '    ##+##               ##+##'
-    ]
+    ],
+    details: {
+      height: 13,
+      width: 33,
+      floors: 165,
+      floorsSpecial: 0,
+      walls: 98,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'kylungie',
@@ -4572,7 +7218,21 @@ const prefabs = [
       '   #...#',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 11,
+      floors: 165,
+      floorsSpecial: 0,
+      walls: 112,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'tyquo',
@@ -4593,7 +7253,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 16,
+      width: 27,
+      floors: 102,
+      floorsSpecial: 0,
+      walls: 90,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'ilaso',
@@ -4614,7 +7288,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 16,
+      width: 27,
+      floors: 101,
+      floorsSpecial: 0,
+      walls: 87,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'keriba',
@@ -4648,7 +7336,21 @@ const prefabs = [
       '    ##...##',
       '     ##.##',
       '      #+#'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 15,
+      floors: 195,
+      floorsSpecial: 0,
+      walls: 94,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'ilasie',
@@ -4676,7 +7378,21 @@ const prefabs = [
       '       #...#',
       '       #...#',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 19,
+      floors: 105,
+      floorsSpecial: 0,
+      walls: 76,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'keraethor',
@@ -4702,7 +7418,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 21,
+      floors: 105,
+      floorsSpecial: 0,
+      walls: 78,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'lynabighlas',
@@ -4728,7 +7458,21 @@ const prefabs = [
       '#...........##',
       '#............#',
       '##############'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 21,
+      floors: 139,
+      floorsSpecial: 0,
+      walls: 94,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'lynyme',
@@ -4754,7 +7498,21 @@ const prefabs = [
       '    #...........#',
       '    #...........#',
       '    ######+######'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 21,
+      floors: 192,
+      floorsSpecial: 0,
+      walls: 124,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'omal',
@@ -4780,7 +7538,21 @@ const prefabs = [
       '    #...........#',
       '    #...........#',
       '    ######+######'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 21,
+      floors: 249,
+      floorsSpecial: 0,
+      walls: 124,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'eclak',
@@ -4806,7 +7578,21 @@ const prefabs = [
       '+....##       ##....+',
       '#...##         ##...#',
       '##+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 21,
+      floors: 165,
+      floorsSpecial: 0,
+      walls: 124,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'udarokyl',
@@ -4832,7 +7618,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 21,
+      floors: 135,
+      floorsSpecial: 0,
+      walls: 96,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'loimen',
@@ -4858,7 +7658,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 21,
+      floors: 144,
+      floorsSpecial: 0,
+      walls: 92,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'vat',
@@ -4884,7 +7698,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 21,
+      floors: 145,
+      floorsSpecial: 0,
+      walls: 76,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'aedarolas',
@@ -4915,7 +7743,21 @@ const prefabs = [
       '      #...#',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 26,
+      width: 17,
+      floors: 108,
+      floorsSpecial: 0,
+      walls: 78,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'mithorimch',
@@ -4936,7 +7778,21 @@ const prefabs = [
       '            ##.#############',
       '             #.#',
       '             #+#'
-    ]
+    ],
+    details: {
+      height: 16,
+      width: 28,
+      floors: 156,
+      floorsSpecial: 0,
+      walls: 88,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'elasa',
@@ -4958,7 +7814,21 @@ const prefabs = [
       '                      #...#',
       '                      #...#',
       '                      ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 27,
+      floors: 93,
+      floorsSpecial: 0,
+      walls: 82,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'iomenaeb',
@@ -4980,7 +7850,21 @@ const prefabs = [
       '#...#                 #...#',
       '#...#                 #...#',
       '##+##                 ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 27,
+      floors: 165,
+      floorsSpecial: 0,
+      walls: 130,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'lom',
@@ -5002,7 +7886,21 @@ const prefabs = [
       '#...#                 #...#',
       '#...#                 #...#',
       '##+##                 ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 27,
+      floors: 139,
+      floorsSpecial: 0,
+      walls: 117,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'lakyl',
@@ -5030,7 +7928,21 @@ const prefabs = [
       ' #...#',
       ' #...#',
       ' ##+##'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 20,
+      floors: 106,
+      floorsSpecial: 0,
+      walls: 96,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'thioth',
@@ -5056,7 +7968,21 @@ const prefabs = [
       '        +......##',
       '        #....###',
       '        ######'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 22,
+      floors: 108,
+      floorsSpecial: 0,
+      walls: 90,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ashramen',
@@ -5082,7 +8008,21 @@ const prefabs = [
       '###...#',
       '  #...#',
       '  ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 22,
+      floors: 104,
+      floorsSpecial: 0,
+      walls: 93,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'thaplabkyl',
@@ -5103,7 +8043,21 @@ const prefabs = [
       '            #...#',
       '            #...#',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 16,
+      width: 29,
+      floors: 144,
+      floorsSpecial: 0,
+      walls: 86,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'atoves',
@@ -5124,7 +8078,21 @@ const prefabs = [
       '       #.............#',
       '       #.............#',
       '       #######+#######'
-    ]
+    ],
+    details: {
+      height: 16,
+      width: 29,
+      floors: 129,
+      floorsSpecial: 0,
+      walls: 105,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'vesathor',
@@ -5145,7 +8113,21 @@ const prefabs = [
       '         ##.......##',
       '          ###...###',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 16,
+      width: 29,
+      floors: 193,
+      floorsSpecial: 0,
+      walls: 101,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'sciescraths',
@@ -5166,7 +8148,21 @@ const prefabs = [
       '       #...#',
       '       #...#',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 16,
+      width: 29,
+      floors: 114,
+      floorsSpecial: 0,
+      walls: 83,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'vesaspru',
@@ -5202,7 +8198,21 @@ const prefabs = [
       '#.............#',
       '#.............#',
       '#######+#######'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 15,
+      floors: 217,
+      floorsSpecial: 0,
+      walls: 102,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'lynip',
@@ -5225,7 +8235,21 @@ const prefabs = [
       '  ###....##',
       '    ###..#',
       '      ####'
-    ]
+    ],
+    details: {
+      height: 18,
+      width: 26,
+      floors: 182,
+      floorsSpecial: 0,
+      walls: 96,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'menilas',
@@ -5249,7 +8273,21 @@ const prefabs = [
       '         ##...##',
       '          ##.##',
       '           #+#'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 25,
+      floors: 169,
+      floorsSpecial: 0,
+      walls: 80,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'sleifutsh',
@@ -5273,7 +8311,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 25,
+      floors: 110,
+      floorsSpecial: 0,
+      walls: 96,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'kerasaslryn',
@@ -5301,7 +8353,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 21,
+      floors: 143,
+      floorsSpecial: 0,
+      walls: 80,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'phod',
@@ -5329,7 +8395,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 21,
+      floors: 135,
+      floorsSpecial: 0,
+      walls: 84,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'akylives',
@@ -5356,7 +8436,21 @@ const prefabs = [
       '   #...#   ##.....##',
       '   #...#    ##...##',
       '   ##+##     #####'
-    ]
+    ],
+    details: {
+      height: 22,
+      width: 22,
+      floors: 205,
+      floorsSpecial: 0,
+      walls: 98,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'phicl',
@@ -5383,7 +8477,21 @@ const prefabs = [
       '             ##.....##',
       '              ##...##',
       '               #####'
-    ]
+    ],
+    details: {
+      height: 22,
+      width: 22,
+      floors: 128,
+      floorsSpecial: 0,
+      walls: 88,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'nab',
@@ -5410,7 +8518,21 @@ const prefabs = [
       '           ##.....##',
       '            ##...##',
       '             #####'
-    ]
+    ],
+    details: {
+      height: 22,
+      width: 22,
+      floors: 162,
+      floorsSpecial: 0,
+      walls: 82,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'syneislumenryn',
@@ -5437,7 +8559,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 22,
+      width: 22,
+      floors: 110,
+      floorsSpecial: 0,
+      walls: 82,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'synishe',
@@ -5469,7 +8605,21 @@ const prefabs = [
       '      #...#',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 18,
+      floors: 180,
+      floorsSpecial: 0,
+      walls: 82,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'vesono',
@@ -5501,7 +8651,21 @@ const prefabs = [
       '      #...#',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 18,
+      floors: 172,
+      floorsSpecial: 0,
+      walls: 90,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'hatrahalves',
@@ -5524,7 +8688,21 @@ const prefabs = [
       '       ##....### ####',
       '        #...##',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 18,
+      width: 27,
+      floors: 155,
+      floorsSpecial: 0,
+      walls: 103,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'iekerolas',
@@ -5558,7 +8736,21 @@ const prefabs = [
       '+......##',
       '#....###',
       '######'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 17,
+      floors: 98,
+      floorsSpecial: 0,
+      walls: 86,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'blihal',
@@ -5592,7 +8784,21 @@ const prefabs = [
       '      #...#',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 17,
+      floors: 177,
+      floorsSpecial: 0,
+      walls: 118,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'efeib',
@@ -5614,7 +8820,21 @@ const prefabs = [
       '          ##.....##',
       '           ##...##',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 29,
+      floors: 204,
+      floorsSpecial: 0,
+      walls: 124,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'sprito',
@@ -5648,7 +8868,21 @@ const prefabs = [
       '      #...#',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 17,
+      floors: 173,
+      floorsSpecial: 0,
+      walls: 132,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'daethoristhal',
@@ -5673,7 +8907,21 @@ const prefabs = [
       '        #.......#',
       '        #.......#',
       '        #+#####+#'
-    ]
+    ],
+    details: {
+      height: 20,
+      width: 25,
+      floors: 186,
+      floorsSpecial: 0,
+      walls: 119,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'vesucl',
@@ -5703,7 +8951,21 @@ const prefabs = [
       '    ###............+',
       '      ###..........#',
       '        ############'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 20,
+      floors: 131,
+      floorsSpecial: 0,
+      walls: 114,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'ukeragh',
@@ -5728,7 +8990,21 @@ const prefabs = [
       '         #.....#',
       '         ##...##',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 20,
+      width: 25,
+      floors: 139,
+      floorsSpecial: 0,
+      walls: 100,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'synedihhal',
@@ -5757,7 +9033,21 @@ const prefabs = [
       '#...#           #...#',
       '#...#           #...#',
       '##+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 21,
+      floors: 145,
+      floorsSpecial: 0,
+      walls: 120,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'menich',
@@ -5786,7 +9076,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 21,
+      floors: 109,
+      floorsSpecial: 0,
+      walls: 96,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'olynoc',
@@ -5815,7 +9119,21 @@ const prefabs = [
       '                #...#',
       '                #...#',
       '                ##+##'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 21,
+      floors: 125,
+      floorsSpecial: 0,
+      walls: 98,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'keras',
@@ -5844,7 +9162,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 21,
+      floors: 162,
+      floorsSpecial: 0,
+      walls: 106,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'menolas',
@@ -5868,7 +9200,21 @@ const prefabs = [
       '#...####   #...#   ####...#',
       '#####      #...#      #####',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 27,
+      floors: 171,
+      floorsSpecial: 0,
+      walls: 105,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'kylaehalothorryn',
@@ -5884,7 +9230,21 @@ const prefabs = [
       '   #...#                               #...#',
       '   #...#                               #...#',
       '   ##+##                               ##+##'
-    ]
+    ],
+    details: {
+      height: 11,
+      width: 47,
+      floors: 180,
+      floorsSpecial: 0,
+      walls: 123,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'akah',
@@ -5915,7 +9275,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 26,
+      width: 20,
+      floors: 117,
+      floorsSpecial: 0,
+      walls: 93,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'ahalu',
@@ -5945,7 +9319,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 21,
+      floors: 209,
+      floorsSpecial: 0,
+      walls: 106,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'synoto',
@@ -5975,7 +9363,21 @@ const prefabs = [
       '   #.....#',
       '   #.....#',
       '   ###+###'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 21,
+      floors: 177,
+      floorsSpecial: 0,
+      walls: 100,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'keriosynoplmen',
@@ -6001,7 +9403,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 25,
+      floors: 159,
+      floorsSpecial: 0,
+      walls: 110,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'olib',
@@ -6027,7 +9443,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 25,
+      floors: 192,
+      floorsSpecial: 0,
+      walls: 117,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 11
+    }
   },
   {
     name: 'hipedmen',
@@ -6056,7 +9486,21 @@ const prefabs = [
       '            #...#',
       '            #...#',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 22,
+      floors: 117,
+      floorsSpecial: 0,
+      walls: 106,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'vesyboscht',
@@ -6084,7 +9528,21 @@ const prefabs = [
       '##...................##',
       ' ##.................##',
       '  #########+#########'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 23,
+      floors: 208,
+      floorsSpecial: 0,
+      walls: 140,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ilasa',
@@ -6112,7 +9570,21 @@ const prefabs = [
       '    ###.........###',
       '      ###.....###',
       '        #######'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 23,
+      floors: 239,
+      floorsSpecial: 0,
+      walls: 86,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'awo',
@@ -6136,7 +9608,21 @@ const prefabs = [
       '#.#',
       '#.#',
       '#+#'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 28,
+      floors: 97,
+      floorsSpecial: 0,
+      walls: 108,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'roingi',
@@ -6154,7 +9640,21 @@ const prefabs = [
       '#...#           #.......#           #...#',
       '#...#           #.......#           #...#',
       '##+##           ##+###+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 13,
+      width: 41,
+      floors: 161,
+      floorsSpecial: 0,
+      walls: 147,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ocharyn',
@@ -6179,7 +9679,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 20,
+      width: 27,
+      floors: 127,
+      floorsSpecial: 0,
+      walls: 106,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'promenunlas',
@@ -6206,7 +9720,21 @@ const prefabs = [
       '      ##.........##',
       '       ###.....###',
       '         ###+###'
-    ]
+    ],
+    details: {
+      height: 22,
+      width: 25,
+      floors: 140,
+      floorsSpecial: 0,
+      walls: 122,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'hapr',
@@ -6248,7 +9776,21 @@ const prefabs = [
       '          +...#',
       '          #...#',
       '          #####'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 15,
+      floors: 201,
+      floorsSpecial: 0,
+      walls: 135,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'akerakyl',
@@ -6296,7 +9838,21 @@ const prefabs = [
       '   ##...##',
       '    #...#',
       '    ##+##'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 13,
+      floors: 243,
+      floorsSpecial: 0,
+      walls: 132,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'odareic',
@@ -6317,7 +9873,21 @@ const prefabs = [
       '               #...#',
       '               #...#',
       '               ##+##'
-    ]
+    ],
+    details: {
+      height: 16,
+      width: 35,
+      floors: 129,
+      floorsSpecial: 0,
+      walls: 116,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'menublethorsyn',
@@ -6339,7 +9909,21 @@ const prefabs = [
       '           ##.......##',
       '            ###...###',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 33,
+      floors: 179,
+      floorsSpecial: 0,
+      walls: 92,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'vesathorohalt',
@@ -6377,7 +9961,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 17,
+      floors: 149,
+      floorsSpecial: 0,
+      walls: 92,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ieslus',
@@ -6415,7 +10013,21 @@ const prefabs = [
       '      #...#',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 17,
+      floors: 213,
+      floorsSpecial: 0,
+      walls: 114,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'clil',
@@ -6447,7 +10059,21 @@ const prefabs = [
       '    #...........#',
       '    #...........#',
       '    ######+######'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 21,
+      floors: 228,
+      floorsSpecial: 0,
+      walls: 148,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'esynuhal',
@@ -6473,7 +10099,21 @@ const prefabs = [
       '#...#                 #...#',
       '#...#                 #...#',
       '##+##                 ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 27,
+      floors: 163,
+      floorsSpecial: 0,
+      walls: 101,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'haluh',
@@ -6505,7 +10145,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 21,
+      floors: 169,
+      floorsSpecial: 0,
+      walls: 88,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'baethu',
@@ -6534,7 +10188,21 @@ const prefabs = [
       ' #.......#',
       ' #.......#',
       ' ##+###+##'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 24,
+      floors: 148,
+      floorsSpecial: 0,
+      walls: 102,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'staekylimhal',
@@ -6563,7 +10231,21 @@ const prefabs = [
       '      #...#',
       '      ##.##',
       '       #+#'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 24,
+      floors: 207,
+      floorsSpecial: 0,
+      walls: 88,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'imi',
@@ -6592,7 +10274,21 @@ const prefabs = [
       '                  #...#',
       '                  #...#',
       '                  ##+##'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 24,
+      floors: 135,
+      floorsSpecial: 0,
+      walls: 92,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'ehaleic',
@@ -6621,7 +10317,21 @@ const prefabs = [
       '               ##...##',
       '                ##.##',
       '                 #+#'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 24,
+      floors: 152,
+      floorsSpecial: 0,
+      walls: 98,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'bishiflt',
@@ -6650,7 +10360,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 24,
+      floors: 161,
+      floorsSpecial: 0,
+      walls: 102,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'itir',
@@ -6672,7 +10396,21 @@ const prefabs = [
       '    #...#                ##+##',
       '    #...#',
       '    ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 34,
+      floors: 186,
+      floorsSpecial: 0,
+      walls: 108,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'daryn',
@@ -6692,7 +10430,21 @@ const prefabs = [
       '   ##.....##   ##.....##   ##.....##',
       '    ##...##     ##...##     ##...##',
       '     ##+##       ##+##       ##+##'
-    ]
+    ],
+    details: {
+      height: 15,
+      width: 39,
+      floors: 321,
+      floorsSpecial: 0,
+      walls: 132,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'dramen',
@@ -6725,7 +10477,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 28,
+      width: 21,
+      floors: 210,
+      floorsSpecial: 0,
+      walls: 122,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'bilis',
@@ -6749,7 +10515,21 @@ const prefabs = [
       '             #...#',
       '             #...#',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 31,
+      floors: 159,
+      floorsSpecial: 0,
+      walls: 103,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'menesyn',
@@ -6785,7 +10565,21 @@ const prefabs = [
       '       #...#',
       '       #...#',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 19,
+      floors: 171,
+      floorsSpecial: 0,
+      walls: 102,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'laba',
@@ -6825,7 +10619,21 @@ const prefabs = [
       '      #...#',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 17,
+      floors: 219,
+      floorsSpecial: 0,
+      walls: 118,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'iedaraf',
@@ -6865,7 +10673,21 @@ const prefabs = [
       '#...#       #...#',
       '#...#       #...#',
       '##+##       ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 17,
+      floors: 171,
+      floorsSpecial: 0,
+      walls: 144,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'synofr',
@@ -6896,7 +10718,21 @@ const prefabs = [
       '   #...#',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 26,
+      width: 23,
+      floors: 135,
+      floorsSpecial: 0,
+      walls: 95,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'alasi',
@@ -6927,7 +10763,21 @@ const prefabs = [
       '   #...#       #...#',
       '   #...#       #...#',
       '   ##+##       ##+##'
-    ]
+    ],
+    details: {
+      height: 26,
+      width: 23,
+      floors: 177,
+      floorsSpecial: 0,
+      walls: 140,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'haloscremenryn',
@@ -6964,7 +10814,21 @@ const prefabs = [
       '              #...#',
       '              #...#',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 32,
+      width: 19,
+      floors: 174,
+      floorsSpecial: 0,
+      walls: 113,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 13
+    }
   },
   {
     name: 'eihalilas',
@@ -6990,7 +10854,21 @@ const prefabs = [
       '+......##           ##......+',
       '#....###             ###....#',
       '######                 ######'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 29,
+      floors: 180,
+      floorsSpecial: 0,
+      walls: 114,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'menaekylimlas',
@@ -7015,7 +10893,21 @@ const prefabs = [
       '     #...#',
       '     #...#',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 20,
+      width: 31,
+      floors: 199,
+      floorsSpecial: 0,
+      walls: 107,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'mici',
@@ -7047,7 +10939,21 @@ const prefabs = [
       '         #...#',
       '         #...#',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 23,
+      floors: 195,
+      floorsSpecial: 0,
+      walls: 92,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'synosprae',
@@ -7079,7 +10985,21 @@ const prefabs = [
       '         #...#',
       '         #...#',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 23,
+      floors: 203,
+      floorsSpecial: 0,
+      walls: 152,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kerihala',
@@ -7111,7 +11031,21 @@ const prefabs = [
       '   #...#       #...#',
       '   #...#       #...#',
       '   ##+##       ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 23,
+      floors: 240,
+      floorsSpecial: 0,
+      walls: 152,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'halistatl',
@@ -7142,7 +11076,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 26,
+      width: 24,
+      floors: 138,
+      floorsSpecial: 0,
+      walls: 94,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'haw',
@@ -7172,7 +11120,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 25,
+      floors: 129,
+      floorsSpecial: 0,
+      walls: 93,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'luckiebb',
@@ -7202,7 +11164,21 @@ const prefabs = [
       '        #.......#',
       '        #.......#',
       '        ##+###+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 25,
+      floors: 209,
+      floorsSpecial: 0,
+      walls: 132,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'atir',
@@ -7232,7 +11208,21 @@ const prefabs = [
       '#......# ###+### #......#',
       '#......#         #......#',
       '####+###         ###+####'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 25,
+      floors: 272,
+      floorsSpecial: 0,
+      walls: 172,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'daroryn',
@@ -7262,7 +11252,21 @@ const prefabs = [
       '  ##.....#     #.....##',
       '   ###...#     #...###',
       '     #####     #+###'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 25,
+      floors: 293,
+      floorsSpecial: 0,
+      walls: 145,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'apisch',
@@ -7292,7 +11296,21 @@ const prefabs = [
       '  ##.....#',
       '   ###...#',
       '     #####'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 25,
+      floors: 197,
+      floorsSpecial: 0,
+      walls: 96,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'liofha',
@@ -7322,7 +11340,21 @@ const prefabs = [
       '           #.#',
       '           #.#',
       '           #+#'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 25,
+      floors: 113,
+      floorsSpecial: 0,
+      walls: 92,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'crokyl',
@@ -7352,7 +11384,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 25,
+      floors: 149,
+      floorsSpecial: 0,
+      walls: 92,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'liscru',
@@ -7382,7 +11428,21 @@ const prefabs = [
       '           #.#',
       '           #.#',
       '           #+#'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 25,
+      floors: 133,
+      floorsSpecial: 0,
+      walls: 92,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'amenoves',
@@ -7412,7 +11472,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 25,
+      floors: 173,
+      floorsSpecial: 0,
+      walls: 112,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'veseiscra',
@@ -7442,7 +11516,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 25,
+      floors: 222,
+      floorsSpecial: 0,
+      walls: 123,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'wrahaleblb',
@@ -7472,7 +11560,21 @@ const prefabs = [
       '+....##   #...#   ##....+',
       '#...##    #...#    ##...#',
       '##+##     ##+##     ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 25,
+      floors: 305,
+      floorsSpecial: 0,
+      walls: 188,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'sathor',
@@ -7502,7 +11604,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 25,
+      floors: 163,
+      floorsSpecial: 0,
+      walls: 116,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'syskitd',
@@ -7526,7 +11642,21 @@ const prefabs = [
       '#...#                       #...#',
       '#...#                       #...#',
       '##+##                       ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 33,
+      floors: 147,
+      floorsSpecial: 0,
+      walls: 126,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'avesud',
@@ -7550,7 +11680,21 @@ const prefabs = [
       '             ##...##',
       '              #...#',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 33,
+      floors: 233,
+      floorsSpecial: 0,
+      walls: 110,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'adarilas',
@@ -7592,7 +11736,21 @@ const prefabs = [
       '+...............+',
       '#...............#',
       '#################'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 17,
+      floors: 261,
+      floorsSpecial: 0,
+      walls: 122,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'pheri',
@@ -7626,7 +11784,21 @@ const prefabs = [
       '             +.......#',
       '             #.......#',
       '             #########'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 22,
+      floors: 138,
+      floorsSpecial: 0,
+      walls: 112,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'trisploslves',
@@ -7653,7 +11825,21 @@ const prefabs = [
       '         ##.......##',
       '          #.......#',
       '          ##+###+##'
-    ]
+    ],
+    details: {
+      height: 22,
+      width: 29,
+      floors: 145,
+      floorsSpecial: 0,
+      walls: 125,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'ivesiryn',
@@ -7686,7 +11872,21 @@ const prefabs = [
       '        #.....#',
       '        #.....#',
       '        ###+###'
-    ]
+    ],
+    details: {
+      height: 28,
+      width: 23,
+      floors: 245,
+      floorsSpecial: 0,
+      walls: 128,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'keromena',
@@ -7706,7 +11906,21 @@ const prefabs = [
       '        ####...................####',
       '           ######.........######',
       '                #####+#####'
-    ]
+    ],
+    details: {
+      height: 15,
+      width: 43,
+      floors: 150,
+      floorsSpecial: 0,
+      walls: 124,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'esynar',
@@ -7738,7 +11952,21 @@ const prefabs = [
       '                   #...#',
       '                   #...#',
       '                   ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 24,
+      floors: 106,
+      floorsSpecial: 0,
+      walls: 94,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'lynothor',
@@ -7767,7 +11995,21 @@ const prefabs = [
       '             ##......##',
       '              ##..####',
       '               #+##'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 27,
+      floors: 128,
+      floorsSpecial: 0,
+      walls: 104,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'dariloi',
@@ -7797,7 +12039,21 @@ const prefabs = [
       '       #...#',
       '       #...#',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 26,
+      floors: 173,
+      floorsSpecial: 0,
+      walls: 105,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'eibob',
@@ -7833,7 +12089,21 @@ const prefabs = [
       '#...#           #...#',
       '#...#           #...#',
       '##+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 21,
+      floors: 189,
+      floorsSpecial: 0,
+      walls: 154,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'vesof',
@@ -7869,7 +12139,21 @@ const prefabs = [
       '        #.........##',
       '        #.......###',
       '        ##+###+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 21,
+      floors: 231,
+      floorsSpecial: 0,
+      walls: 94,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'haleh',
@@ -7905,7 +12189,21 @@ const prefabs = [
       '                #...#',
       '                #...#',
       '                ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 21,
+      floors: 117,
+      floorsSpecial: 0,
+      walls: 96,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'twilas',
@@ -7941,7 +12239,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 21,
+      floors: 185,
+      floorsSpecial: 0,
+      walls: 106,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'phameno',
@@ -7968,7 +12280,21 @@ const prefabs = [
       '     ##...##',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 22,
+      width: 30,
+      floors: 204,
+      floorsSpecial: 0,
+      walls: 94,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'splasha',
@@ -7990,7 +12316,21 @@ const prefabs = [
       '                ##...##',
       '                 #...#',
       '                 ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 39,
+      floors: 171,
+      floorsSpecial: 0,
+      walls: 104,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'synodr',
@@ -8024,7 +12364,21 @@ const prefabs = [
       '   #...#',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 23,
+      floors: 153,
+      floorsSpecial: 0,
+      walls: 106,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'sniedu',
@@ -8053,7 +12407,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 28,
+      floors: 137,
+      floorsSpecial: 0,
+      walls: 98,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'hethori',
@@ -8085,7 +12453,21 @@ const prefabs = [
       '         #.....#',
       '         ##...##',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 25,
+      floors: 209,
+      floorsSpecial: 0,
+      walls: 122,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'idaralas',
@@ -8115,7 +12497,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 27,
+      floors: 207,
+      floorsSpecial: 0,
+      walls: 126,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'halamil',
@@ -8146,7 +12542,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 26,
+      width: 26,
+      floors: 117,
+      floorsSpecial: 0,
+      walls: 96,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'eikyly',
@@ -8177,7 +12587,21 @@ const prefabs = [
       '            #...#',
       '            #...#',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 26,
+      width: 26,
+      floors: 118,
+      floorsSpecial: 0,
+      walls: 96,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kerives',
@@ -8205,7 +12629,21 @@ const prefabs = [
       '   #...#',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 30,
+      floors: 165,
+      floorsSpecial: 0,
+      walls: 126,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'adaramen',
@@ -8231,7 +12669,21 @@ const prefabs = [
       ' #...#                     #...#',
       ' #...#                     #...#',
       ' ##+##                     ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 33,
+      floors: 197,
+      floorsSpecial: 0,
+      walls: 138,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'halibimsyn',
@@ -8260,7 +12712,21 @@ const prefabs = [
       '            #...#',
       '            #...#',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 29,
+      floors: 198,
+      floorsSpecial: 0,
+      walls: 122,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'aski',
@@ -8282,7 +12748,21 @@ const prefabs = [
       '                ##.....##',
       '                 ##...##',
       '                  ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 41,
+      floors: 249,
+      floorsSpecial: 0,
+      walls: 128,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'kylask',
@@ -8304,7 +12784,21 @@ const prefabs = [
       '##...###         ##...##         ###...##',
       '+..###            #...#            ###..+',
       '####              ##+##              ####'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 41,
+      floors: 257,
+      floorsSpecial: 0,
+      walls: 144,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'ridrae',
@@ -8337,7 +12831,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 28,
+      width: 25,
+      floors: 147,
+      floorsSpecial: 0,
+      walls: 116,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'halemabl',
@@ -8368,7 +12876,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 26,
+      width: 27,
+      floors: 210,
+      floorsSpecial: 0,
+      walls: 144,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'swihal',
@@ -8392,7 +12914,21 @@ const prefabs = [
       '   ###.........###',
       '     ###.....###',
       '       ###+###'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 37,
+      floors: 143,
+      floorsSpecial: 0,
+      walls: 136,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ovesi',
@@ -8420,7 +12956,21 @@ const prefabs = [
       '+.............................+',
       '#.............................#',
       '###############################'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 31,
+      floors: 238,
+      floorsSpecial: 0,
+      walls: 172,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'darachi',
@@ -8448,7 +12998,21 @@ const prefabs = [
       '             #...#',
       '             #...#',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 31,
+      floors: 250,
+      floorsSpecial: 0,
+      walls: 112,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'menikyl',
@@ -8504,7 +13068,21 @@ const prefabs = [
       '   ##....###',
       '    #..###',
       '    #+##'
-    ]
+    ],
+    details: {
+      height: 51,
+      width: 14,
+      floors: 362,
+      floorsSpecial: 0,
+      walls: 170,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'slohali',
@@ -8545,7 +13123,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 36,
+      width: 20,
+      floors: 262,
+      floorsSpecial: 0,
+      walls: 113,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'esmuves',
@@ -8579,7 +13171,21 @@ const prefabs = [
       '     ##...........##',
       '      ####.....####',
       '         ###+###'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 25,
+      floors: 235,
+      floorsSpecial: 0,
+      walls: 193,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'kerar',
@@ -8609,7 +13215,21 @@ const prefabs = [
       '            #...#',
       '            #...#',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 29,
+      floors: 225,
+      floorsSpecial: 0,
+      walls: 120,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'syniomen',
@@ -8643,7 +13263,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 25,
+      floors: 197,
+      floorsSpecial: 0,
+      walls: 114,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'toskumenryn',
@@ -8681,7 +13315,21 @@ const prefabs = [
       ' +................##',
       ' #..............###',
       ' ################'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 22,
+      floors: 204,
+      floorsSpecial: 0,
+      walls: 162,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'wosyn',
@@ -8713,7 +13361,21 @@ const prefabs = [
       '        +.........+',
       '        #.........#',
       '        #####+#####'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 249,
+      floorsSpecial: 0,
+      walls: 140,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'uryna',
@@ -8745,7 +13407,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 110,
+      floorsSpecial: 0,
+      walls: 102,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'lod',
@@ -8777,7 +13453,21 @@ const prefabs = [
       '                  #...#',
       '                  #...#',
       '                  ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 188,
+      floorsSpecial: 0,
+      walls: 116,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'keragh',
@@ -8809,7 +13499,21 @@ const prefabs = [
       '        ##.......##',
       '         ##.....##',
       '          ###+###'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 200,
+      floorsSpecial: 0,
+      walls: 164,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'darihalo',
@@ -8841,7 +13545,21 @@ const prefabs = [
       '        ##....+',
       '         ##...#',
       '          #####'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 144,
+      floorsSpecial: 0,
+      walls: 142,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'kylitikylves',
@@ -8873,7 +13591,21 @@ const prefabs = [
       '  ##....##',
       '   ##..##',
       '    ####'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 202,
+      floorsSpecial: 0,
+      walls: 118,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'iekyla',
@@ -8905,7 +13637,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 201,
+      floorsSpecial: 0,
+      walls: 100,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'menashekylsk',
@@ -8937,7 +13683,21 @@ const prefabs = [
       '         ##.....##',
       '          ##...##',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 213,
+      floorsSpecial: 0,
+      walls: 132,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'tab',
@@ -8969,7 +13729,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 140,
+      floorsSpecial: 0,
+      walls: 116,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'synohala',
@@ -9001,7 +13775,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 173,
+      floorsSpecial: 0,
+      walls: 100,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ihoh',
@@ -9033,7 +13821,21 @@ const prefabs = [
       '#....###           ###....#',
       '+..###               ###..+',
       '####                   ####'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 182,
+      floorsSpecial: 0,
+      walls: 121,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'halamen',
@@ -9065,7 +13867,21 @@ const prefabs = [
       '   #...#           #...#',
       '   #...#           #...#',
       '   ##+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 264,
+      floorsSpecial: 0,
+      walls: 168,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'iola',
@@ -9097,7 +13913,21 @@ const prefabs = [
       '#...#                 #...#',
       '#...#                 #...#',
       '##+##                 ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 193,
+      floorsSpecial: 0,
+      walls: 158,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'throspr',
@@ -9129,7 +13959,21 @@ const prefabs = [
       '#......#           #......#',
       '#.....##           ##.....#',
       '###+###             ###+###'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 265,
+      floorsSpecial: 0,
+      walls: 176,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'brang',
@@ -9161,7 +14005,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 156,
+      floorsSpecial: 0,
+      walls: 116,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'aemena',
@@ -9193,7 +14051,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 142,
+      floorsSpecial: 0,
+      walls: 122,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'thriokyleimensyn',
@@ -9225,7 +14097,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 160,
+      floorsSpecial: 0,
+      walls: 112,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'somo',
@@ -9251,7 +14137,21 @@ const prefabs = [
       '                #.#',
       '                #.#',
       '                #+#'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 35,
+      floors: 183,
+      floorsSpecial: 0,
+      walls: 132,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'keramen',
@@ -9271,7 +14171,21 @@ const prefabs = [
       '#...#                                       #...#',
       '#...#                                       #...#',
       '##+##                                       ##+##'
-    ]
+    ],
+    details: {
+      height: 15,
+      width: 49,
+      floors: 201,
+      floorsSpecial: 0,
+      walls: 161,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'kylyvothormen',
@@ -9296,7 +14210,21 @@ const prefabs = [
       '     #...#',
       '     #...#',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 20,
+      width: 37,
+      floors: 205,
+      floorsSpecial: 0,
+      walls: 128,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'lynysli',
@@ -9338,7 +14266,21 @@ const prefabs = [
       '            #...#',
       '            #...#',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 20,
+      floors: 168,
+      floorsSpecial: 0,
+      walls: 116,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'lyniboihhal',
@@ -9363,7 +14305,21 @@ const prefabs = [
       '                #...#',
       '                #...#',
       '                ##+##'
-    ]
+    ],
+    details: {
+      height: 20,
+      width: 37,
+      floors: 190,
+      floorsSpecial: 0,
+      walls: 140,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'menaefro',
@@ -9405,7 +14361,21 @@ const prefabs = [
       '  ##....###',
       '   #..###',
       '   #+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 20,
+      floors: 206,
+      floorsSpecial: 0,
+      walls: 116,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'asynesyn',
@@ -9429,7 +14399,21 @@ const prefabs = [
       '                 #...#',
       '                 #...#',
       '                 ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 39,
+      floors: 140,
+      floorsSpecial: 0,
+      walls: 130,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'buryn',
@@ -9464,7 +14448,21 @@ const prefabs = [
       '  #...#',
       '  #...#',
       '  ##+##'
-    ]
+    ],
+    details: {
+      height: 30,
+      width: 25,
+      floors: 207,
+      floorsSpecial: 0,
+      walls: 141,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'flahalamenk',
@@ -9494,7 +14492,21 @@ const prefabs = [
       '                #......# #####',
       '                #......#',
       '                ####+###'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 30,
+      floors: 207,
+      floorsSpecial: 0,
+      walls: 141,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'iomeni',
@@ -9529,7 +14541,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 30,
+      width: 25,
+      floors: 174,
+      floorsSpecial: 0,
+      walls: 132,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'ylynesyn',
@@ -9560,7 +14586,21 @@ const prefabs = [
       '       ##...........##',
       '        ###.......###',
       '          ####+####'
-    ]
+    ],
+    details: {
+      height: 26,
+      width: 29,
+      floors: 256,
+      floorsSpecial: 0,
+      walls: 171,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'daruryn',
@@ -9593,7 +14633,21 @@ const prefabs = [
       '#...#                 #...#',
       '#...#                 #...#',
       '##+##                 ##+##'
-    ]
+    ],
+    details: {
+      height: 28,
+      width: 27,
+      floors: 166,
+      floorsSpecial: 0,
+      walls: 149,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'uprob',
@@ -9638,7 +14692,21 @@ const prefabs = [
       '           #.....#',
       '           #.....#',
       '           ###+###'
-    ]
+    ],
+    details: {
+      height: 40,
+      width: 19,
+      floors: 186,
+      floorsSpecial: 0,
+      walls: 150,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'ilynymen',
@@ -9665,7 +14733,21 @@ const prefabs = [
       '             ###...###',
       '               #...#',
       '               ##+##'
-    ]
+    ],
+    details: {
+      height: 22,
+      width: 35,
+      floors: 207,
+      floorsSpecial: 0,
+      walls: 125,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 11
+    }
   },
   {
     name: 'aesynam',
@@ -9692,7 +14774,21 @@ const prefabs = [
       '             ##.....##',
       '              ##...##',
       '               ##+##'
-    ]
+    ],
+    details: {
+      height: 22,
+      width: 35,
+      floors: 221,
+      floorsSpecial: 0,
+      walls: 126,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'meneifro',
@@ -9728,7 +14824,21 @@ const prefabs = [
       '                    #...#',
       '                    #...#',
       '                    ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 25,
+      floors: 147,
+      floorsSpecial: 0,
+      walls: 116,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'tetu',
@@ -9764,7 +14874,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 25,
+      floors: 209,
+      floorsSpecial: 0,
+      walls: 122,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'shroil',
@@ -9806,7 +14930,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 21,
+      floors: 288,
+      floorsSpecial: 0,
+      walls: 184,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'akylir',
@@ -9831,7 +14969,21 @@ const prefabs = [
       '       #...#               #...#',
       '       #...#               #...#',
       '       ##+##               ##+##'
-    ]
+    ],
+    details: {
+      height: 20,
+      width: 39,
+      floors: 211,
+      floorsSpecial: 0,
+      walls: 150,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'okylo',
@@ -9856,7 +15008,21 @@ const prefabs = [
       '                 #...#',
       '                 #...#',
       '                 ##+##'
-    ]
+    ],
+    details: {
+      height: 20,
+      width: 39,
+      floors: 221,
+      floorsSpecial: 0,
+      walls: 138,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'aploves',
@@ -9890,7 +15056,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 27,
+      floors: 139,
+      floorsSpecial: 0,
+      walls: 117,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'halakylei',
@@ -9922,7 +15102,21 @@ const prefabs = [
       '    ###....##   ##....###',
       '      ###..#     #..###',
       '        ##+#     #+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 29,
+      floors: 376,
+      floorsSpecial: 0,
+      walls: 186,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'scraves',
@@ -9955,7 +15149,21 @@ const prefabs = [
       '                 #...#',
       '                 #...#',
       '                 ##+##'
-    ]
+    ],
+    details: {
+      height: 28,
+      width: 28,
+      floors: 130,
+      floorsSpecial: 0,
+      walls: 104,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'olynohal',
@@ -9984,7 +15192,21 @@ const prefabs = [
       '    #...#               #...#',
       '    #...#               #...#',
       '    ##+##               ##+##'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 33,
+      floors: 167,
+      floorsSpecial: 0,
+      walls: 135,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'ukie',
@@ -10013,7 +15235,21 @@ const prefabs = [
       '              #...#',
       '              #...#',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 33,
+      floors: 163,
+      floorsSpecial: 0,
+      walls: 131,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'vesecky',
@@ -10042,7 +15278,21 @@ const prefabs = [
       '              #...#',
       '              #...#',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 33,
+      floors: 163,
+      floorsSpecial: 0,
+      walls: 131,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'vuhal',
@@ -10071,7 +15321,21 @@ const prefabs = [
       '              #...#',
       '              #...#',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 33,
+      floors: 174,
+      floorsSpecial: 0,
+      walls: 132,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'kerungei',
@@ -10097,7 +15361,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 38,
+      floors: 156,
+      floorsSpecial: 0,
+      walls: 126,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kylaryn',
@@ -10125,7 +15403,21 @@ const prefabs = [
       '         ###...........###',
       '           ###.......###',
       '             ####+####'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 35,
+      floors: 185,
+      floorsSpecial: 0,
+      walls: 142,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'frodrigrs',
@@ -10148,7 +15440,21 @@ const prefabs = [
       '#...#                                   #...#',
       '#...#                                   #...#',
       '##+##                                   ##+##'
-    ]
+    ],
+    details: {
+      height: 18,
+      width: 45,
+      floors: 179,
+      floorsSpecial: 0,
+      walls: 144,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'snomasprmen',
@@ -10182,7 +15488,21 @@ const prefabs = [
       '#.#',
       '#.#',
       '#+#'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 28,
+      floors: 97,
+      floorsSpecial: 0,
+      walls: 106,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kylisohalb',
@@ -10215,7 +15535,21 @@ const prefabs = [
       '            #...#',
       '            #...#',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 28,
+      width: 29,
+      floors: 222,
+      floorsSpecial: 0,
+      walls: 172,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'synashu',
@@ -10254,7 +15588,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 34,
+      width: 24,
+      floors: 241,
+      floorsSpecial: 0,
+      walls: 120,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'lynaryn',
@@ -10298,7 +15646,21 @@ const prefabs = [
       '#...#           #...#',
       '#...#           #...#',
       '##+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 21,
+      floors: 311,
+      floorsSpecial: 0,
+      walls: 174,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'brit',
@@ -10324,7 +15686,21 @@ const prefabs = [
       '       #...#                  #..###',
       '       #...#                  #+##',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 39,
+      floors: 211,
+      floorsSpecial: 0,
+      walls: 148,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'scrusyno',
@@ -10350,7 +15726,21 @@ const prefabs = [
       '       #...#                  #..###',
       '       #...#                  ####',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 39,
+      floors: 211,
+      floorsSpecial: 0,
+      walls: 152,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'aloi',
@@ -10388,7 +15778,21 @@ const prefabs = [
       '                    #...#',
       '                    #...#',
       '                    ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 25,
+      floors: 219,
+      floorsSpecial: 0,
+      walls: 144,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'akyla',
@@ -10424,7 +15828,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 27,
+      floors: 191,
+      floorsSpecial: 0,
+      walls: 122,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'umenom',
@@ -10453,7 +15871,21 @@ const prefabs = [
       '               #...#',
       '               #...#',
       '               ##+##'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 35,
+      floors: 201,
+      floorsSpecial: 0,
+      walls: 125,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'kylol',
@@ -10487,7 +15919,21 @@ const prefabs = [
       '+......##',
       '#....###',
       '######'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 29,
+      floors: 161,
+      floorsSpecial: 0,
+      walls: 133,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'daraves',
@@ -10521,7 +15967,21 @@ const prefabs = [
       '                ###......+',
       '                  ###....#',
       '                    ######'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 29,
+      floors: 205,
+      floorsSpecial: 0,
+      walls: 180,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ore',
@@ -10555,7 +16015,21 @@ const prefabs = [
       '  ##.....#         #.....##',
       '   ##...##         ##...##',
       '    ##+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 29,
+      floors: 340,
+      floorsSpecial: 0,
+      walls: 200,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'aknamen',
@@ -10589,7 +16063,21 @@ const prefabs = [
       '#.........+',
       '#.........#',
       '###########'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 29,
+      floors: 197,
+      floorsSpecial: 0,
+      walls: 120,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'shumenokylp',
@@ -10623,7 +16111,21 @@ const prefabs = [
       '            #...#',
       '            #...#',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 29,
+      floors: 180,
+      floorsSpecial: 0,
+      walls: 108,
+      wallsSpecial: 0,
+      water: 8,
+      waterSpecial: 1,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kylesch',
@@ -10657,7 +16159,21 @@ const prefabs = [
       '            #...#',
       '            #...#',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 29,
+      floors: 165,
+      floorsSpecial: 0,
+      walls: 108,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'vesili',
@@ -10691,7 +16207,21 @@ const prefabs = [
       '       ###....##',
       '         ###..+',
       '           ####'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 29,
+      floors: 360,
+      floorsSpecial: 0,
+      walls: 168,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'whiwy',
@@ -10725,7 +16255,21 @@ const prefabs = [
       '           #.....#',
       '           ##...##',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 29,
+      floors: 264,
+      floorsSpecial: 0,
+      walls: 108,
+      wallsSpecial: 0,
+      water: 169,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'leda',
@@ -10764,7 +16308,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 34,
+      width: 25,
+      floors: 214,
+      floorsSpecial: 0,
+      walls: 185,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'lariblkyl',
@@ -10792,7 +16350,21 @@ const prefabs = [
       '              #.......#',
       '              #.......#',
       '              ##+###+##'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 37,
+      floors: 185,
+      floorsSpecial: 0,
+      walls: 145,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'snasc',
@@ -10816,7 +16388,21 @@ const prefabs = [
       '                 ##.......##',
       '                  ###...###',
       '                    ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 45,
+      floors: 278,
+      floorsSpecial: 0,
+      walls: 144,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'esaves',
@@ -10854,7 +16440,21 @@ const prefabs = [
       '                 #.......#',
       '                 #.......#',
       '                 ####+####'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 26,
+      floors: 182,
+      floorsSpecial: 0,
+      walls: 116,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'iscralas',
@@ -10885,7 +16485,21 @@ const prefabs = [
       '              #...#',
       '              #...#',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 26,
+      width: 33,
+      floors: 231,
+      floorsSpecial: 0,
+      walls: 173,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'vesomil',
@@ -10922,7 +16536,21 @@ const prefabs = [
       '   #...#',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 32,
+      width: 27,
+      floors: 143,
+      floorsSpecial: 0,
+      walls: 134,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'synusch',
@@ -10959,7 +16587,21 @@ const prefabs = [
       '      #...##',
       '      ##.##',
       '       #+#'
-    ]
+    ],
+    details: {
+      height: 32,
+      width: 27,
+      floors: 224,
+      floorsSpecial: 0,
+      walls: 141,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'mase',
@@ -10996,7 +16638,21 @@ const prefabs = [
       '      #...#',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 32,
+      width: 27,
+      floors: 157,
+      floorsSpecial: 0,
+      walls: 129,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'taly',
@@ -11032,7 +16688,21 @@ const prefabs = [
       '           #....##',
       '           #...##',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 28,
+      floors: 211,
+      floorsSpecial: 0,
+      walls: 162,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ako',
@@ -11066,7 +16736,21 @@ const prefabs = [
       ' #...............#......##',
       ' ##+##############...####',
       '                 ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 30,
+      floors: 290,
+      floorsSpecial: 0,
+      walls: 190,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'aflohal',
@@ -11104,7 +16788,21 @@ const prefabs = [
       '                      #...#',
       '                      #...#',
       '                      ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 27,
+      floors: 174,
+      floorsSpecial: 0,
+      walls: 146,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'misch',
@@ -11142,7 +16840,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 27,
+      floors: 186,
+      floorsSpecial: 0,
+      walls: 148,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'rasmispves',
@@ -11170,7 +16882,21 @@ const prefabs = [
       '   #...#                       #...#',
       '   #...#                       #...#',
       '   ##+##                       ##+##'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 39,
+      floors: 345,
+      floorsSpecial: 0,
+      walls: 160,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'ohala',
@@ -11206,7 +16932,21 @@ const prefabs = [
       '#.....##             ##.....#',
       '##..###               ###..##',
       ' #+##                   ##+#'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 29,
+      floors: 289,
+      floorsSpecial: 0,
+      walls: 204,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'menoc',
@@ -11242,7 +16982,21 @@ const prefabs = [
       '#.....##',
       '##..###',
       ' #+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 29,
+      floors: 217,
+      floorsSpecial: 0,
+      walls: 159,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'lynar',
@@ -11276,7 +17030,21 @@ const prefabs = [
       '             #...#',
       '             #...#',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 31,
+      floors: 219,
+      floorsSpecial: 0,
+      walls: 148,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'iryni',
@@ -11310,7 +17078,21 @@ const prefabs = [
       '+.......##           ##.......+',
       '#.....###             ###.....#',
       '###+###                 ###+###'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 31,
+      floors: 287,
+      floorsSpecial: 0,
+      walls: 210,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'umu',
@@ -11344,7 +17126,21 @@ const prefabs = [
       '+.......##',
       '#.....###',
       '###+###'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 31,
+      floors: 175,
+      floorsSpecial: 0,
+      walls: 130,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'hohal',
@@ -11379,7 +17175,21 @@ const prefabs = [
       '     #...#          #####',
       '     #...#',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 30,
+      width: 30,
+      floors: 235,
+      floorsSpecial: 0,
+      walls: 136,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ruw',
@@ -11414,7 +17224,21 @@ const prefabs = [
       '         #...#',
       '         #...#',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 30,
+      width: 30,
+      floors: 279,
+      floorsSpecial: 0,
+      walls: 142,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'thaclu',
@@ -11449,7 +17273,21 @@ const prefabs = [
       '   #...#',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 30,
+      width: 30,
+      floors: 162,
+      floorsSpecial: 0,
+      walls: 139,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'vesikyl',
@@ -11480,7 +17318,21 @@ const prefabs = [
       '               #...#',
       '               #...#',
       '               ##+##'
-    ]
+    ],
+    details: {
+      height: 26,
+      width: 35,
+      floors: 216,
+      floorsSpecial: 0,
+      walls: 147,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'hoschublkyl',
@@ -11511,7 +17363,21 @@ const prefabs = [
       '               #...#',
       '               #...#',
       '               ##+##'
-    ]
+    ],
+    details: {
+      height: 26,
+      width: 35,
+      floors: 256,
+      floorsSpecial: 0,
+      walls: 144,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'briothor',
@@ -11556,7 +17422,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 40,
+      width: 23,
+      floors: 132,
+      floorsSpecial: 0,
+      walls: 118,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'shegr',
@@ -11601,7 +17481,21 @@ const prefabs = [
       '   #...#       #...#',
       '   #...#       #...#',
       '   ##+##       ##+##'
-    ]
+    ],
+    details: {
+      height: 40,
+      width: 23,
+      floors: 288,
+      floorsSpecial: 0,
+      walls: 208,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'tohal',
@@ -11634,7 +17528,21 @@ const prefabs = [
       '              #...#',
       '              #...#',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 28,
+      width: 33,
+      floors: 235,
+      floorsSpecial: 0,
+      walls: 153,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'oshi',
@@ -11676,7 +17584,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 25,
+      floors: 342,
+      floorsSpecial: 0,
+      walls: 200,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'oihalosyn',
@@ -11706,7 +17628,21 @@ const prefabs = [
       '          ###...........###',
       '            ###.......###',
       '              ####+####'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 37,
+      floors: 272,
+      floorsSpecial: 0,
+      walls: 180,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kylasc',
@@ -11734,7 +17670,21 @@ const prefabs = [
       '                  #...#',
       '                  #...#',
       '                  ##+##'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 41,
+      floors: 280,
+      floorsSpecial: 0,
+      walls: 155,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'ashikyl',
@@ -11766,7 +17716,21 @@ const prefabs = [
       '               #...#',
       '               #...#',
       '               ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 35,
+      floors: 208,
+      floorsSpecial: 0,
+      walls: 144,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'schaecamenr',
@@ -11805,7 +17769,21 @@ const prefabs = [
       '          ##...##',
       '           ##.##',
       '            #+#'
-    ]
+    ],
+    details: {
+      height: 34,
+      width: 28,
+      floors: 303,
+      floorsSpecial: 0,
+      walls: 166,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'vesicl',
@@ -11844,7 +17822,21 @@ const prefabs = [
       '             #...#',
       '             #...#',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 34,
+      width: 28,
+      floors: 238,
+      floorsSpecial: 0,
+      walls: 183,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'ciwadh',
@@ -11877,7 +17869,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 28,
+      width: 34,
+      floors: 155,
+      floorsSpecial: 0,
+      walls: 135,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'evesa',
@@ -11911,7 +17917,21 @@ const prefabs = [
       '    #....###                #...#',
       '    ######                  #...#',
       '                            ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 33,
+      floors: 198,
+      floorsSpecial: 0,
+      walls: 160,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'synot',
@@ -11949,7 +17969,21 @@ const prefabs = [
       '       #...#',
       '       #...#',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 29,
+      floors: 273,
+      floorsSpecial: 0,
+      walls: 168,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'idarisch',
@@ -11983,7 +18017,21 @@ const prefabs = [
       '  #...#',
       '  #...#',
       '  ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 33,
+      floors: 167,
+      floorsSpecial: 0,
+      walls: 142,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'ilase',
@@ -12020,7 +18068,21 @@ const prefabs = [
       '   #...#',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 32,
+      width: 30,
+      floors: 176,
+      floorsSpecial: 0,
+      walls: 161,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'bac',
@@ -12055,7 +18117,21 @@ const prefabs = [
       '     #...#',
       '     #...#',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 30,
+      width: 32,
+      floors: 231,
+      floorsSpecial: 0,
+      walls: 187,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'synoib',
@@ -12091,7 +18167,21 @@ const prefabs = [
       '             #...#',
       '             ##.##',
       '              #+#'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 261,
+      floorsSpecial: 0,
+      walls: 116,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'aeromen',
@@ -12127,7 +18217,21 @@ const prefabs = [
       '#....####',
       '+..###',
       '####'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 223,
+      floorsSpecial: 0,
+      walls: 149,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'vesasyn',
@@ -12163,7 +18267,21 @@ const prefabs = [
       '#...........#',
       '#...........#',
       '######+######'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 364,
+      floorsSpecial: 0,
+      walls: 190,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'lynos',
@@ -12199,7 +18317,21 @@ const prefabs = [
       '#....####',
       '+..###',
       '####'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 224,
+      floorsSpecial: 0,
+      walls: 149,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'ukerasyn',
@@ -12235,7 +18367,21 @@ const prefabs = [
       '#...##                  ##....#',
       '+..##                    ##...+',
       '####                      #####'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 235,
+      floorsSpecial: 0,
+      walls: 147,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'keroithor',
@@ -12271,7 +18417,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 241,
+      floorsSpecial: 0,
+      walls: 116,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'wusynasynves',
@@ -12307,7 +18467,21 @@ const prefabs = [
       '                       ##.##',
       '                        #.#',
       '                        #+#'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 241,
+      floorsSpecial: 0,
+      walls: 139,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'lynosk',
@@ -12343,7 +18517,21 @@ const prefabs = [
       '    #...#             #...#',
       '    #...#             #...#',
       '    ##+##             ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 285,
+      floorsSpecial: 0,
+      walls: 204,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'astrives',
@@ -12374,7 +18562,21 @@ const prefabs = [
       '           ##...........##',
       '            ###.......###',
       '              ####+####'
-    ]
+    ],
+    details: {
+      height: 26,
+      width: 37,
+      floors: 226,
+      floorsSpecial: 0,
+      walls: 167,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'smohalo',
@@ -12404,7 +18606,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 39,
+      floors: 228,
+      floorsSpecial: 0,
+      walls: 158,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'throspoke',
@@ -12434,7 +18650,21 @@ const prefabs = [
       '                 #...#',
       '                 #...#',
       '                 ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 39,
+      floors: 255,
+      floorsSpecial: 0,
+      walls: 156,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'axong',
@@ -12459,7 +18689,21 @@ const prefabs = [
       '    #...#                               #...#',
       '    #...#                               #...#',
       '    ##+##                               ##+##'
-    ]
+    ],
+    details: {
+      height: 20,
+      width: 49,
+      floors: 203,
+      floorsSpecial: 0,
+      walls: 158,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'toir',
@@ -12488,7 +18732,21 @@ const prefabs = [
       '                  #...#',
       '                  #...#',
       '                  ##+##'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 41,
+      floors: 195,
+      floorsSpecial: 0,
+      walls: 129,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 11
+    }
   },
   {
     name: 'kylitikyld',
@@ -12517,7 +18775,21 @@ const prefabs = [
       '                  #...#',
       '                  #...#',
       '                  ##+##'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 41,
+      floors: 194,
+      floorsSpecial: 0,
+      walls: 142,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'iby',
@@ -12543,7 +18815,21 @@ const prefabs = [
       '                             ###.........###',
       '                               ###.....###',
       '                                 #######'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 47,
+      floors: 177,
+      floorsSpecial: 0,
+      walls: 160,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'osynat',
@@ -12579,7 +18865,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 32,
+      floors: 146,
+      floorsSpecial: 0,
+      walls: 118,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'vesawo',
@@ -12611,7 +18911,21 @@ const prefabs = [
       '     #...#',
       '     #...#',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 37,
+      floors: 201,
+      floorsSpecial: 0,
+      walls: 138,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'knan',
@@ -12653,7 +18967,21 @@ const prefabs = [
       '    #...#',
       '    #...#',
       '    ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 27,
+      floors: 235,
+      floorsSpecial: 0,
+      walls: 170,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'orei',
@@ -12685,7 +19013,21 @@ const prefabs = [
       '                #...#',
       '                #...#',
       '                ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 37,
+      floors: 325,
+      floorsSpecial: 0,
+      walls: 210,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'vesoryn',
@@ -12717,7 +19059,21 @@ const prefabs = [
       '                #...#      #...#',
       '                #...#      ##+##',
       '                ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 37,
+      floors: 325,
+      floorsSpecial: 0,
+      walls: 210,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'ilio',
@@ -12762,7 +19118,21 @@ const prefabs = [
       '                   #....#',
       '                   #....#',
       '                   #+##+#'
-    ]
+    ],
+    details: {
+      height: 40,
+      width: 25,
+      floors: 140,
+      floorsSpecial: 0,
+      walls: 122,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'eidarikyl',
@@ -12796,7 +19166,21 @@ const prefabs = [
       '               #...#',
       '               #...#',
       '               ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 35,
+      floors: 279,
+      floorsSpecial: 0,
+      walls: 148,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'boghamenc',
@@ -12830,7 +19214,21 @@ const prefabs = [
       '               #...#',
       '               #...#',
       '               ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 35,
+      floors: 279,
+      floorsSpecial: 0,
+      walls: 148,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'shielustsh',
@@ -12864,7 +19262,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 35,
+      floors: 173,
+      floorsSpecial: 0,
+      walls: 139,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'synohalibhal',
@@ -12904,7 +19316,21 @@ const prefabs = [
       '            #...#',
       '            #...#',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 29,
+      floors: 243,
+      floorsSpecial: 0,
+      walls: 152,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'squoschaesynryn',
@@ -12940,7 +19366,21 @@ const prefabs = [
       '                            #...#',
       '                            #...#',
       '                            ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 33,
+      floors: 189,
+      floorsSpecial: 0,
+      walls: 150,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kerubo',
@@ -12978,7 +19418,21 @@ const prefabs = [
       '       ###............###',
       '         ####......####',
       '            ####+###'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 31,
+      floors: 190,
+      floorsSpecial: 0,
+      walls: 160,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'tall',
@@ -13016,7 +19470,21 @@ const prefabs = [
       '    #...#',
       '    #...#',
       '    ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 31,
+      floors: 195,
+      floorsSpecial: 0,
+      walls: 134,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'lynothoru',
@@ -13053,7 +19521,21 @@ const prefabs = [
       '     #...#',
       '     #...#',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 32,
+      width: 32,
+      floors: 251,
+      floorsSpecial: 0,
+      walls: 172,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'lynif',
@@ -13083,7 +19565,21 @@ const prefabs = [
       '#.....#                           #.....#',
       '#.....#                           #.....#',
       '#+###+#                           #+###+#'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 41,
+      floors: 291,
+      floorsSpecial: 0,
+      walls: 159,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'bun',
@@ -13113,7 +19609,21 @@ const prefabs = [
       '  #...#         #......# ###+### #......#',
       '  #...#         #......#         #......#',
       '  ##+##         ###+####         ####+###'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 41,
+      floors: 341,
+      floorsSpecial: 0,
+      walls: 228,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'ekyli',
@@ -13142,7 +19652,21 @@ const prefabs = [
       '+....##            #...#            ##....+',
       '#...##             ##+##             ##...#',
       '#####                                 #####'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 43,
+      floors: 272,
+      floorsSpecial: 0,
+      walls: 204,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'craves',
@@ -13182,7 +19706,21 @@ const prefabs = [
       '   #...#',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 30,
+      floors: 181,
+      floorsSpecial: 0,
+      walls: 161,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'menilaso',
@@ -13214,7 +19752,21 @@ const prefabs = [
       '   ##......+               +......##',
       '    ###....#               #....###',
       '      ######               ######'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 39,
+      floors: 253,
+      floorsSpecial: 0,
+      walls: 196,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'snebie',
@@ -13250,7 +19802,21 @@ const prefabs = [
       '#.....##',
       '##..###',
       ' #+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 34,
+      floors: 287,
+      floorsSpecial: 0,
+      walls: 200,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'phaves',
@@ -13282,7 +19848,21 @@ const prefabs = [
       '                            #...#',
       '                            #...#',
       '                            ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 33,
+      floors: 159,
+      floorsSpecial: 0,
+      walls: 112,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'synepli',
@@ -13330,7 +19910,21 @@ const prefabs = [
       '      ##.........##',
       '       ###.....###',
       '         ###+###'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 25,
+      floors: 288,
+      floorsSpecial: 0,
+      walls: 226,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'usynoves',
@@ -13378,7 +19972,21 @@ const prefabs = [
       '#....#             #....#',
       '#....#             #....#',
       '#+##+#             #+##+#'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 25,
+      floors: 283,
+      floorsSpecial: 0,
+      walls: 234,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'okylaesyn',
@@ -13408,7 +20016,21 @@ const prefabs = [
       '                                      #...#',
       '                                      #...#',
       '                                      ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 43,
+      floors: 208,
+      floorsSpecial: 0,
+      walls: 162,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'yharyn',
@@ -13435,7 +20057,21 @@ const prefabs = [
       '                      #...#',
       '                      #...#',
       '                      ##+##'
-    ]
+    ],
+    details: {
+      height: 22,
+      width: 49,
+      floors: 201,
+      floorsSpecial: 0,
+      walls: 163,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'rihal',
@@ -13470,7 +20106,21 @@ const prefabs = [
       '   #...#                    #...#',
       '   ##+##                    #...#',
       '                            ##+##'
-    ]
+    ],
+    details: {
+      height: 30,
+      width: 36,
+      floors: 221,
+      floorsSpecial: 0,
+      walls: 168,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'basynei',
@@ -13522,7 +20172,21 @@ const prefabs = [
       '                  #...#',
       '                  +...#',
       '                  #####'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 23,
+      floors: 245,
+      floorsSpecial: 0,
+      walls: 126,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'ylul',
@@ -13550,7 +20214,21 @@ const prefabs = [
       '       ##...........###',
       '        ###.......###',
       '          #########'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 47,
+      floors: 177,
+      floorsSpecial: 0,
+      walls: 146,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'threska',
@@ -13590,7 +20268,21 @@ const prefabs = [
       '             #...#',
       '             #...#',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 31,
+      floors: 232,
+      floorsSpecial: 0,
+      walls: 210,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'stel',
@@ -13628,7 +20320,21 @@ const prefabs = [
       '    ##......#.......#......##',
       '     ####...####+####...####',
       '        #####       #####'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 33,
+      floors: 352,
+      floorsSpecial: 0,
+      walls: 234,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'halaem',
@@ -13666,7 +20372,21 @@ const prefabs = [
       '#.........#           #.........#',
       '#.........#           #.........#',
       '#####+#####           #####+#####'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 33,
+      floors: 488,
+      floorsSpecial: 0,
+      walls: 232,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'synare',
@@ -13704,7 +20424,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 33,
+      floors: 224,
+      floorsSpecial: 0,
+      walls: 156,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'thit',
@@ -13742,7 +20476,21 @@ const prefabs = [
       '              #...#',
       '              #...#',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 33,
+      floors: 228,
+      floorsSpecial: 0,
+      walls: 148,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'haladr',
@@ -13780,7 +20528,21 @@ const prefabs = [
       '              #...#',
       '              #...#',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 33,
+      floors: 240,
+      floorsSpecial: 0,
+      walls: 180,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'lynit',
@@ -13818,7 +20580,21 @@ const prefabs = [
       '            ##.....##',
       '             ##...##',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 33,
+      floors: 325,
+      floorsSpecial: 0,
+      walls: 172,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'sprimenisnm',
@@ -13862,7 +20638,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 28,
+      floors: 202,
+      floorsSpecial: 0,
+      walls: 149,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'wreisynorlas',
@@ -13894,7 +20684,21 @@ const prefabs = [
       '                  #...#             #...#',
       '                  #...#             #...#',
       '                  ##+##             ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 41,
+      floors: 183,
+      floorsSpecial: 0,
+      walls: 159,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'scramenusves',
@@ -13926,7 +20730,21 @@ const prefabs = [
       '                  #...#',
       '                  #...#',
       '                  ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 41,
+      floors: 183,
+      floorsSpecial: 0,
+      walls: 159,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'kerathor',
@@ -13968,7 +20786,21 @@ const prefabs = [
       '        ##....+',
       '         ##...#',
       '          #####'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 30,
+      floors: 153,
+      floorsSpecial: 0,
+      walls: 146,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ahalyck',
@@ -14005,7 +20837,21 @@ const prefabs = [
       '               #...#',
       '               #...#',
       '               ##+##'
-    ]
+    ],
+    details: {
+      height: 32,
+      width: 35,
+      floors: 274,
+      floorsSpecial: 0,
+      walls: 170,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'amenei',
@@ -14032,7 +20878,21 @@ const prefabs = [
       '#.....#                                     #.....#',
       '#.....#                                     #.....#',
       '###+###                                     ###+###'
-    ]
+    ],
+    details: {
+      height: 22,
+      width: 51,
+      floors: 331,
+      floorsSpecial: 0,
+      walls: 205,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'eischa',
@@ -14060,7 +20920,21 @@ const prefabs = [
       '                      #...#',
       '                      #...#',
       '                      ##+##'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 49,
+      floors: 251,
+      floorsSpecial: 0,
+      walls: 192,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'okeryves',
@@ -14089,7 +20963,21 @@ const prefabs = [
       '                    #.....#',
       '                    ##...##',
       '                     ##+##'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 47,
+      floors: 230,
+      floorsSpecial: 0,
+      walls: 165,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'griomo',
@@ -14131,7 +21019,21 @@ const prefabs = [
       '      ####...........####',
       '         ###.......###',
       '           ####+####'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 31,
+      floors: 352,
+      floorsSpecial: 0,
+      walls: 216,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'omenieves',
@@ -14168,7 +21070,21 @@ const prefabs = [
       '         #...#',
       '         #...#',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 32,
+      width: 36,
+      floors: 255,
+      floorsSpecial: 0,
+      walls: 182,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'synaro',
@@ -14208,7 +21124,21 @@ const prefabs = [
       '#.....##    ##.##',
       '##...##      #+#',
       ' ###+#'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 33,
+      floors: 209,
+      floorsSpecial: 0,
+      walls: 151,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'synasynakylryn',
@@ -14248,7 +21178,21 @@ const prefabs = [
       '+.....##                 ##.....+',
       '#...###                   ###...#',
       '#####                       #####'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 33,
+      floors: 237,
+      floorsSpecial: 0,
+      walls: 188,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ikerusyn',
@@ -14288,7 +21232,21 @@ const prefabs = [
       '    #...#',
       '    #...#',
       '    ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 33,
+      floors: 179,
+      floorsSpecial: 0,
+      walls: 142,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'splikyl',
@@ -14328,7 +21286,21 @@ const prefabs = [
       ' #...#',
       ' #...#',
       ' ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 33,
+      floors: 197,
+      floorsSpecial: 0,
+      walls: 140,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'shaslykyln',
@@ -14354,7 +21326,21 @@ const prefabs = [
       '#############...##',
       '            #...#',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 55,
+      floors: 359,
+      floorsSpecial: 0,
+      walls: 168,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'ema',
@@ -14393,7 +21379,21 @@ const prefabs = [
       '                             #...#',
       '                             #...#',
       '                             ##+##'
-    ]
+    ],
+    details: {
+      height: 34,
+      width: 34,
+      floors: 223,
+      floorsSpecial: 0,
+      walls: 149,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'oibloves',
@@ -14432,7 +21432,21 @@ const prefabs = [
       '                             #...#',
       '                             #...#',
       '                             ##+##'
-    ]
+    ],
+    details: {
+      height: 34,
+      width: 34,
+      floors: 224,
+      floorsSpecial: 0,
+      walls: 149,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'ivesogh',
@@ -14464,7 +21478,21 @@ const prefabs = [
       '                   #...#',
       '                   #...#',
       '                   ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 43,
+      floors: 264,
+      floorsSpecial: 0,
+      walls: 158,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'leikyl',
@@ -14512,7 +21540,21 @@ const prefabs = [
       '   #...#',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 27,
+      floors: 243,
+      floorsSpecial: 0,
+      walls: 162,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'heithorisynl',
@@ -14543,7 +21585,21 @@ const prefabs = [
       '     #....##                     ##....#',
       '     ##...#                       #...##',
       '      ##+##                       ##+##'
-    ]
+    ],
+    details: {
+      height: 26,
+      width: 45,
+      floors: 344,
+      floorsSpecial: 0,
+      walls: 170,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'idararyn',
@@ -14578,7 +21634,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 30,
+      width: 39,
+      floors: 240,
+      floorsSpecial: 0,
+      walls: 167,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'blimeni',
@@ -14606,7 +21676,21 @@ const prefabs = [
       '                       #...#',
       '                       #...#',
       '                       ##+##'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 51,
+      floors: 273,
+      floorsSpecial: 0,
+      walls: 160,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'ivesas',
@@ -14635,7 +21719,21 @@ const prefabs = [
       '            ##...#     #.#     #...##',
       '             ###+#     #.#     #+###',
       '                       #+#'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 49,
+      floors: 301,
+      floorsSpecial: 0,
+      walls: 225,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'sciomenoi',
@@ -14678,7 +21776,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 38,
+      width: 31,
+      floors: 161,
+      floorsSpecial: 0,
+      walls: 130,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'osynod',
@@ -14715,7 +21827,21 @@ const prefabs = [
       '                #...#',
       '                #...#',
       '                ##+##'
-    ]
+    ],
+    details: {
+      height: 32,
+      width: 37,
+      floors: 207,
+      floorsSpecial: 0,
+      walls: 175,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'synameno',
@@ -14764,7 +21890,21 @@ const prefabs = [
       '        #.........#',
       '        #.........#',
       '        #+#######+#'
-    ]
+    ],
+    details: {
+      height: 44,
+      width: 27,
+      floors: 299,
+      floorsSpecial: 0,
+      walls: 203,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'idaroth',
@@ -14791,7 +21931,21 @@ const prefabs = [
       '+.....###                                     ###.....+',
       '#...###                                         ###...#',
       '#####                                             #####'
-    ]
+    ],
+    details: {
+      height: 22,
+      width: 55,
+      floors: 233,
+      floorsSpecial: 0,
+      walls: 214,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'kocha',
@@ -14833,7 +21987,21 @@ const prefabs = [
       '              #...#         #...#',
       '              #...#         #...#',
       '              ##+##         ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 33,
+      floors: 307,
+      floorsSpecial: 0,
+      walls: 234,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'kylaglo',
@@ -14873,7 +22041,21 @@ const prefabs = [
       '           ##.........##',
       '            ###.....###',
       '              ###+###'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 35,
+      floors: 293,
+      floorsSpecial: 0,
+      walls: 284,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ekerahal',
@@ -14913,7 +22095,21 @@ const prefabs = [
       '          ##...........##',
       '           ##.........##',
       '            #####+#####'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 35,
+      floors: 268,
+      floorsSpecial: 0,
+      walls: 236,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'leves',
@@ -14953,7 +22149,21 @@ const prefabs = [
       '#...###',
       '#..##',
       '#+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 35,
+      floors: 252,
+      floorsSpecial: 0,
+      walls: 175,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'daraghy',
@@ -14983,7 +22193,21 @@ const prefabs = [
       '                                            #...#',
       '                                            #...#',
       '                                            ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 49,
+      floors: 201,
+      floorsSpecial: 0,
+      walls: 162,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'urynak',
@@ -15013,7 +22237,21 @@ const prefabs = [
       '    #...#                               #...#',
       '    #...#                               #...#',
       '    ##+##                               ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 49,
+      floors: 329,
+      floorsSpecial: 0,
+      walls: 220,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'grosna',
@@ -15053,7 +22291,21 @@ const prefabs = [
       '         #...#       #...#',
       '         #...#       #...#',
       '         ##+##       ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 35,
+      floors: 337,
+      floorsSpecial: 0,
+      walls: 272,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'sprimen',
@@ -15093,7 +22345,21 @@ const prefabs = [
       '         #...#',
       '         #...#',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 35,
+      floors: 286,
+      floorsSpecial: 0,
+      walls: 216,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'asnikyl',
@@ -15133,7 +22399,21 @@ const prefabs = [
       '  ##.....##             ##.....##',
       '   ##...##               ##...##',
       '    ##+##                 ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 35,
+      floors: 465,
+      floorsSpecial: 0,
+      walls: 244,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'miethor',
@@ -15173,7 +22453,21 @@ const prefabs = [
       '             ##.....##',
       '              ##...##',
       '               ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 35,
+      floors: 340,
+      floorsSpecial: 0,
+      walls: 188,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'acku',
@@ -15221,7 +22515,21 @@ const prefabs = [
       '     #.....##',
       '     ##...##',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 29,
+      floors: 327,
+      floorsSpecial: 0,
+      walls: 194,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'kerum',
@@ -15264,7 +22572,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 38,
+      width: 33,
+      floors: 204,
+      floorsSpecial: 0,
+      walls: 166,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'iesyniob',
@@ -15296,7 +22618,21 @@ const prefabs = [
       '                     #...#',
       '                     #...#',
       '                     ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 47,
+      floors: 321,
+      floorsSpecial: 0,
+      walls: 216,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'kylimenigl',
@@ -15332,7 +22668,21 @@ const prefabs = [
       '                  #...#',
       '                  #...#',
       '                  ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 41,
+      floors: 200,
+      floorsSpecial: 0,
+      walls: 156,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'uba',
@@ -15368,7 +22718,21 @@ const prefabs = [
       '                  #...#',
       '                  #...#',
       '                  ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 41,
+      floors: 200,
+      floorsSpecial: 0,
+      walls: 156,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'sash',
@@ -15398,7 +22762,21 @@ const prefabs = [
       '                            ###............###',
       '                              ###........###',
       '                                ##########'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 51,
+      floors: 331,
+      floorsSpecial: 0,
+      walls: 210,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'vesathoru',
@@ -15428,7 +22806,21 @@ const prefabs = [
       '               #...#           #...#',
       '               #...#           #...#',
       '               ##+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 51,
+      floors: 302,
+      floorsSpecial: 0,
+      walls: 222,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'scrongospls',
@@ -15468,7 +22860,21 @@ const prefabs = [
       '            #...#',
       '            #...#',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 37,
+      floors: 207,
+      floorsSpecial: 0,
+      walls: 164,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'lynosomengh',
@@ -15521,7 +22927,21 @@ const prefabs = [
       '                       ##.#',
       '                        #.#',
       '                        #+#'
-    ]
+    ],
+    details: {
+      height: 48,
+      width: 27,
+      floors: 291,
+      floorsSpecial: 0,
+      walls: 201,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'halita',
@@ -15562,7 +22982,21 @@ const prefabs = [
       '                   +...#',
       '                   #...#',
       '                   ##+##'
-    ]
+    ],
+    details: {
+      height: 36,
+      width: 36,
+      floors: 204,
+      floorsSpecial: 0,
+      walls: 180,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'ohalamre',
@@ -15598,7 +23032,21 @@ const prefabs = [
       '                               #...#',
       '                               #...#',
       '                               ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 42,
+      floors: 237,
+      floorsSpecial: 0,
+      walls: 200,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'lynosyne',
@@ -15650,7 +23098,21 @@ const prefabs = [
       '                 ###.......+',
       '                   ###.....#',
       '                     #######'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 28,
+      floors: 217,
+      floorsSpecial: 0,
+      walls: 190,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'vesolla',
@@ -15695,7 +23157,21 @@ const prefabs = [
       '                            #...#',
       '                            #...#',
       '                            ##+##'
-    ]
+    ],
+    details: {
+      height: 40,
+      width: 33,
+      floors: 247,
+      floorsSpecial: 0,
+      walls: 163,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'alase',
@@ -15727,7 +23203,21 @@ const prefabs = [
       '          #...#                   #...#',
       '          #...#                   #...#',
       '          ##+##                   ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 49,
+      floors: 441,
+      floorsSpecial: 0,
+      walls: 236,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'snobamenmen',
@@ -15757,7 +23247,21 @@ const prefabs = [
       '#...#     ###.......####',
       '#...#       ####+####',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 53,
+      floors: 235,
+      floorsSpecial: 0,
+      walls: 195,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'veseta',
@@ -15787,7 +23291,21 @@ const prefabs = [
       '#...#     ###.......####',
       '+...#       #########',
       '#####'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 53,
+      floors: 235,
+      floorsSpecial: 0,
+      walls: 192,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'plasprimenryn',
@@ -15829,7 +23347,21 @@ const prefabs = [
       '             #...#',
       '             #...#',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 36,
+      floors: 233,
+      floorsSpecial: 0,
+      walls: 182,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ploipihlas',
@@ -15867,7 +23399,21 @@ const prefabs = [
       '                  #...#',
       '                  #...#',
       '                  ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 41,
+      floors: 320,
+      floorsSpecial: 0,
+      walls: 209,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'hepr',
@@ -15905,7 +23451,21 @@ const prefabs = [
       '                  #...#',
       '                  #...#',
       '                  ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 41,
+      floors: 340,
+      floorsSpecial: 0,
+      walls: 164,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'toplisprt',
@@ -15939,7 +23499,21 @@ const prefabs = [
       '                     ##+##           ##.......+',
       '                                      ###.....#',
       '                                        #######'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 47,
+      floors: 321,
+      floorsSpecial: 0,
+      walls: 216,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'sas',
@@ -15973,7 +23547,21 @@ const prefabs = [
       '                     #...#',
       '                     #...#',
       '                     ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 47,
+      floors: 251,
+      floorsSpecial: 0,
+      walls: 200,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'ihala',
@@ -16015,7 +23603,21 @@ const prefabs = [
       '              #.......#',
       '              #.......#',
       '              #+##+##+#'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 37,
+      floors: 276,
+      floorsSpecial: 0,
+      walls: 212,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'imene',
@@ -16057,7 +23659,21 @@ const prefabs = [
       '##.......##               ##.......##',
       ' ##.....##                 ##.....##',
       '  ###+###                   ###+###'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 37,
+      floors: 480,
+      floorsSpecial: 0,
+      walls: 248,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'ivesu',
@@ -16099,7 +23715,21 @@ const prefabs = [
       '##.......##',
       ' ##.....##',
       '  ###+###'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 37,
+      floors: 309,
+      floorsSpecial: 0,
+      walls: 160,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'throves',
@@ -16141,7 +23771,21 @@ const prefabs = [
       '          #...#       #...#',
       '          #...#       #...#',
       '          ##+##       ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 37,
+      floors: 525,
+      floorsSpecial: 0,
+      walls: 256,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'ushe',
@@ -16183,7 +23827,21 @@ const prefabs = [
       '          #...#       #...#',
       '          #...#       #...#',
       '          ##+##       ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 37,
+      floors: 384,
+      floorsSpecial: 0,
+      walls: 248,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'asmih',
@@ -16225,7 +23883,21 @@ const prefabs = [
       '               #.....#',
       '               ##...##',
       '                ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 37,
+      floors: 344,
+      floorsSpecial: 0,
+      walls: 204,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'lynokylowlas',
@@ -16258,7 +23930,21 @@ const prefabs = [
       '                      #...#',
       '                      #...#',
       '                      ##+##'
-    ]
+    ],
+    details: {
+      height: 28,
+      width: 49,
+      floors: 291,
+      floorsSpecial: 0,
+      walls: 256,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'kylakyl',
@@ -16291,7 +23977,21 @@ const prefabs = [
       '#...#                 #...#                 #...#',
       '#...#                 #...#                 #...#',
       '##+##                 ##+##                 ##+##'
-    ]
+    ],
+    details: {
+      height: 28,
+      width: 49,
+      floors: 291,
+      floorsSpecial: 0,
+      walls: 256,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'ilieryn',
@@ -16321,7 +24021,21 @@ const prefabs = [
       '                         #...#',
       '                         #...#',
       '                         ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 55,
+      floors: 253,
+      floorsSpecial: 0,
+      walls: 200,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'kimen',
@@ -16358,7 +24072,21 @@ const prefabs = [
       '                   #...#',
       '                   #...#',
       '                   ##+##'
-    ]
+    ],
+    details: {
+      height: 32,
+      width: 43,
+      floors: 287,
+      floorsSpecial: 0,
+      walls: 168,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'etulas',
@@ -16406,7 +24134,21 @@ const prefabs = [
       '                     ##.....##',
       '                      ##...##',
       '                       ##+##'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 32,
+      floors: 226,
+      floorsSpecial: 0,
+      walls: 156,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'laves',
@@ -16436,7 +24178,21 @@ const prefabs = [
       '           #...#                   #...#',
       '           ##+##                   #...#',
       '                                   ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 51,
+      floors: 263,
+      floorsSpecial: 0,
+      walls: 222,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'uvesis',
@@ -16471,7 +24227,21 @@ const prefabs = [
       '                                     ###.....+',
       '                                       ###...#',
       '                                         #####'
-    ]
+    ],
+    details: {
+      height: 30,
+      width: 46,
+      floors: 181,
+      floorsSpecial: 0,
+      walls: 166,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'shone',
@@ -16507,7 +24277,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 45,
+      floors: 179,
+      floorsSpecial: 0,
+      walls: 142,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'synives',
@@ -16543,7 +24327,21 @@ const prefabs = [
       ' ##.......##                     ##.......##',
       '  ###...###                       ###...###',
       '    #####                           #####'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 45,
+      floors: 503,
+      floorsSpecial: 0,
+      walls: 222,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'takylatt',
@@ -16579,7 +24377,21 @@ const prefabs = [
       '                    #...#',
       '                    #...#',
       '                    ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 45,
+      floors: 294,
+      floorsSpecial: 0,
+      walls: 218,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'strymio',
@@ -16622,7 +24434,21 @@ const prefabs = [
       '                              ##....#',
       '                               ##...#',
       '                                ##+##'
-    ]
+    ],
+    details: {
+      height: 38,
+      width: 37,
+      floors: 204,
+      floorsSpecial: 0,
+      walls: 173,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'synisyn',
@@ -16656,7 +24482,21 @@ const prefabs = [
       '          #...#                    ####+####',
       '          #...#',
       '          #####'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 49,
+      floors: 441,
+      floorsSpecial: 0,
+      walls: 233,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 11
+    }
   },
   {
     name: 'lathoriomenng',
@@ -16688,7 +24528,21 @@ const prefabs = [
       '           #...#                     #...#',
       '           #...#                     #...#',
       '           ##+##                     ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 53,
+      floors: 283,
+      floorsSpecial: 0,
+      walls: 226,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'glumenosmmen',
@@ -16728,7 +24582,21 @@ const prefabs = [
       '#.....##    ##.##       ##.##    ##.....#',
       '##...##      #+#         #+#      ##...##',
       ' #####                             #####'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 41,
+      floors: 400,
+      floorsSpecial: 0,
+      walls: 276,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'isko',
@@ -16774,7 +24642,21 @@ const prefabs = [
       '      #...#             #...#',
       '      #...#             #...#',
       '      ##+##             ##+##'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 35,
+      floors: 401,
+      floorsSpecial: 0,
+      walls: 252,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'synispr',
@@ -16816,7 +24698,21 @@ const prefabs = [
       '           #.#',
       '           #.#',
       '           #+#'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 39,
+      floors: 195,
+      floorsSpecial: 0,
+      walls: 212,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'darokylu',
@@ -16858,7 +24754,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 39,
+      floors: 235,
+      floorsSpecial: 0,
+      walls: 170,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'lynigr',
@@ -16900,7 +24810,21 @@ const prefabs = [
       '        #...#             #...#',
       '        #...#             #...#',
       '        ##+##             ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 39,
+      floors: 278,
+      floorsSpecial: 0,
+      walls: 221,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'saesh',
@@ -16942,7 +24866,21 @@ const prefabs = [
       '  ##....###                 ###....##',
       '   +..###                     ###..+',
       '   ####                         ####'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 39,
+      floors: 414,
+      floorsSpecial: 0,
+      walls: 234,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'snethori',
@@ -16985,7 +24923,21 @@ const prefabs = [
       '   #...#',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 38,
+      width: 38,
+      floors: 270,
+      floorsSpecial: 0,
+      walls: 179,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 11
+    }
   },
   {
     name: 'atalas',
@@ -17023,7 +24975,21 @@ const prefabs = [
       '                                ###....#####',
       '                                  ####.....+',
       '                                     #######'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 44,
+      floors: 190,
+      floorsSpecial: 0,
+      walls: 160,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'creghoicrlas',
@@ -17059,7 +25025,21 @@ const prefabs = [
       '                                  +.......##',
       '                                  #.....###',
       '                                  #######'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 47,
+      floors: 355,
+      floorsSpecial: 0,
+      walls: 244,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'coquie',
@@ -17095,7 +25075,21 @@ const prefabs = [
       '             #...#           #...#',
       '             #...#           #...#',
       '             ##+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 47,
+      floors: 346,
+      floorsSpecial: 0,
+      walls: 244,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'darisyniestves',
@@ -17130,7 +25124,21 @@ const prefabs = [
       '                       #.#',
       '                       #.#',
       '                       #+#'
-    ]
+    ],
+    details: {
+      height: 30,
+      width: 49,
+      floors: 301,
+      floorsSpecial: 0,
+      walls: 224,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'twisyn',
@@ -17165,7 +25173,21 @@ const prefabs = [
       '                       #.#',
       '                       #.#',
       '                       #+#'
-    ]
+    ],
+    details: {
+      height: 30,
+      width: 49,
+      floors: 213,
+      floorsSpecial: 0,
+      walls: 178,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'shahalosynlas',
@@ -17200,7 +25222,21 @@ const prefabs = [
       '            ##...#     #.#',
       '             ##+##     #.#',
       '                       #+#'
-    ]
+    ],
+    details: {
+      height: 30,
+      width: 49,
+      floors: 301,
+      floorsSpecial: 0,
+      walls: 225,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'edop',
@@ -17237,7 +25273,21 @@ const prefabs = [
       '                      #.#',
       '                      #.#',
       '                      #+#'
-    ]
+    ],
+    details: {
+      height: 32,
+      width: 47,
+      floors: 268,
+      floorsSpecial: 0,
+      walls: 228,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'iocrot',
@@ -17277,7 +25327,21 @@ const prefabs = [
       '                   #...#',
       '                   #...#',
       '                   ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 43,
+      floors: 395,
+      floorsSpecial: 0,
+      walls: 222,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'iryna',
@@ -17325,7 +25389,21 @@ const prefabs = [
       '               #...#',
       '               #...#',
       '               ##+##'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 35,
+      floors: 300,
+      floorsSpecial: 0,
+      walls: 193,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'syned',
@@ -17363,7 +25441,21 @@ const prefabs = [
       '      #.........#           #.........#',
       '      #.........#           #.........#',
       '      ######+####           ####+######'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 46,
+      floors: 488,
+      floorsSpecial: 0,
+      walls: 240,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'anir',
@@ -17407,7 +25499,21 @@ const prefabs = [
       '                ##...##',
       '                 #...#',
       '                 ##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 39,
+      floors: 549,
+      floorsSpecial: 0,
+      walls: 304,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'doth',
@@ -17451,7 +25557,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 39,
+      floors: 202,
+      floorsSpecial: 0,
+      walls: 146,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'lib',
@@ -17495,7 +25615,21 @@ const prefabs = [
       '                 #...#',
       '                 #...#',
       '                 ##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 39,
+      floors: 320,
+      floorsSpecial: 0,
+      walls: 212,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'meneimenakhal',
@@ -17539,7 +25673,21 @@ const prefabs = [
       '#...##      ###############      ##...#',
       '+..##                             ##..+',
       '####                               ####'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 39,
+      floors: 392,
+      floorsSpecial: 0,
+      walls: 323,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'sobe',
@@ -17583,7 +25731,21 @@ const prefabs = [
       '     #...#',
       '     #...#',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 39,
+      floors: 277,
+      floorsSpecial: 0,
+      walls: 206,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'plieng',
@@ -17627,7 +25789,21 @@ const prefabs = [
       '  ##...##',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 39,
+      floors: 312,
+      floorsSpecial: 0,
+      walls: 230,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'lynaethor',
@@ -17666,7 +25842,21 @@ const prefabs = [
       '     #....##',
       '     ##...#',
       '      #+###'
-    ]
+    ],
+    details: {
+      height: 34,
+      width: 45,
+      floors: 346,
+      floorsSpecial: 0,
+      walls: 170,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'steisplobhal',
@@ -17698,7 +25888,21 @@ const prefabs = [
       '                          #...#',
       '                          #...#',
       '                          ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 57,
+      floors: 332,
+      floorsSpecial: 0,
+      walls: 234,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'scoithoru',
@@ -17730,7 +25934,21 @@ const prefabs = [
       '#...#                     #...#                     #...#',
       '#...#                     #...#                     #...#',
       '##+##                     ##+##                     ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 57,
+      floors: 309,
+      floorsSpecial: 0,
+      walls: 249,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'quithor',
@@ -17779,7 +25997,21 @@ const prefabs = [
       '         +...............+',
       '         #...............#',
       '         #################'
-    ]
+    ],
+    details: {
+      height: 44,
+      width: 35,
+      floors: 339,
+      floorsSpecial: 0,
+      walls: 186,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'ilasiemre',
@@ -17812,7 +26044,21 @@ const prefabs = [
       '                     ##.........##',
       '                      ###.....###',
       '                        ###+###'
-    ]
+    ],
+    details: {
+      height: 28,
+      width: 55,
+      floors: 303,
+      floorsSpecial: 0,
+      walls: 226,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'keruryn',
@@ -17850,7 +26096,21 @@ const prefabs = [
       '##....##                               ##....##',
       ' ##..##                                 ##..##',
       '  ##+#                                   ##+#'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 47,
+      floors: 349,
+      floorsSpecial: 0,
+      walls: 224,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'quiofyhkyl',
@@ -17888,7 +26148,21 @@ const prefabs = [
       '      #...#                         #...#',
       '      #...#                         #...#',
       '      ##+##                         ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 47,
+      floors: 329,
+      floorsSpecial: 0,
+      walls: 256,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'kerip',
@@ -17926,7 +26200,21 @@ const prefabs = [
       '            #...#',
       '            #...#',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 47,
+      floors: 207,
+      floorsSpecial: 0,
+      walls: 164,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'wothora',
@@ -17970,7 +26258,21 @@ const prefabs = [
       '                     #...#',
       '                     #...#',
       '                     ##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 40,
+      floors: 242,
+      floorsSpecial: 0,
+      walls: 189,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'ospreihal',
@@ -18000,7 +26302,21 @@ const prefabs = [
       '   #...#                                               #...#',
       '   #...#                                               #...#',
       '   #####                                               ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 63,
+      floors: 287,
+      floorsSpecial: 0,
+      walls: 225,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'akylalas',
@@ -18036,7 +26352,21 @@ const prefabs = [
       '     ###.......##                 ##.......###',
       '       ####.....#                 #.....####',
       '          #####+#                 #+#####'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 51,
+      floors: 402,
+      floorsSpecial: 0,
+      walls: 227,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'haliesto',
@@ -18080,7 +26410,21 @@ const prefabs = [
       '            ###...........###',
       '              ###.......###',
       '                ####+####'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 41,
+      floors: 450,
+      floorsSpecial: 0,
+      walls: 264,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'likimenh',
@@ -18126,7 +26470,21 @@ const prefabs = [
       '#...#                             #...#',
       '#...#                             #...#',
       '##+##                             ##+##'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 39,
+      floors: 339,
+      floorsSpecial: 0,
+      walls: 274,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'lahal',
@@ -18171,7 +26529,21 @@ const prefabs = [
       '#.........+',
       '#.........#',
       '###########'
-    ]
+    ],
+    details: {
+      height: 40,
+      width: 40,
+      floors: 315,
+      floorsSpecial: 0,
+      walls: 216,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'bospomenb',
@@ -18216,7 +26588,21 @@ const prefabs = [
       '      #...#',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 40,
+      width: 40,
+      floors: 342,
+      floorsSpecial: 0,
+      walls: 228,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'haloqui',
@@ -18270,7 +26656,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 49,
+      width: 33,
+      floors: 317,
+      floorsSpecial: 0,
+      walls: 266,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'schoves',
@@ -18308,7 +26708,21 @@ const prefabs = [
       '     #...#                             #...#',
       '     #...#                             #...#',
       '     ##+##                             ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 49,
+      floors: 375,
+      floorsSpecial: 0,
+      walls: 300,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'risyn',
@@ -18346,7 +26760,21 @@ const prefabs = [
       '                      #...#',
       '                      #...#',
       '                      ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 49,
+      floors: 266,
+      floorsSpecial: 0,
+      walls: 202,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'obrioh',
@@ -18395,7 +26823,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 44,
+      width: 37,
+      floors: 279,
+      floorsSpecial: 0,
+      walls: 188,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'shuspro',
@@ -18440,7 +26882,21 @@ const prefabs = [
       '                 ###............##',
       '                   ###.......####',
       '                     #########'
-    ]
+    ],
+    details: {
+      height: 40,
+      width: 41,
+      floors: 240,
+      floorsSpecial: 0,
+      walls: 248,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'kylaremenkyl',
@@ -18482,7 +26938,21 @@ const prefabs = [
       '         #.....#',
       '         ##...##',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 45,
+      floors: 275,
+      floorsSpecial: 0,
+      walls: 192,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'eihosyn',
@@ -18526,7 +26996,21 @@ const prefabs = [
       '                   ###............##',
       '                     ###.......####',
       '                       #########'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 43,
+      floors: 235,
+      floorsSpecial: 0,
+      walls: 244,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kerow',
@@ -18572,7 +27056,21 @@ const prefabs = [
       '          ###...............###',
       '            #####.......#####',
       '                ####+####'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 41,
+      floors: 512,
+      floorsSpecial: 0,
+      walls: 268,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'hemei',
@@ -18618,7 +27116,21 @@ const prefabs = [
       '     #...#',
       '     #...#',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 41,
+      floors: 281,
+      floorsSpecial: 0,
+      walls: 260,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'edush',
@@ -18664,7 +27176,21 @@ const prefabs = [
       '                  #...#',
       '                  #...#',
       '                  ##+##'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 41,
+      floors: 399,
+      floorsSpecial: 0,
+      walls: 291,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'emeth',
@@ -18710,7 +27236,21 @@ const prefabs = [
       '            #...#       #...#',
       '            #...#       #...#',
       '            ##+##       ##+##'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 41,
+      floors: 364,
+      floorsSpecial: 0,
+      walls: 280,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'tami',
@@ -18756,7 +27296,21 @@ const prefabs = [
       '     #...#                     #...#',
       '     #...#                     #...#',
       '     ##+##                     ##+##'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 41,
+      floors: 536,
+      floorsSpecial: 0,
+      walls: 280,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'whemen',
@@ -18802,7 +27356,21 @@ const prefabs = [
       '                  #...#',
       '                  #...#',
       '                  ##+##'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 41,
+      floors: 340,
+      floorsSpecial: 0,
+      walls: 244,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ikylo',
@@ -18848,7 +27416,21 @@ const prefabs = [
       '         #...#',
       '         #...#',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 41,
+      floors: 284,
+      floorsSpecial: 0,
+      walls: 200,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'lynam',
@@ -18886,7 +27468,21 @@ const prefabs = [
       '                       #...#',
       '                       #...#',
       '                       ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 51,
+      floors: 419,
+      floorsSpecial: 0,
+      walls: 347,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'kylif',
@@ -18940,7 +27536,21 @@ const prefabs = [
       '  #.#                         #.#',
       '  #.#                         #.#',
       '  #+#                         #+#'
-    ]
+    ],
+    details: {
+      height: 49,
+      width: 35,
+      floors: 391,
+      floorsSpecial: 0,
+      walls: 284,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'hoflie',
@@ -18981,7 +27591,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 36,
+      width: 48,
+      floors: 204,
+      floorsSpecial: 0,
+      walls: 183,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'eilahal',
@@ -19020,7 +27644,21 @@ const prefabs = [
       '                       #...#',
       '                       #...#',
       '                       ##+##'
-    ]
+    ],
+    details: {
+      height: 34,
+      width: 51,
+      floors: 331,
+      floorsSpecial: 0,
+      walls: 230,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'mapl',
@@ -19059,7 +27697,21 @@ const prefabs = [
       '                       #...#',
       '                       #...#',
       '                       ##+##'
-    ]
+    ],
+    details: {
+      height: 34,
+      width: 51,
+      floors: 332,
+      floorsSpecial: 0,
+      walls: 228,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'swakylu',
@@ -19095,7 +27747,21 @@ const prefabs = [
       '                                      #...#',
       '                                      #...#',
       '                                      ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 56,
+      floors: 304,
+      floorsSpecial: 0,
+      walls: 224,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'asasyn',
@@ -19147,7 +27813,21 @@ const prefabs = [
       '                #...#',
       '                #...#',
       '                ##+##'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 37,
+      floors: 296,
+      floorsSpecial: 0,
+      walls: 228,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'synaves',
@@ -19198,7 +27878,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 46,
+      width: 38,
+      floors: 268,
+      floorsSpecial: 0,
+      walls: 163,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'heh',
@@ -19235,7 +27929,21 @@ const prefabs = [
       '                        ##...##',
       '                         #...#',
       '                         ##+##'
-    ]
+    ],
+    details: {
+      height: 32,
+      width: 55,
+      floors: 233,
+      floorsSpecial: 0,
+      walls: 216,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'strimena',
@@ -19281,7 +27989,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 43,
+      floors: 291,
+      floorsSpecial: 0,
+      walls: 194,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'menih',
@@ -19327,7 +28049,21 @@ const prefabs = [
       '    ###....##                 ##....###',
       '      ###..#                   #..###',
       '        ##+#                   #+##'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 43,
+      floors: 488,
+      floorsSpecial: 0,
+      walls: 296,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'halasasynhal',
@@ -19374,7 +28110,21 @@ const prefabs = [
       '                                #...#',
       '                                #...#',
       '                                ##+##'
-    ]
+    ],
+    details: {
+      height: 42,
+      width: 42,
+      floors: 308,
+      floorsSpecial: 0,
+      walls: 214,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'bothora',
@@ -19421,7 +28171,21 @@ const prefabs = [
       '                                    #....#',
       '                                    #....#',
       '                                    #+##+#'
-    ]
+    ],
+    details: {
+      height: 42,
+      width: 42,
+      floors: 350,
+      floorsSpecial: 0,
+      walls: 245,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'plakyla',
@@ -19459,7 +28223,21 @@ const prefabs = [
       '                         #...#',
       '                         #...#',
       '                         ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 55,
+      floors: 319,
+      floorsSpecial: 0,
+      walls: 212,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ango',
@@ -19497,7 +28275,21 @@ const prefabs = [
       '                         #...#                ##......+',
       '                         #...#                 ###....#',
       '                         ##+##                   ######'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 55,
+      floors: 319,
+      floorsSpecial: 0,
+      walls: 212,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'satotb',
@@ -19549,7 +28341,21 @@ const prefabs = [
       '           #.#',
       '           #.#',
       '           #+#'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 39,
+      floors: 195,
+      floorsSpecial: 0,
+      walls: 213,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'menist',
@@ -19593,7 +28399,21 @@ const prefabs = [
       '            ##........###........##',
       '             ###....### ###....###',
       '               ######     ######'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 47,
+      floors: 450,
+      floorsSpecial: 0,
+      walls: 312,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ikyleiryn',
@@ -19632,7 +28452,21 @@ const prefabs = [
       '                              #.........###',
       '                              ##....#####',
       '                               ######'
-    ]
+    ],
+    details: {
+      height: 34,
+      width: 54,
+      floors: 262,
+      floorsSpecial: 0,
+      walls: 238,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'edarelas',
@@ -19682,7 +28516,21 @@ const prefabs = [
       '         #...#',
       '         #...#',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 45,
+      width: 41,
+      floors: 320,
+      floorsSpecial: 0,
+      walls: 260,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ehali',
@@ -19728,7 +28576,21 @@ const prefabs = [
       '         #...#                 #...#',
       '         #...#                 #...#',
       '         ##+##                 ##+##'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 45,
+      floors: 452,
+      floorsSpecial: 0,
+      walls: 360,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'halosme',
@@ -19777,7 +28639,21 @@ const prefabs = [
       '         ####...............###',
       '            ####........#####',
       '               ##########'
-    ]
+    ],
+    details: {
+      height: 44,
+      width: 42,
+      floors: 378,
+      floorsSpecial: 0,
+      walls: 210,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'ysyny',
@@ -19825,7 +28701,21 @@ const prefabs = [
       '                   #...#',
       '                   #...#',
       '                   ##+##'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 43,
+      floors: 365,
+      floorsSpecial: 0,
+      walls: 220,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'degloquck',
@@ -19873,7 +28763,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 43,
+      floors: 161,
+      floorsSpecial: 0,
+      walls: 162,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'arisyn',
@@ -19921,7 +28825,21 @@ const prefabs = [
       '    ##.....##      #...#      ##.....##',
       '     ##...##       #...#       ##...##',
       '      ##+##        ##+##        ##+##'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 43,
+      floors: 600,
+      floorsSpecial: 0,
+      walls: 316,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'synohalasynves',
@@ -19969,7 +28887,21 @@ const prefabs = [
       '                  ##...##',
       '                   #...#',
       '                   ##+##'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 43,
+      floors: 432,
+      floorsSpecial: 0,
+      walls: 252,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kylumene',
@@ -20017,7 +28949,21 @@ const prefabs = [
       '                   #...#            ##....+',
       '                   ##+##             ##...#',
       '                                      ##+##'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 43,
+      floors: 399,
+      floorsSpecial: 0,
+      walls: 292,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'are',
@@ -20065,7 +29011,21 @@ const prefabs = [
       '    #...#',
       '    #...#',
       '    ##+##'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 43,
+      floors: 284,
+      floorsSpecial: 0,
+      walls: 196,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'bimenu',
@@ -20113,7 +29073,21 @@ const prefabs = [
       '   #...#',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 43,
+      floors: 394,
+      floorsSpecial: 0,
+      walls: 256,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'misynosf',
@@ -20155,7 +29129,21 @@ const prefabs = [
       '                                         #...#',
       '                                         #...#',
       '                                         ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 50,
+      floors: 246,
+      floorsSpecial: 0,
+      walls: 189,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'ithom',
@@ -20198,7 +29186,21 @@ const prefabs = [
       '                      #...#',
       '                      #...#',
       '                      ##+##'
-    ]
+    ],
+    details: {
+      height: 38,
+      width: 49,
+      floors: 279,
+      floorsSpecial: 0,
+      walls: 215,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'swahudlas',
@@ -20235,7 +29237,21 @@ const prefabs = [
       '                           #...#',
       '                           #...#',
       '                           ##+##'
-    ]
+    ],
+    details: {
+      height: 32,
+      width: 59,
+      floors: 378,
+      floorsSpecial: 0,
+      walls: 306,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'stolei',
@@ -20271,7 +29287,21 @@ const prefabs = [
       '                            #...#',
       '                            #...#',
       '                            ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 61,
+      floors: 504,
+      floorsSpecial: 0,
+      walls: 312,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'osyni',
@@ -20307,7 +29337,21 @@ const prefabs = [
       '                           #.....#',
       '                           ##...##',
       '                            ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 61,
+      floors: 331,
+      floorsSpecial: 0,
+      walls: 252,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'alyniryn',
@@ -20351,7 +29395,21 @@ const prefabs = [
       '               #...#',
       '               #...#',
       '               ##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 49,
+      floors: 277,
+      floorsSpecial: 0,
+      walls: 206,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'phusk',
@@ -20405,7 +29463,21 @@ const prefabs = [
       '   ##......+',
       '    ###....#',
       '      ######'
-    ]
+    ],
+    details: {
+      height: 49,
+      width: 39,
+      floors: 253,
+      floorsSpecial: 0,
+      walls: 196,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'oryna',
@@ -20450,7 +29522,21 @@ const prefabs = [
       '                         #...#',
       '                         #...#',
       '                         ##+##'
-    ]
+    ],
+    details: {
+      height: 40,
+      width: 48,
+      floors: 338,
+      floorsSpecial: 0,
+      walls: 227,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'menuby',
@@ -20490,7 +29576,21 @@ const prefabs = [
       '                  ###.............###',
       '                    ###.........###',
       '                      #####+#####'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 55,
+      floors: 436,
+      floorsSpecial: 0,
+      walls: 286,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'baecr',
@@ -20536,7 +29636,21 @@ const prefabs = [
       '                     #...#',
       '                     #...#',
       '                     ##+##'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 47,
+      floors: 415,
+      floorsSpecial: 0,
+      walls: 310,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'rothoracrng',
@@ -20585,7 +29699,21 @@ const prefabs = [
       '                                    #...#',
       '                                    #...#',
       '                                    ##+##'
-    ]
+    ],
+    details: {
+      height: 44,
+      width: 44,
+      floors: 279,
+      floorsSpecial: 0,
+      walls: 188,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'bamen',
@@ -20641,7 +29769,21 @@ const prefabs = [
       '                    #...#',
       '                    #...#',
       '                    ##+##'
-    ]
+    ],
+    details: {
+      height: 51,
+      width: 38,
+      floors: 311,
+      floorsSpecial: 0,
+      walls: 239,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'dareib',
@@ -20680,7 +29822,21 @@ const prefabs = [
       '                          #...#',
       '                          #...#',
       '                          ##+##'
-    ]
+    ],
+    details: {
+      height: 34,
+      width: 57,
+      floors: 472,
+      floorsSpecial: 0,
+      walls: 225,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'ahaloh',
@@ -20717,7 +29873,21 @@ const prefabs = [
       '          #...#                               #...#',
       '          #...#                               #...#',
       '          ##+##                               ##+##'
-    ]
+    ],
+    details: {
+      height: 32,
+      width: 61,
+      floors: 467,
+      floorsSpecial: 0,
+      walls: 335,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'haloto',
@@ -20771,7 +29941,21 @@ const prefabs = [
       '                       #...#',
       '                       #...#',
       '                       ##+##'
-    ]
+    ],
+    details: {
+      height: 49,
+      width: 40,
+      floors: 361,
+      floorsSpecial: 0,
+      walls: 237,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'momen',
@@ -20820,7 +30004,21 @@ const prefabs = [
       '             +.......##',
       '             #.....###',
       '             #######'
-    ]
+    ],
+    details: {
+      height: 44,
+      width: 45,
+      floors: 334,
+      floorsSpecial: 0,
+      walls: 234,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'shali',
@@ -20864,7 +30062,21 @@ const prefabs = [
       '                                              #...#',
       '                                              #...#',
       '                                              ##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 51,
+      floors: 302,
+      floorsSpecial: 0,
+      walls: 224,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'menibislas',
@@ -20904,7 +30116,21 @@ const prefabs = [
       '                          #...#',
       '                          #...#',
       '                          ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 57,
+      floors: 386,
+      floorsSpecial: 0,
+      walls: 257,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'nimeneghlas',
@@ -20970,7 +30196,21 @@ const prefabs = [
       '                         ##.....+',
       '                          ###...#',
       '                            #####'
-    ]
+    ],
+    details: {
+      height: 61,
+      width: 33,
+      floors: 225,
+      floorsSpecial: 0,
+      walls: 162,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 22
+    }
   },
   {
     name: 'sprot',
@@ -21013,7 +30253,21 @@ const prefabs = [
       '                        #...#',
       '                        #...#',
       '                        ##+##'
-    ]
+    ],
+    details: {
+      height: 38,
+      width: 53,
+      floors: 447,
+      floorsSpecial: 0,
+      walls: 265,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 11
+    }
   },
   {
     name: 'trab',
@@ -21061,7 +30315,21 @@ const prefabs = [
       '                     #...#',
       '                     #...#',
       '                     ##+##'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 47,
+      floors: 389,
+      floorsSpecial: 0,
+      walls: 275,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'lynolei',
@@ -21111,7 +30379,21 @@ const prefabs = [
       '   #...#            #...#            #...#',
       '   #...#            #...#            #...#',
       '   ##+##            ##+##            ##+##'
-    ]
+    ],
+    details: {
+      height: 45,
+      width: 45,
+      floors: 516,
+      floorsSpecial: 0,
+      walls: 332,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'soimen',
@@ -21161,7 +30443,21 @@ const prefabs = [
       '            #...#           #...#',
       '            #...#           #...#',
       '            ##+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 45,
+      width: 45,
+      floors: 453,
+      floorsSpecial: 0,
+      walls: 316,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'eisa',
@@ -21211,7 +30507,21 @@ const prefabs = [
       '                    #...#',
       '                    #...#',
       '                    ##+##'
-    ]
+    ],
+    details: {
+      height: 45,
+      width: 45,
+      floors: 397,
+      floorsSpecial: 0,
+      walls: 212,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'twaspli',
@@ -21266,7 +30576,21 @@ const prefabs = [
       '            #...#',
       '            #...#',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 50,
+      width: 41,
+      floors: 264,
+      floorsSpecial: 0,
+      walls: 212,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'snasyni',
@@ -21325,7 +30649,21 @@ const prefabs = [
       '          #.#',
       '          #.#',
       '          #+#'
-    ]
+    ],
+    details: {
+      height: 54,
+      width: 38,
+      floors: 240,
+      floorsSpecial: 0,
+      walls: 248,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'quid',
@@ -21365,7 +30703,21 @@ const prefabs = [
       '##+##                      #...#                      ##+##',
       '                           #...#',
       '                           ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 59,
+      floors: 442,
+      floorsSpecial: 0,
+      walls: 268,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'ilokyl',
@@ -21405,7 +30757,21 @@ const prefabs = [
       '                           #...#',
       '                           #...#',
       '                           ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 59,
+      floors: 333,
+      floorsSpecial: 0,
+      walls: 269,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'iglib',
@@ -21445,7 +30811,21 @@ const prefabs = [
       '             ##.....##',
       '              ##...##',
       '               ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 59,
+      floors: 421,
+      floorsSpecial: 0,
+      walls: 233,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'sobahal',
@@ -21503,7 +30883,21 @@ const prefabs = [
       '            ###.........###',
       '              ###.....###',
       '                ###+###'
-    ]
+    ],
+    details: {
+      height: 53,
+      width: 39,
+      floors: 526,
+      floorsSpecial: 0,
+      walls: 376,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'keresh',
@@ -21555,7 +30949,21 @@ const prefabs = [
       '                                 ###.......+',
       '                                   ###.....#',
       '                                     #######'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 44,
+      floors: 217,
+      floorsSpecial: 0,
+      walls: 185,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'synism',
@@ -21623,7 +31031,21 @@ const prefabs = [
       '                 #...#',
       '                 #...#',
       '                 ##+##'
-    ]
+    ],
+    details: {
+      height: 63,
+      width: 33,
+      floors: 535,
+      floorsSpecial: 0,
+      walls: 286,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'darutiosynlas',
@@ -21669,7 +31091,21 @@ const prefabs = [
       '    #...#                                 #...#',
       '    #...#                                 #...#',
       '    ##+##                                 ##+##'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 51,
+      floors: 360,
+      floorsSpecial: 0,
+      walls: 268,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'phol',
@@ -21717,7 +31153,21 @@ const prefabs = [
       '                               ##...####',
       '                               #...##',
       '                               #+###'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 49,
+      floors: 301,
+      floorsSpecial: 0,
+      walls: 224,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'haloshr',
@@ -21769,7 +31219,21 @@ const prefabs = [
       '                  #...#',
       '                  #...#',
       '                  #####'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 45,
+      floors: 279,
+      floorsSpecial: 0,
+      walls: 227,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'kaw',
@@ -21819,7 +31283,21 @@ const prefabs = [
       '   #...#                               #...#',
       '   #...#                               #...#',
       '   ##+##                               ##+##'
-    ]
+    ],
+    details: {
+      height: 45,
+      width: 47,
+      floors: 429,
+      floorsSpecial: 0,
+      walls: 284,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'ugrusyn',
@@ -21860,7 +31338,21 @@ const prefabs = [
       '                           #...#',
       '                           #...#',
       '                           ##+##'
-    ]
+    ],
+    details: {
+      height: 36,
+      width: 59,
+      floors: 463,
+      floorsSpecial: 0,
+      walls: 297,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'shas',
@@ -21917,7 +31409,21 @@ const prefabs = [
       '##....##',
       ' ##..##',
       '  #+##'
-    ]
+    ],
+    details: {
+      height: 52,
+      width: 41,
+      floors: 320,
+      floorsSpecial: 0,
+      walls: 214,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'keroir',
@@ -21961,7 +31467,21 @@ const prefabs = [
       '            #...#                     #...#',
       '            #...#                     #...#',
       '            ##+##                     ##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 55,
+      floors: 461,
+      floorsSpecial: 0,
+      walls: 364,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'syneirumves',
@@ -22005,7 +31525,21 @@ const prefabs = [
       '                                            ##.........+',
       '                                             ###.......#',
       '                                               #########'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 56,
+      floors: 369,
+      floorsSpecial: 0,
+      walls: 287,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'menolasil',
@@ -22068,7 +31602,21 @@ const prefabs = [
       '  ##....###',
       '   #..###',
       '   #+##'
-    ]
+    ],
+    details: {
+      height: 58,
+      width: 38,
+      floors: 412,
+      floorsSpecial: 0,
+      walls: 226,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'vesalas',
@@ -22121,7 +31669,21 @@ const prefabs = [
       '                                          ##.#',
       '                                           #.#',
       '                                           #+#'
-    ]
+    ],
+    details: {
+      height: 48,
+      width: 46,
+      floors: 291,
+      floorsSpecial: 0,
+      walls: 202,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'akylaves',
@@ -22173,7 +31735,21 @@ const prefabs = [
       '                    #.....#',
       '                    ##...##',
       '                     ##+##'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 47,
+      floors: 498,
+      floorsSpecial: 0,
+      walls: 333,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'ascreves',
@@ -22225,7 +31801,21 @@ const prefabs = [
       '                  #.........#',
       '                  #.........#',
       '                  #####+#####'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 47,
+      floors: 576,
+      floorsSpecial: 0,
+      walls: 274,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 14
+    }
   },
   {
     name: 'shrysynehalhal',
@@ -22277,7 +31867,21 @@ const prefabs = [
       '                    ##........##',
       '                     ###....###',
       '                       ##+###'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 47,
+      floors: 394,
+      floorsSpecial: 0,
+      walls: 320,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'ihio',
@@ -22329,7 +31933,21 @@ const prefabs = [
       '                  +.........+',
       '                  #.........#',
       '                  #####+#####'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 47,
+      floors: 357,
+      floorsSpecial: 0,
+      walls: 220,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'athie',
@@ -22381,7 +31999,21 @@ const prefabs = [
       '   #...#',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 47,
+      floors: 315,
+      floorsSpecial: 0,
+      walls: 210,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'keromiosshal',
@@ -22433,7 +32065,21 @@ const prefabs = [
       '   #...#             #...#             #...#',
       '   #...#             #...#             #...#',
       '   ##+##             ##+##             ##+##'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 47,
+      floors: 540,
+      floorsSpecial: 0,
+      walls: 348,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'bothoralb',
@@ -22485,7 +32131,21 @@ const prefabs = [
       '             #...#',
       '             #...#',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 47,
+      floors: 362,
+      floorsSpecial: 0,
+      walls: 276,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'rerimf',
@@ -22537,7 +32197,21 @@ const prefabs = [
       '                     #...#',
       '                     #...#',
       '                     ##+##'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 47,
+      floors: 477,
+      floorsSpecial: 0,
+      walls: 220,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'kylisk',
@@ -22589,7 +32263,21 @@ const prefabs = [
       '                     #...#',
       '                     #...#',
       '                     ##+##'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 47,
+      floors: 412,
+      floorsSpecial: 0,
+      walls: 328,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'quothoroi',
@@ -22641,7 +32329,21 @@ const prefabs = [
       '                                       #...#',
       '                                       #...#',
       '                                       ##+##'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 47,
+      floors: 227,
+      floorsSpecial: 0,
+      walls: 168,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 16
+    }
   },
   {
     name: 'menidahh',
@@ -22685,7 +32387,21 @@ const prefabs = [
       '        #...#                               #...#',
       '        #...#                               #...#',
       '        ##+##                               ##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 57,
+      floors: 407,
+      floorsSpecial: 0,
+      walls: 288,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'spethor',
@@ -22729,7 +32445,21 @@ const prefabs = [
       '   ###...............###         ###...............###',
       '     ####.........####             ####.........####',
       '        ###########                   ###########'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 57,
+      floors: 536,
+      floorsSpecial: 0,
+      walls: 386,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 14
+    }
   },
   {
     name: 'ahaler',
@@ -22789,7 +32519,21 @@ const prefabs = [
       '    #...#                       #...#',
       '    #...#                       #...#',
       '    ##+##                       ##+##'
-    ]
+    ],
+    details: {
+      height: 55,
+      width: 41,
+      floors: 403,
+      floorsSpecial: 0,
+      walls: 306,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'swidri',
@@ -22839,7 +32583,21 @@ const prefabs = [
       '                                  ###.............+',
       '                                    #####.........#',
       '                                        ###########'
-    ]
+    ],
+    details: {
+      height: 45,
+      width: 51,
+      floors: 323,
+      floorsSpecial: 0,
+      walls: 232,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'rokylo',
@@ -22883,7 +32641,21 @@ const prefabs = [
       '   ###...............###           ###...............###',
       '     ####.........####               ####.........####',
       '        ###########                     ###########'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 59,
+      floors: 527,
+      floorsSpecial: 0,
+      walls: 398,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'darit',
@@ -22927,7 +32699,21 @@ const prefabs = [
       '                                             #...#',
       '                                             #...#',
       '                                             ##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 59,
+      floors: 299,
+      floorsSpecial: 0,
+      walls: 254,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'hufla',
@@ -22979,7 +32765,21 @@ const prefabs = [
       '           ##.......................##',
       '            ##.....................##',
       '             #######################'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 49,
+      floors: 416,
+      floorsSpecial: 0,
+      walls: 336,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'cives',
@@ -23033,7 +32833,21 @@ const prefabs = [
       '                     #...#',
       '                     #...#',
       '                     ##+##'
-    ]
+    ],
+    details: {
+      height: 49,
+      width: 47,
+      floors: 508,
+      floorsSpecial: 0,
+      walls: 322,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'hilei',
@@ -23086,7 +32900,21 @@ const prefabs = [
       '                                           #...#',
       '                                           #...#',
       '                                           ##+##'
-    ]
+    ],
+    details: {
+      height: 48,
+      width: 48,
+      floors: 204,
+      floorsSpecial: 0,
+      walls: 186,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'lyniryn',
@@ -23129,7 +32957,21 @@ const prefabs = [
       '                            #...#',
       '                            #...#',
       '                            ##+##'
-    ]
+    ],
+    details: {
+      height: 38,
+      width: 61,
+      floors: 491,
+      floorsSpecial: 0,
+      walls: 344,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'darahal',
@@ -23177,7 +33019,21 @@ const prefabs = [
       '                              #....##            #...#',
       '                              #...##             ##+##',
       '                              #+###'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 54,
+      floors: 399,
+      floorsSpecial: 0,
+      walls: 297,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'thimenement',
@@ -23245,7 +33101,21 @@ const prefabs = [
       '                          ##.......##',
       '                           ##.....##',
       '                            ###+###'
-    ]
+    ],
+    details: {
+      height: 63,
+      width: 37,
+      floors: 429,
+      floorsSpecial: 0,
+      walls: 222,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'eisynanth',
@@ -23297,7 +33167,21 @@ const prefabs = [
       '                      #...#',
       '                      #...#',
       '                      ##+##'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 50,
+      floors: 309,
+      floorsSpecial: 0,
+      walls: 259,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'itwives',
@@ -23345,7 +33229,21 @@ const prefabs = [
       '               #....#             #....#',
       '               #....#             #....#',
       '               #+##+#             #+##+#'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 55,
+      floors: 605,
+      floorsSpecial: 0,
+      walls: 396,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 16
+    }
   },
   {
     name: 'stublei',
@@ -23405,7 +33303,21 @@ const prefabs = [
       '         #...#',
       '         #...#',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 55,
+      width: 43,
+      floors: 437,
+      floorsSpecial: 0,
+      walls: 330,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'boge',
@@ -23471,7 +33383,21 @@ const prefabs = [
       '+...##      ####',
       '#..##',
       '####'
-    ]
+    ],
+    details: {
+      height: 61,
+      width: 39,
+      floors: 341,
+      floorsSpecial: 0,
+      walls: 302,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'keromenimenhal',
@@ -23537,7 +33463,21 @@ const prefabs = [
       '                #...#',
       '                #...#',
       '                ##+##'
-    ]
+    ],
+    details: {
+      height: 61,
+      width: 39,
+      floors: 427,
+      floorsSpecial: 0,
+      walls: 330,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'plyss',
@@ -23592,7 +33532,21 @@ const prefabs = [
       '                     #...#',
       '                     #...#',
       '                     ##+##'
-    ]
+    ],
+    details: {
+      height: 50,
+      width: 48,
+      floors: 352,
+      floorsSpecial: 0,
+      walls: 306,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'oicralas',
@@ -23646,7 +33600,21 @@ const prefabs = [
       '                       #.#',
       '                       #.#',
       '                       #+#'
-    ]
+    ],
+    details: {
+      height: 49,
+      width: 49,
+      floors: 484,
+      floorsSpecial: 0,
+      walls: 280,
+      wallsSpecial: 0,
+      water: 64,
+      waterSpecial: 177,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'scasplupryn',
@@ -23700,7 +33668,21 @@ const prefabs = [
       '              #...#           #...#',
       '              #...#           #...#',
       '              ##+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 49,
+      width: 49,
+      floors: 468,
+      floorsSpecial: 0,
+      walls: 344,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'vesoh',
@@ -23754,7 +33736,21 @@ const prefabs = [
       '                      #...#',
       '                      #...#',
       '                      ##+##'
-    ]
+    ],
+    details: {
+      height: 49,
+      width: 49,
+      floors: 644,
+      floorsSpecial: 0,
+      walls: 348,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'obieka',
@@ -23808,7 +33804,21 @@ const prefabs = [
       '                  ##.........##',
       '                   ###.....###',
       '                     ###+###'
-    ]
+    ],
+    details: {
+      height: 49,
+      width: 49,
+      floors: 564,
+      floorsSpecial: 0,
+      walls: 380,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ocraves',
@@ -23862,7 +33872,21 @@ const prefabs = [
       '                                         #...#',
       '                                         #...#',
       '                                         ##+##'
-    ]
+    ],
+    details: {
+      height: 49,
+      width: 49,
+      floors: 449,
+      floorsSpecial: 0,
+      walls: 334,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'itoikyl',
@@ -23916,7 +33940,21 @@ const prefabs = [
       '             #...#',
       '             #...#',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 49,
+      width: 49,
+      floors: 481,
+      floorsSpecial: 0,
+      walls: 304,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'elaso',
@@ -23970,7 +34008,21 @@ const prefabs = [
       '                      #......#',
       '                      #.....##',
       '                      ###+###'
-    ]
+    ],
+    details: {
+      height: 49,
+      width: 49,
+      floors: 441,
+      floorsSpecial: 0,
+      walls: 316,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'dufhy',
@@ -24034,7 +34086,21 @@ const prefabs = [
       '              #...#',
       '              #...#',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 59,
+      width: 41,
+      floors: 327,
+      floorsSpecial: 0,
+      walls: 272,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'darifli',
@@ -24079,7 +34145,21 @@ const prefabs = [
       '                                     ###............##',
       '                                       ###.......####',
       '                                         ####+####'
-    ]
+    ],
+    details: {
+      height: 40,
+      width: 61,
+      floors: 240,
+      floorsSpecial: 0,
+      walls: 250,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'keriekylilves',
@@ -24132,7 +34212,21 @@ const prefabs = [
       '                       ##.##',
       '                        #.#',
       '                        #+#'
-    ]
+    ],
+    details: {
+      height: 48,
+      width: 51,
+      floors: 572,
+      floorsSpecial: 0,
+      walls: 365,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'ilynives',
@@ -24186,7 +34280,21 @@ const prefabs = [
       '   #..#',
       '   ##.#',
       '    #+#'
-    ]
+    ],
+    details: {
+      height: 49,
+      width: 50,
+      floors: 432,
+      floorsSpecial: 0,
+      walls: 336,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'atab',
@@ -24254,7 +34362,21 @@ const prefabs = [
       '                 #...#',
       '                 #...#',
       '                 ##+##'
-    ]
+    ],
+    details: {
+      height: 63,
+      width: 39,
+      floors: 502,
+      floorsSpecial: 0,
+      walls: 388,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'aspumen',
@@ -24308,7 +34430,21 @@ const prefabs = [
       '                #...#',
       '                #...#',
       '                ##+##'
-    ]
+    ],
+    details: {
+      height: 49,
+      width: 51,
+      floors: 381,
+      floorsSpecial: 0,
+      walls: 285,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 13
+    }
   },
   {
     name: 'iobag',
@@ -24363,7 +34499,21 @@ const prefabs = [
       '   #...#',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 50,
+      width: 50,
+      floors: 264,
+      floorsSpecial: 0,
+      walls: 212,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'asynoryn',
@@ -24418,7 +34568,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 50,
+      width: 50,
+      floors: 263,
+      floorsSpecial: 0,
+      walls: 211,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'miefle',
@@ -24473,7 +34637,21 @@ const prefabs = [
       '                                     ##.....##',
       '                                      ##...##',
       '                                       ##+##'
-    ]
+    ],
+    details: {
+      height: 50,
+      width: 50,
+      floors: 487,
+      floorsSpecial: 0,
+      walls: 240,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'oshokyl',
@@ -24518,7 +34696,21 @@ const prefabs = [
       '           ####...##                       ##...####',
       '              ##...#                       #...##',
       '               #####                       #####'
-    ]
+    ],
+    details: {
+      height: 40,
+      width: 63,
+      floors: 586,
+      floorsSpecial: 0,
+      walls: 293,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'adaruhal',
@@ -24563,7 +34755,21 @@ const prefabs = [
       '                             #...#',
       '                             #...#',
       '                             ##+##'
-    ]
+    ],
+    details: {
+      height: 40,
+      width: 63,
+      floors: 447,
+      floorsSpecial: 0,
+      walls: 288,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'fryspru',
@@ -24623,7 +34829,21 @@ const prefabs = [
       '                            #.........#',
       '                            #.........#',
       '                            ###+###+###'
-    ]
+    ],
+    details: {
+      height: 55,
+      width: 46,
+      floors: 488,
+      floorsSpecial: 0,
+      walls: 233,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 17
+    }
   },
   {
     name: 'aprakyl',
@@ -24671,7 +34891,21 @@ const prefabs = [
       '         #...#                               #...#',
       '         #...#                               #...#',
       '         ##+##                               ##+##'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 59,
+      floors: 585,
+      floorsSpecial: 0,
+      walls: 460,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'buhali',
@@ -24734,7 +34968,21 @@ const prefabs = [
       '                                    #...#',
       '                                    #...#',
       '                                    ##+##'
-    ]
+    ],
+    details: {
+      height: 58,
+      width: 44,
+      floors: 381,
+      floorsSpecial: 0,
+      walls: 246,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 18
+    }
   },
   {
     name: 'fraclibrryn',
@@ -24781,7 +35029,21 @@ const prefabs = [
       '      #...#                                       #...#',
       '      #...#                                       #...#',
       '      ##+##                                       ##+##'
-    ]
+    ],
+    details: {
+      height: 42,
+      width: 61,
+      floors: 417,
+      floorsSpecial: 0,
+      walls: 288,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'menith',
@@ -24849,7 +35111,21 @@ const prefabs = [
       '                  #...#',
       '                  #...#',
       '                  ##+##'
-    ]
+    ],
+    details: {
+      height: 63,
+      width: 41,
+      floors: 674,
+      floorsSpecial: 0,
+      walls: 310,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'swipikylhal',
@@ -24895,7 +35171,21 @@ const prefabs = [
       '                             #...#',
       '                             #...#',
       '                             ##+##'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 63,
+      floors: 471,
+      floorsSpecial: 0,
+      walls: 286,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'halishri',
@@ -24941,7 +35231,21 @@ const prefabs = [
       '                           ##.....##',
       '                            ##...##',
       '                             ##+##'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 63,
+      floors: 541,
+      floorsSpecial: 0,
+      walls: 254,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'synaebogrsyn',
@@ -25001,7 +35305,21 @@ const prefabs = [
       '   #...#                               #...#',
       '   #...#                               #...#',
       '   ##+##                               ##+##'
-    ]
+    ],
+    details: {
+      height: 55,
+      width: 47,
+      floors: 499,
+      floorsSpecial: 0,
+      walls: 390,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 14
+    }
   },
   {
     name: 'bamenok',
@@ -25060,7 +35378,21 @@ const prefabs = [
       '                         #...#',
       '                         #...#',
       '                         ##+##'
-    ]
+    ],
+    details: {
+      height: 54,
+      width: 48,
+      floors: 338,
+      floorsSpecial: 0,
+      walls: 226,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'kylar',
@@ -25116,7 +35448,21 @@ const prefabs = [
       '                   ##.........##',
       '                    ###.....###',
       '                      ###+###'
-    ]
+    ],
+    details: {
+      height: 51,
+      width: 51,
+      floors: 680,
+      floorsSpecial: 0,
+      walls: 384,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'asu',
@@ -25172,7 +35518,21 @@ const prefabs = [
       '                              #...#',
       '                              #...#',
       '                              ##+##'
-    ]
+    ],
+    details: {
+      height: 51,
+      width: 51,
+      floors: 433,
+      floorsSpecial: 0,
+      walls: 304,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'trur',
@@ -25228,7 +35588,21 @@ const prefabs = [
       '       +........###',
       '       #.....####',
       '       #######'
-    ]
+    ],
+    details: {
+      height: 51,
+      width: 51,
+      floors: 393,
+      floorsSpecial: 0,
+      walls: 324,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'guhal',
@@ -25284,7 +35658,21 @@ const prefabs = [
       '       +........###',
       '       #.....####',
       '       #######'
-    ]
+    ],
+    details: {
+      height: 51,
+      width: 51,
+      floors: 393,
+      floorsSpecial: 0,
+      walls: 324,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'halem',
@@ -25340,7 +35728,21 @@ const prefabs = [
       '                       ##.##',
       '                        #.#',
       '                        #+#'
-    ]
+    ],
+    details: {
+      height: 51,
+      width: 51,
+      floors: 644,
+      floorsSpecial: 0,
+      walls: 352,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'synisi',
@@ -25396,7 +35798,21 @@ const prefabs = [
       '           #...#                   #...#',
       '           #...#                   #...#',
       '           ##+##                   ##+##'
-    ]
+    ],
+    details: {
+      height: 51,
+      width: 51,
+      floors: 556,
+      floorsSpecial: 0,
+      walls: 436,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 20
+    }
   },
   {
     name: 'bliem',
@@ -25452,7 +35868,21 @@ const prefabs = [
       '                                               #...#',
       '                                               #...#',
       '                                               ##+##'
-    ]
+    ],
+    details: {
+      height: 51,
+      width: 52,
+      floors: 210,
+      floorsSpecial: 0,
+      walls: 196,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'ilokentok',
@@ -25509,7 +35939,21 @@ const prefabs = [
       '                            #...#',
       '                            #...#',
       '                            ##+##'
-    ]
+    ],
+    details: {
+      height: 52,
+      width: 51,
+      floors: 300,
+      floorsSpecial: 0,
+      walls: 246,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'nasheihc',
@@ -25573,7 +36017,21 @@ const prefabs = [
       '         #...#',
       '         #...#',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 59,
+      width: 45,
+      floors: 485,
+      floorsSpecial: 0,
+      walls: 251,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 13
+    }
   },
   {
     name: 'scecr',
@@ -25623,7 +36081,21 @@ const prefabs = [
       '             #...#',
       '             #...#',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 45,
+      width: 59,
+      floors: 558,
+      floorsSpecial: 0,
+      walls: 439,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'iscrulas',
@@ -25679,7 +36151,21 @@ const prefabs = [
       '                                         #...#',
       '                                         #...#',
       '                                         ##+##'
-    ]
+    ],
+    details: {
+      height: 51,
+      width: 53,
+      floors: 453,
+      floorsSpecial: 0,
+      walls: 270,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'synarithorhal',
@@ -25736,7 +36222,21 @@ const prefabs = [
       '                             #...#',
       '                             #...#',
       '                             ##+##'
-    ]
+    ],
+    details: {
+      height: 52,
+      width: 52,
+      floors: 300,
+      floorsSpecial: 0,
+      walls: 250,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'keroshu',
@@ -25784,7 +36284,21 @@ const prefabs = [
       '                             #...#',
       '                             #...#',
       '                             ##+##'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 63,
+      floors: 682,
+      floorsSpecial: 0,
+      walls: 392,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'lynot',
@@ -25852,7 +36366,21 @@ const prefabs = [
       '   #...#                           #...#',
       '   #...#                           #...#',
       '   ##+##                           ##+##'
-    ]
+    ],
+    details: {
+      height: 63,
+      width: 43,
+      floors: 775,
+      floorsSpecial: 0,
+      walls: 424,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 18
+    }
   },
   {
     name: 'kerukylie',
@@ -25903,7 +36431,21 @@ const prefabs = [
       '                           #...#',
       '                           #...#',
       '                           ##+##'
-    ]
+    ],
+    details: {
+      height: 46,
+      width: 59,
+      floors: 387,
+      floorsSpecial: 0,
+      walls: 278,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'strer',
@@ -25956,7 +36498,21 @@ const prefabs = [
       '           ####...##',
       '              ##...+',
       '               #####'
-    ]
+    ],
+    details: {
+      height: 48,
+      width: 57,
+      floors: 490,
+      floorsSpecial: 0,
+      walls: 248,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'avesaryn',
@@ -26022,7 +36578,21 @@ const prefabs = [
       '                                     #...#',
       '                                     #...#',
       '                                     ##+##'
-    ]
+    ],
+    details: {
+      height: 61,
+      width: 45,
+      floors: 345,
+      floorsSpecial: 0,
+      walls: 252,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'glisa',
@@ -26079,7 +36649,21 @@ const prefabs = [
       '    #...#',
       '    #...#',
       '    ##+##'
-    ]
+    ],
+    details: {
+      height: 52,
+      width: 53,
+      floors: 532,
+      floorsSpecial: 0,
+      walls: 414,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'lyneves',
@@ -26146,7 +36730,21 @@ const prefabs = [
       '           ##........##',
       '            ##......##',
       '             ###+####'
-    ]
+    ],
+    details: {
+      height: 62,
+      width: 45,
+      floors: 507,
+      floorsSpecial: 0,
+      walls: 292,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'bihalodrl',
@@ -26206,7 +36804,21 @@ const prefabs = [
       '+.............###                 ###.............+',
       '#.........#####                     #####.........#',
       '###########                             ###########'
-    ]
+    ],
+    details: {
+      height: 55,
+      width: 51,
+      floors: 719,
+      floorsSpecial: 0,
+      walls: 464,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'synumenostlas',
@@ -26262,7 +36874,21 @@ const prefabs = [
       '                                     #...#        #...#',
       '                                     #...#        #...#',
       '                                     ##+##        ##+##'
-    ]
+    ],
+    details: {
+      height: 51,
+      width: 55,
+      floors: 303,
+      floorsSpecial: 0,
+      walls: 227,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'streithoreirhal',
@@ -26320,7 +36946,21 @@ const prefabs = [
       '            #...#                   #...#',
       '            #...#                   #...#',
       '            ##+##                   ##+##'
-    ]
+    ],
+    details: {
+      height: 53,
+      width: 53,
+      floors: 508,
+      floorsSpecial: 0,
+      walls: 372,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'bosco',
@@ -26378,7 +37018,21 @@ const prefabs = [
       '                        #...#',
       '                        #...#',
       '                        ##+##'
-    ]
+    ],
+    details: {
+      height: 53,
+      width: 53,
+      floors: 420,
+      floorsSpecial: 0,
+      walls: 268,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'shyhoskb',
@@ -26436,7 +37090,21 @@ const prefabs = [
       '           ###.......#         #.......###',
       '             ###.....#         #.....###',
       '               #######         #######'
-    ]
+    ],
+    details: {
+      height: 53,
+      width: 53,
+      floors: 656,
+      floorsSpecial: 0,
+      walls: 456,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'tiep',
@@ -26500,7 +37168,21 @@ const prefabs = [
       '                      #...#',
       '                      #...#',
       '                      ##+##'
-    ]
+    ],
+    details: {
+      height: 59,
+      width: 49,
+      floors: 588,
+      floorsSpecial: 0,
+      walls: 376,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 16
+    }
   },
   {
     name: 'swieb',
@@ -26556,7 +37238,21 @@ const prefabs = [
       '                                                  ###...#',
       '                                                    ##..#',
       '                                                     ##+#'
-    ]
+    ],
+    details: {
+      height: 51,
+      width: 57,
+      floors: 365,
+      floorsSpecial: 0,
+      walls: 244,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'synosynabch',
@@ -26615,7 +37311,21 @@ const prefabs = [
       '                              +....##            #...#',
       '                              #...##             ##+##',
       '                              #####'
-    ]
+    ],
+    details: {
+      height: 54,
+      width: 54,
+      floors: 399,
+      floorsSpecial: 0,
+      walls: 297,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'mib',
@@ -26669,7 +37379,21 @@ const prefabs = [
       '                                   #...#',
       '                                   #...#',
       '                                   ##+##'
-    ]
+    ],
+    details: {
+      height: 49,
+      width: 61,
+      floors: 397,
+      floorsSpecial: 0,
+      walls: 300,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 14
+    }
   },
   {
     name: 'dib',
@@ -26731,7 +37455,21 @@ const prefabs = [
       '   ##...##',
       '    #...#',
       '    ##+##'
-    ]
+    ],
+    details: {
+      height: 57,
+      width: 53,
+      floors: 436,
+      floorsSpecial: 0,
+      walls: 239,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'rangakylkyl',
@@ -26799,7 +37537,21 @@ const prefabs = [
       '                 #...#',
       '                 #...#',
       '                 ##+##'
-    ]
+    ],
+    details: {
+      height: 63,
+      width: 48,
+      floors: 390,
+      floorsSpecial: 0,
+      walls: 300,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'astrulas',
@@ -26856,7 +37608,21 @@ const prefabs = [
       '#....####',
       '#..###',
       '#+##'
-    ]
+    ],
+    details: {
+      height: 52,
+      width: 59,
+      floors: 390,
+      floorsSpecial: 0,
+      walls: 212,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'clameneikyll',
@@ -26919,7 +37685,21 @@ const prefabs = [
       '                                                #...#',
       '                                                #...#',
       '                                                ##+##'
-    ]
+    ],
+    details: {
+      height: 58,
+      width: 53,
+      floors: 389,
+      floorsSpecial: 0,
+      walls: 329,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kylad',
@@ -26977,7 +37757,21 @@ const prefabs = [
       '                   ##........##',
       '                    ###.....##',
       '                      ###+###'
-    ]
+    ],
+    details: {
+      height: 53,
+      width: 58,
+      floors: 400,
+      floorsSpecial: 0,
+      walls: 352,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'halomenasynt',
@@ -27038,7 +37832,21 @@ const prefabs = [
       '                                 #...#',
       '                                 #...#',
       '                                 ##+##'
-    ]
+    ],
+    details: {
+      height: 56,
+      width: 55,
+      floors: 493,
+      floorsSpecial: 0,
+      walls: 407,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 11
+    }
   },
   {
     name: 'meniekylo',
@@ -27096,7 +37904,21 @@ const prefabs = [
       '              #.#                         #.#',
       '              #.#                         #.#',
       '              #+#                         #+#'
-    ]
+    ],
+    details: {
+      height: 53,
+      width: 59,
+      floors: 594,
+      floorsSpecial: 0,
+      walls: 410,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'bimeno',
@@ -27154,7 +37976,21 @@ const prefabs = [
       '      #.....###                             ###.....#',
       '      #...###                                 ###...#',
       '      #+###                                     ###+#'
-    ]
+    ],
+    details: {
+      height: 53,
+      width: 59,
+      floors: 529,
+      floorsSpecial: 0,
+      walls: 386,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'stota',
@@ -27215,7 +38051,21 @@ const prefabs = [
       '                                                #...#',
       '                                                #...#',
       '                                                ##+##'
-    ]
+    ],
+    details: {
+      height: 56,
+      width: 56,
+      floors: 538,
+      floorsSpecial: 0,
+      walls: 391,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 11
+    }
   },
   {
     name: 'synusti',
@@ -27276,7 +38126,21 @@ const prefabs = [
       '                  #...#',
       '                  #...#',
       '                  ##+##'
-    ]
+    ],
+    details: {
+      height: 56,
+      width: 56,
+      floors: 547,
+      floorsSpecial: 0,
+      walls: 400,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'synacoi',
@@ -27337,7 +38201,21 @@ const prefabs = [
       '               #.#',
       '               #.#',
       '               #+#'
-    ]
+    ],
+    details: {
+      height: 56,
+      width: 56,
+      floors: 444,
+      floorsSpecial: 0,
+      walls: 300,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'isi',
@@ -27406,7 +38284,21 @@ const prefabs = [
       '       ###....#####',
       '         ####.....+',
       '            #######'
-    ]
+    ],
+    details: {
+      height: 64,
+      width: 49,
+      floors: 462,
+      floorsSpecial: 0,
+      walls: 470,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'lynamenoi',
@@ -27467,7 +38359,21 @@ const prefabs = [
       '                      #...#',
       '                      #...#',
       '                      ##+##'
-    ]
+    ],
+    details: {
+      height: 56,
+      width: 57,
+      floors: 304,
+      floorsSpecial: 0,
+      walls: 194,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 28
+    }
   },
   {
     name: 'shakylaflkyl',
@@ -27523,7 +38429,21 @@ const prefabs = [
       '                                                      ###.....+',
       '                                                        ###...#',
       '                                                          #####'
-    ]
+    ],
+    details: {
+      height: 51,
+      width: 63,
+      floors: 525,
+      floorsSpecial: 0,
+      walls: 463,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'bukylaebrryn',
@@ -27585,7 +38505,21 @@ const prefabs = [
       '                          #...#',
       '                          #...#',
       '                          ##+##'
-    ]
+    ],
+    details: {
+      height: 57,
+      width: 57,
+      floors: 872,
+      floorsSpecial: 0,
+      walls: 386,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'keriekyl',
@@ -27647,7 +38581,21 @@ const prefabs = [
       '                          #...#           #...#',
       '                          #...#           #...#',
       '                          ##+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 57,
+      width: 57,
+      floors: 693,
+      floorsSpecial: 0,
+      walls: 428,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 20
+    }
   },
   {
     name: 'lynekylimenlas',
@@ -27706,7 +38654,21 @@ const prefabs = [
       '                                                          #.#',
       '                                                          #.#',
       '                                                          #+#'
-    ]
+    ],
+    details: {
+      height: 54,
+      width: 61,
+      floors: 240,
+      floorsSpecial: 0,
+      walls: 252,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 2
+    }
   },
   {
     name: 'iebo',
@@ -27769,7 +38731,21 @@ const prefabs = [
       '                                  ##........##',
       '                                   ##......##',
       '                                    ####+###'
-    ]
+    ],
+    details: {
+      height: 58,
+      width: 57,
+      floors: 513,
+      floorsSpecial: 0,
+      walls: 306,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'menathoro',
@@ -27833,7 +38809,21 @@ const prefabs = [
       '                        #.........#',
       '                        #.........#',
       '                        #####+#####'
-    ]
+    ],
+    details: {
+      height: 59,
+      width: 59,
+      floors: 720,
+      floorsSpecial: 0,
+      walls: 368,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 16
+    }
   },
   {
     name: 'haleriflf',
@@ -27897,7 +38887,21 @@ const prefabs = [
       '                 #...#               #...#',
       '                 #...#               #...#',
       '                 ##+##               ##+##'
-    ]
+    ],
+    details: {
+      height: 59,
+      width: 59,
+      floors: 585,
+      floorsSpecial: 0,
+      walls: 464,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'aba',
@@ -27961,7 +38965,21 @@ const prefabs = [
       '         #...#             #...#             #...#',
       '         #...#             #...#             #...#',
       '         ##+##             ##+##             ##+##'
-    ]
+    ],
+    details: {
+      height: 59,
+      width: 59,
+      floors: 724,
+      floorsSpecial: 0,
+      walls: 580,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 20
+    }
   },
   {
     name: 'ali',
@@ -28025,7 +39043,21 @@ const prefabs = [
       '                      ##...........##',
       '                       ##.........##',
       '                        #####+#####'
-    ]
+    ],
+    details: {
+      height: 59,
+      width: 59,
+      floors: 512,
+      floorsSpecial: 0,
+      walls: 425,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'camenumenm',
@@ -28093,7 +39125,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 63,
+      width: 57,
+      floors: 407,
+      floorsSpecial: 0,
+      walls: 292,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'fliquitth',
@@ -28161,7 +39207,21 @@ const prefabs = [
       '                      #...#',
       '                      #...#',
       '                      ##+##'
-    ]
+    ],
+    details: {
+      height: 63,
+      width: 57,
+      floors: 509,
+      floorsSpecial: 0,
+      walls: 377,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 15
+    }
   },
   {
     name: 'mathusynsh',
@@ -28229,7 +39289,21 @@ const prefabs = [
       '      #...#           #...#',
       '      #...#           #...#',
       '      ##+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 63,
+      width: 58,
+      floors: 488,
+      floorsSpecial: 0,
+      walls: 358,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'kyliopl',
@@ -28297,7 +39371,21 @@ const prefabs = [
       '                                            #...#  ###....+',
       '                                            ##+##    ###..#',
       '                                                       ####'
-    ]
+    ],
+    details: {
+      height: 63,
+      width: 59,
+      floors: 429,
+      floorsSpecial: 0,
+      walls: 330,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 22
+    }
   },
   {
     name: 'olynaryn',
@@ -28363,7 +39451,21 @@ const prefabs = [
       '    ##......#...................................#......##',
       '     ####...###+####+####+####+####+####+####+###...####',
       '        #####                                   #####'
-    ]
+    ],
+    details: {
+      height: 61,
+      width: 61,
+      floors: 688,
+      floorsSpecial: 0,
+      walls: 412,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 52
+    }
   },
   {
     name: 'lynicribhal',
@@ -28429,7 +39531,21 @@ const prefabs = [
       '                                   #...#       #...#',
       '                                   #...#       #...#',
       '                                   ##+##       ##+##'
-    ]
+    ],
+    details: {
+      height: 61,
+      width: 61,
+      floors: 545,
+      floorsSpecial: 0,
+      walls: 480,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'untho',
@@ -28495,7 +39611,21 @@ const prefabs = [
       '               ##.....##',
       '                ##...##',
       '                 ##+##'
-    ]
+    ],
+    details: {
+      height: 61,
+      width: 61,
+      floors: 821,
+      floorsSpecial: 0,
+      walls: 388,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 16
+    }
   },
   {
     name: 'vesakylythorryn',
@@ -28561,7 +39691,21 @@ const prefabs = [
       '                        ###.........###',
       '                          ###.....###',
       '                            ###+###'
-    ]
+    ],
+    details: {
+      height: 61,
+      width: 62,
+      floors: 430,
+      floorsSpecial: 0,
+      walls: 371,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'iba',
@@ -28629,7 +39773,21 @@ const prefabs = [
       '                                      #...#',
       '                                      #...#',
       '                                      ##+##'
-    ]
+    ],
+    details: {
+      height: 63,
+      width: 61,
+      floors: 677,
+      floorsSpecial: 0,
+      walls: 320,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'grothorethorryn',
@@ -28695,7 +39853,21 @@ const prefabs = [
       '              #...#                         #...#',
       '              #...#                         #...#',
       '              ##+##                         ##+##'
-    ]
+    ],
+    details: {
+      height: 61,
+      width: 63,
+      floors: 752,
+      floorsSpecial: 0,
+      walls: 552,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 20
+    }
   },
   {
     name: 'shrakyl',
@@ -28762,7 +39934,21 @@ const prefabs = [
       '           ####...##',
       '              ##...+',
       '               #####'
-    ]
+    ],
+    details: {
+      height: 62,
+      width: 63,
+      floors: 590,
+      floorsSpecial: 0,
+      walls: 286,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'lynog',
@@ -28830,7 +40016,21 @@ const prefabs = [
       '                             ##.##',
       '                              #.#',
       '                              #+#'
-    ]
+    ],
+    details: {
+      height: 63,
+      width: 63,
+      floors: 924,
+      floorsSpecial: 0,
+      walls: 436,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'trib',
@@ -28898,7 +40098,21 @@ const prefabs = [
       '                           ##.....##',
       '                            ##...##',
       '                             ##+##'
-    ]
+    ],
+    details: {
+      height: 63,
+      width: 63,
+      floors: 481,
+      floorsSpecial: 0,
+      walls: 284,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'darossuhalb',
@@ -28966,7 +40180,21 @@ const prefabs = [
       '                             #...#',
       '                             #...#',
       '                             ##+##'
-    ]
+    ],
+    details: {
+      height: 63,
+      width: 63,
+      floors: 488,
+      floorsSpecial: 0,
+      walls: 396,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'synish',
@@ -29034,7 +40262,21 @@ const prefabs = [
       '                             #...#',
       '                             #...#',
       '                             ##+##'
-    ]
+    ],
+    details: {
+      height: 63,
+      width: 63,
+      floors: 684,
+      floorsSpecial: 0,
+      walls: 456,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'fimenisynryn',
@@ -29102,7 +40344,21 @@ const prefabs = [
       '                                                    #...#',
       '                                                    #...#',
       '                                                    ##+##'
-    ]
+    ],
+    details: {
+      height: 63,
+      width: 63,
+      floors: 447,
+      floorsSpecial: 0,
+      walls: 288,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'kylingiethormen',
@@ -29170,7 +40426,21 @@ const prefabs = [
       '      #...#                                         #...#',
       '      #...#                                         #...#',
       '      ##+##                                         ##+##'
-    ]
+    ],
+    details: {
+      height: 63,
+      width: 63,
+      floors: 789,
+      floorsSpecial: 0,
+      walls: 516,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'imashek',
@@ -29238,7 +40508,21 @@ const prefabs = [
       '   ##.....##',
       '    ##...##',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 63,
+      width: 63,
+      floors: 677,
+      floorsSpecial: 0,
+      walls: 316,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'imuryn',
@@ -29306,7 +40590,21 @@ const prefabs = [
       '   ##.....##               ##.....##               ##.....##',
       '    ##...##                 ##...##                 ##...##',
       '     ##+##                   ##+##                   ##+##'
-    ]
+    ],
+    details: {
+      height: 63,
+      width: 63,
+      floors: 1136,
+      floorsSpecial: 0,
+      walls: 528,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 16
+    }
   },
   {
     name: 'dareif',
@@ -29374,7 +40672,21 @@ const prefabs = [
       '                        ##...#   #...##',
       '                         #...#   #...#',
       '                         ##+##   ##+##'
-    ]
+    ],
+    details: {
+      height: 63,
+      width: 63,
+      floors: 987,
+      floorsSpecial: 0,
+      walls: 601,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 16
+    }
   },
   {
     name: 'plaet',
@@ -29443,7 +40755,21 @@ const prefabs = [
       '                                           +...................+',
       '                                           #...................#',
       '                                           ##+#######+#######+##'
-    ]
+    ],
+    details: {
+      height: 64,
+      width: 64,
+      floors: 712,
+      floorsSpecial: 0,
+      walls: 450,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 34
+    }
   },
   {
     name: 'vesavae',
@@ -29465,7 +40791,21 @@ const prefabs = [
       '+.......+',
       '#.......#',
       '##+###+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 9,
+      floors: 105,
+      floorsSpecial: 0,
+      walls: 38,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'vesikylie',
@@ -29487,7 +40827,21 @@ const prefabs = [
       '#.........#',
       '#.........#',
       '###+###+###'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 11,
+      floors: 135,
+      floorsSpecial: 0,
+      walls: 42,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'dariet',
@@ -29506,7 +40860,21 @@ const prefabs = [
       '    ##.....##',
       '     ##...##',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 14,
+      width: 17,
+      floors: 126,
+      floorsSpecial: 0,
+      walls: 53,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'kyled',
@@ -29528,7 +40896,21 @@ const prefabs = [
       '   ##.....##',
       '    #.....#',
       '    ###+###'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 15,
+      floors: 143,
+      floorsSpecial: 0,
+      walls: 55,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'snoicr',
@@ -29554,7 +40936,21 @@ const prefabs = [
       '  #.......#',
       '  ###...###',
       '    ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 13,
+      floors: 169,
+      floorsSpecial: 0,
+      walls: 56,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'glaboi',
@@ -29590,7 +40986,21 @@ const prefabs = [
       ' ##....#',
       '  #...#',
       '  ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 9,
+      floors: 172,
+      floorsSpecial: 0,
+      walls: 65,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'ophaves',
@@ -29614,7 +41024,21 @@ const prefabs = [
       ' ##.........##',
       '  #.........#',
       '  ##+#####+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 15,
+      floors: 193,
+      floorsSpecial: 0,
+      walls: 58,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'daroisyn',
@@ -29636,7 +41060,21 @@ const prefabs = [
       '#...............#',
       '#...............#',
       '###+####+####+###'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 17,
+      floors: 225,
+      floorsSpecial: 0,
+      walls: 52,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'frosynothorsh',
@@ -29658,7 +41096,21 @@ const prefabs = [
       '    ###...###',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 17,
+      floors: 129,
+      floorsSpecial: 0,
+      walls: 60,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'idarub',
@@ -29680,7 +41132,21 @@ const prefabs = [
       '     ##...##',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 17,
+      floors: 113,
+      floorsSpecial: 0,
+      walls: 60,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'lynisyn',
@@ -29702,7 +41168,21 @@ const prefabs = [
       '#...............#',
       '#...............#',
       '###+####+####+###'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 17,
+      floors: 225,
+      floorsSpecial: 0,
+      walls: 52,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'cisyne',
@@ -29724,7 +41204,21 @@ const prefabs = [
       '   #...# #...#',
       '   #...# #...#',
       '   ##+## ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 17,
+      floors: 153,
+      floorsSpecial: 0,
+      walls: 80,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'mnohasnmen',
@@ -29746,7 +41240,21 @@ const prefabs = [
       '  ##.........##',
       '   ##.......##',
       '    ##+###+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 17,
+      floors: 185,
+      floorsSpecial: 0,
+      walls: 56,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'lynumena',
@@ -29768,7 +41276,21 @@ const prefabs = [
       '  ##.........##',
       '   #.........#',
       '   ###+###+###'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 17,
+      floors: 193,
+      floorsSpecial: 0,
+      walls: 56,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'kylykyl',
@@ -29790,7 +41312,21 @@ const prefabs = [
       '  ####.....####',
       '     ##...##',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 17,
+      floors: 153,
+      floorsSpecial: 0,
+      walls: 60,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'basyn',
@@ -29818,7 +41354,21 @@ const prefabs = [
       '   #.....#',
       '   #.....#',
       '   ###+###'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 13,
+      floors: 153,
+      floorsSpecial: 0,
+      walls: 80,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'kylamocrsk',
@@ -29836,7 +41386,21 @@ const prefabs = [
       '   ##.............##',
       '    #.............#',
       '    ###+###+###+###'
-    ]
+    ],
+    details: {
+      height: 13,
+      width: 23,
+      floors: 179,
+      floorsSpecial: 0,
+      walls: 60,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'quiloblas',
@@ -29853,7 +41417,21 @@ const prefabs = [
       '   ##...............##',
       '    ####.........####',
       '       ##+#####+##'
-    ]
+    ],
+    details: {
+      height: 12,
+      width: 25,
+      floors: 198,
+      floorsSpecial: 0,
+      walls: 63,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'dariokyl',
@@ -29876,7 +41454,21 @@ const prefabs = [
       '     ##...##',
       '      ##.##',
       '       #+#'
-    ]
+    ],
+    details: {
+      height: 18,
+      width: 17,
+      floors: 154,
+      floorsSpecial: 0,
+      walls: 68,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'ebu',
@@ -29902,7 +41494,21 @@ const prefabs = [
       '     #...#',
       '     #...#',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 15,
+      floors: 159,
+      floorsSpecial: 0,
+      walls: 76,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'keram',
@@ -29928,7 +41534,21 @@ const prefabs = [
       ' ##.........##',
       '  ###.....###',
       '    ###+###'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 15,
+      floors: 215,
+      floorsSpecial: 0,
+      walls: 63,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'shingimensh',
@@ -29954,7 +41574,21 @@ const prefabs = [
       '    #.....#',
       '    ##...##',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 15,
+      floors: 143,
+      floorsSpecial: 0,
+      walls: 64,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ehala',
@@ -29984,7 +41618,21 @@ const prefabs = [
       '    ##.##',
       '     #.#',
       '     #+#'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 13,
+      floors: 177,
+      floorsSpecial: 0,
+      walls: 67,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'darehal',
@@ -30005,7 +41653,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 16,
+      width: 21,
+      floors: 146,
+      floorsSpecial: 0,
+      walls: 66,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'synucrae',
@@ -30030,7 +41692,21 @@ const prefabs = [
       '#...............#',
       '#...............#',
       '###+####+####+###'
-    ]
+    ],
+    details: {
+      height: 20,
+      width: 17,
+      floors: 270,
+      floorsSpecial: 0,
+      walls: 56,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 14
+    }
   },
   {
     name: 'yhalam',
@@ -30058,7 +41734,21 @@ const prefabs = [
       '  +.........+',
       '  #.........#',
       '  ###########'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 15,
+      floors: 205,
+      floorsSpecial: 0,
+      walls: 78,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'tam',
@@ -30086,7 +41776,21 @@ const prefabs = [
       '    #.....#',
       '    ##...##',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 15,
+      floors: 157,
+      floorsSpecial: 0,
+      walls: 64,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'idaryryn',
@@ -30108,7 +41812,21 @@ const prefabs = [
       '    ##.........##',
       '     ###.....###',
       '       ###+###'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 21,
+      floors: 223,
+      floorsSpecial: 0,
+      walls: 67,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'iehusyn',
@@ -30134,7 +41852,21 @@ const prefabs = [
       '  ##.........##',
       '   ##.......##',
       '    ####+####'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 17,
+      floors: 245,
+      floorsSpecial: 0,
+      walls: 64,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'meiba',
@@ -30160,7 +41892,21 @@ const prefabs = [
       ' ##........##',
       '  ##.....###',
       '   ###+###'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 17,
+      floors: 223,
+      floorsSpecial: 0,
+      walls: 68,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ameno',
@@ -30184,7 +41930,21 @@ const prefabs = [
       '      ##...##',
       '       ##.##',
       '        #+#'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 19,
+      floors: 157,
+      floorsSpecial: 0,
+      walls: 68,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'smoryn',
@@ -30208,7 +41968,21 @@ const prefabs = [
       '      #.....#',
       '      ##...##',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 19,
+      floors: 145,
+      floorsSpecial: 0,
+      walls: 76,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'imenet',
@@ -30232,7 +42006,21 @@ const prefabs = [
       '     ##.....##',
       '      ##...##',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 19,
+      floors: 177,
+      floorsSpecial: 0,
+      walls: 68,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'quathorei',
@@ -30256,7 +42044,21 @@ const prefabs = [
       '    ##.....##',
       '     ##...##',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 19,
+      floors: 175,
+      floorsSpecial: 0,
+      walls: 68,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'isynaed',
@@ -30286,7 +42088,21 @@ const prefabs = [
       '    ##...##',
       '     #...#',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 15,
+      floors: 179,
+      floorsSpecial: 0,
+      walls: 72,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'vesimenoi',
@@ -30320,7 +42136,21 @@ const prefabs = [
       '    #...#',
       '    #...#',
       '    ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 13,
+      floors: 177,
+      floorsSpecial: 0,
+      walls: 76,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'eidarac',
@@ -30342,7 +42172,21 @@ const prefabs = [
       '        ##...##',
       '         #...#',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 23,
+      floors: 159,
+      floorsSpecial: 0,
+      walls: 70,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'cihal',
@@ -30368,7 +42212,21 @@ const prefabs = [
       '      ##...##',
       '       #...#',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 19,
+      floors: 199,
+      floorsSpecial: 0,
+      walls: 77,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'ikerieb',
@@ -30392,7 +42250,21 @@ const prefabs = [
       '     ##.......##',
       '      ##.....##',
       '       ###+###'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 21,
+      floors: 239,
+      floorsSpecial: 0,
+      walls: 69,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'menawistt',
@@ -30418,7 +42290,21 @@ const prefabs = [
       '   ##.........##',
       '    #.........#',
       '    ###+###+###'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 19,
+      floors: 243,
+      floorsSpecial: 0,
+      walls: 70,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'ikerimen',
@@ -30450,7 +42336,21 @@ const prefabs = [
       '  ##.......##',
       '   ##.....##',
       '    ###+###'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 15,
+      floors: 265,
+      floorsSpecial: 0,
+      walls: 74,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'olaso',
@@ -30482,7 +42382,21 @@ const prefabs = [
       '    ##...##',
       '     #...#',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 15,
+      floors: 229,
+      floorsSpecial: 0,
+      walls: 72,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'asynihal',
@@ -30514,7 +42428,21 @@ const prefabs = [
       '     #...#',
       '     #...#',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 15,
+      floors: 187,
+      floorsSpecial: 0,
+      walls: 82,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'vesamenra',
@@ -30543,7 +42471,21 @@ const prefabs = [
       '     #.....#',
       '     ##...##',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 17,
+      floors: 216,
+      floorsSpecial: 0,
+      walls: 74,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ilynoikyl',
@@ -30570,7 +42512,21 @@ const prefabs = [
       '   ##.........##',
       '    ###.....###',
       '      ###+###'
-    ]
+    ],
+    details: {
+      height: 22,
+      width: 19,
+      floors: 276,
+      floorsSpecial: 0,
+      walls: 71,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'lawi',
@@ -30595,7 +42551,21 @@ const prefabs = [
       '       ##...##',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 20,
+      width: 21,
+      floors: 198,
+      floorsSpecial: 0,
+      walls: 73,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'rokyl',
@@ -30620,7 +42590,21 @@ const prefabs = [
       '   ##...........##',
       '    ###.......###',
       '      #+#####+#'
-    ]
+    ],
+    details: {
+      height: 20,
+      width: 21,
+      floors: 250,
+      floorsSpecial: 0,
+      walls: 73,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'oplim',
@@ -30654,7 +42638,21 @@ const prefabs = [
       '    ##...##',
       '     #...#',
       '     ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 15,
+      floors: 241,
+      floorsSpecial: 0,
+      walls: 87,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'simaement',
@@ -30674,7 +42672,21 @@ const prefabs = [
       '       #...#######...#',
       '       #...#     #...#',
       '       ##+##     ##+##'
-    ]
+    ],
+    details: {
+      height: 15,
+      width: 29,
+      floors: 223,
+      floorsSpecial: 0,
+      walls: 86,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'dariotots',
@@ -30698,7 +42710,21 @@ const prefabs = [
       '        ##...##',
       '         #...#',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 23,
+      floors: 173,
+      floorsSpecial: 0,
+      walls: 76,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'darahy',
@@ -30722,7 +42748,21 @@ const prefabs = [
       '         #...#',
       '         #...#',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 23,
+      floors: 180,
+      floorsSpecial: 0,
+      walls: 81,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'alomen',
@@ -30746,7 +42786,21 @@ const prefabs = [
       '       ##.....##',
       '        ##...##',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 23,
+      floors: 191,
+      floorsSpecial: 0,
+      walls: 83,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'alew',
@@ -30772,7 +42826,21 @@ const prefabs = [
       '       ##...##',
       '        ##.##',
       '         #+#'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 21,
+      floors: 181,
+      floorsSpecial: 0,
+      walls: 76,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'sninoflng',
@@ -30798,7 +42866,21 @@ const prefabs = [
       '###...###...###...###',
       '  #...# #...# #...#',
       '  ##+## ##+## ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 21,
+      floors: 297,
+      floorsSpecial: 0,
+      walls: 100,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'yfo',
@@ -30824,7 +42906,21 @@ const prefabs = [
       '  ##...#     #...##',
       '   ###.#     #.###',
       '     #+#     #+#'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 21,
+      floors: 201,
+      floorsSpecial: 0,
+      walls: 104,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'asihal',
@@ -30850,7 +42946,21 @@ const prefabs = [
       '      ###...###',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 21,
+      floors: 201,
+      floorsSpecial: 0,
+      walls: 76,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'bahal',
@@ -30876,7 +42986,21 @@ const prefabs = [
       '      ##.....##',
       '       ##...##',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 21,
+      floors: 229,
+      floorsSpecial: 0,
+      walls: 76,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'halac',
@@ -30902,7 +43026,21 @@ const prefabs = [
       '#.....#       #.....#',
       '#.....#       #.....#',
       '###+###       ###+###'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 21,
+      floors: 217,
+      floorsSpecial: 0,
+      walls: 104,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'uspled',
@@ -30928,7 +43066,21 @@ const prefabs = [
       '#.....#       #.....#',
       '#.....#       #.....#',
       '###+###       ###+###'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 21,
+      floors: 197,
+      floorsSpecial: 0,
+      walls: 112,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'ohalives',
@@ -30954,7 +43106,21 @@ const prefabs = [
       '  ##...##   ##...##',
       '   #...#     #...#',
       '   ##+##     ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 21,
+      floors: 213,
+      floorsSpecial: 0,
+      walls: 112,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'ocral',
@@ -30980,7 +43146,21 @@ const prefabs = [
       '   #...#',
       '   #...#',
       '   ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 21,
+      floors: 205,
+      floorsSpecial: 0,
+      walls: 68,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'halosco',
@@ -31004,7 +43184,21 @@ const prefabs = [
       '#.......................#',
       '#.......................#',
       '#####+######+######+#####'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 25,
+      floors: 325,
+      floorsSpecial: 0,
+      walls: 75,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'oilein',
@@ -31037,7 +43231,21 @@ const prefabs = [
       '    ###...###',
       '      #...#',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 28,
+      width: 17,
+      floors: 198,
+      floorsSpecial: 0,
+      walls: 88,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'rakyla',
@@ -31064,7 +43272,21 @@ const prefabs = [
       '           ###...###',
       '             #...#',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 22,
+      width: 22,
+      floors: 224,
+      floorsSpecial: 0,
+      walls: 85,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'splasyn',
@@ -31091,7 +43313,21 @@ const prefabs = [
       '#....................#',
       '#....................#',
       '####+#####+######+####'
-    ]
+    ],
+    details: {
+      height: 22,
+      width: 22,
+      floors: 400,
+      floorsSpecial: 0,
+      walls: 72,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'iroi',
@@ -31122,7 +43358,21 @@ const prefabs = [
       '      #.....#',
       '      #.....#',
       '      ###+###'
-    ]
+    ],
+    details: {
+      height: 26,
+      width: 19,
+      floors: 236,
+      floorsSpecial: 0,
+      walls: 91,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'faso',
@@ -31146,7 +43396,21 @@ const prefabs = [
       '        ##.......##',
       '         ###...###',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 27,
+      floors: 245,
+      floorsSpecial: 0,
+      walls: 84,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'menocalves',
@@ -31178,7 +43442,21 @@ const prefabs = [
       '    ##.......##',
       '     ###...###',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 19,
+      floors: 273,
+      floorsSpecial: 0,
+      walls: 98,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'umeno',
@@ -31204,7 +43482,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 25,
+      floors: 231,
+      floorsSpecial: 0,
+      walls: 90,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'scron',
@@ -31230,7 +43522,21 @@ const prefabs = [
       '       #.........#',
       '       #.........#',
       '       ##+#####+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 25,
+      floors: 297,
+      floorsSpecial: 0,
+      walls: 82,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'darerasmr',
@@ -31266,7 +43572,21 @@ const prefabs = [
       '   ##.......##',
       '    ###...###',
       '      ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 17,
+      floors: 305,
+      floorsSpecial: 0,
+      walls: 94,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'utyhal',
@@ -31294,7 +43614,21 @@ const prefabs = [
       '  ##.........##',
       '   ###.....###',
       '     ###+###'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 23,
+      floors: 241,
+      floorsSpecial: 0,
+      walls: 85,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'sor',
@@ -31322,7 +43656,21 @@ const prefabs = [
       '       ##.....##',
       '        ##...##',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 23,
+      floors: 261,
+      floorsSpecial: 0,
+      walls: 84,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kylipliotrm',
@@ -31350,7 +43698,21 @@ const prefabs = [
       '    ##...........##',
       '     ##.........##',
       '      ###+###+###'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 23,
+      floors: 357,
+      floorsSpecial: 0,
+      walls: 80,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'swocke',
@@ -31378,7 +43740,21 @@ const prefabs = [
       '  ##...##     ##...##',
       '   ##.##       ##.##',
       '    #+#         #+#'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 23,
+      floors: 273,
+      floorsSpecial: 0,
+      walls: 112,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'usyni',
@@ -31406,7 +43782,21 @@ const prefabs = [
       '   #...#       #...#',
       '   #...#       #...#',
       '   ##+##       ##+##'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 23,
+      floors: 297,
+      floorsSpecial: 0,
+      walls: 104,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'apram',
@@ -31434,7 +43824,21 @@ const prefabs = [
       '##...................##',
       ' ##.................##',
       '  #########+#########'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 23,
+      floors: 385,
+      floorsSpecial: 0,
+      walls: 128,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'eipeves',
@@ -31465,7 +43869,21 @@ const prefabs = [
       '    ##.........##',
       '     ##.......##',
       '      ####+####'
-    ]
+    ],
+    details: {
+      height: 26,
+      width: 21,
+      floors: 288,
+      floorsSpecial: 0,
+      walls: 86,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'halakyl',
@@ -31499,7 +43917,21 @@ const prefabs = [
       '       #...#',
       '       #...#',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 19,
+      floors: 181,
+      floorsSpecial: 0,
+      walls: 92,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'akylaemen',
@@ -31523,7 +43955,21 @@ const prefabs = [
       '         #.........#',
       '         #.........#',
       '         ##+#####+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 29,
+      floors: 279,
+      floorsSpecial: 0,
+      walls: 85,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'fraves',
@@ -31561,7 +44007,21 @@ const prefabs = [
       ' ##...........##',
       '  ####.....####',
       '     ###+###'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 17,
+      floors: 347,
+      floorsSpecial: 0,
+      walls: 104,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'flamen',
@@ -31587,7 +44047,21 @@ const prefabs = [
       '       ##.........##',
       '        ###.....###',
       '          ###+###'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 27,
+      floors: 299,
+      floorsSpecial: 0,
+      walls: 86,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'thihalyskyl',
@@ -31619,7 +44093,21 @@ const prefabs = [
       '       ##...##',
       '        ##.##',
       '         #+#'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 21,
+      floors: 271,
+      floorsSpecial: 0,
+      walls: 88,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'amena',
@@ -31651,7 +44139,21 @@ const prefabs = [
       '  #...#',
       '  #...#',
       '  ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 21,
+      floors: 217,
+      floorsSpecial: 0,
+      walls: 94,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'koryn',
@@ -31679,7 +44181,21 @@ const prefabs = [
       '         ##...##',
       '          ##.##',
       '           #+#'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 25,
+      floors: 263,
+      floorsSpecial: 0,
+      walls: 108,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'vesafillryn',
@@ -31718,7 +44234,21 @@ const prefabs = [
       '    #.......#',
       '    #.......#',
       '    ####+####'
-    ]
+    ],
+    details: {
+      height: 34,
+      width: 17,
+      floors: 298,
+      floorsSpecial: 0,
+      walls: 88,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'irynth',
@@ -31752,7 +44282,21 @@ const prefabs = [
       '     ##......##',
       '      ##....##',
       '       ######'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 20,
+      floors: 372,
+      floorsSpecial: 0,
+      walls: 104,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'rysi',
@@ -31792,7 +44336,21 @@ const prefabs = [
       '      #...#',
       '      ##.##',
       '       #+#'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 17,
+      floors: 271,
+      floorsSpecial: 0,
+      walls: 94,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'osyna',
@@ -31818,7 +44376,21 @@ const prefabs = [
       '          ##.....##',
       '           ##...##',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 29,
+      floors: 277,
+      floorsSpecial: 0,
+      walls: 114,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'gloisyn',
@@ -31852,7 +44424,21 @@ const prefabs = [
       '   ##...........##',
       '    ####.....####',
       '       ###+###'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 21,
+      floors: 343,
+      floorsSpecial: 0,
+      walls: 100,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'ituryn',
@@ -31886,7 +44472,21 @@ const prefabs = [
       '   ##...........##',
       '    ####.....####',
       '       ###+###'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 21,
+      floors: 343,
+      floorsSpecial: 0,
+      walls: 104,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kerethora',
@@ -31918,7 +44518,21 @@ const prefabs = [
       '         #...#',
       '         #...#',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 23,
+      floors: 189,
+      floorsSpecial: 0,
+      walls: 92,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'taliplkyl',
@@ -31950,7 +44564,21 @@ const prefabs = [
       '         #...#',
       '         #...#',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 23,
+      floors: 261,
+      floorsSpecial: 0,
+      walls: 92,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ietaesyn',
@@ -31980,7 +44608,21 @@ const prefabs = [
       '        #.......#',
       '        ###...###',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 25,
+      floors: 273,
+      floorsSpecial: 0,
+      walls: 116,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'lotubmen',
@@ -32010,7 +44652,21 @@ const prefabs = [
       '+......# ####### #......+',
       '#......#         #......#',
       '##+##+##         ##+##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 25,
+      floors: 409,
+      floorsSpecial: 0,
+      walls: 120,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 16
+    }
   },
   {
     name: 'bub',
@@ -32040,7 +44696,21 @@ const prefabs = [
       '+.......#########.......+',
       '#.......#       #.......#',
       '##+###+##       ##+###+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 25,
+      floors: 457,
+      floorsSpecial: 0,
+      walls: 96,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 16
+    }
   },
   {
     name: 'ehalir',
@@ -32070,7 +44740,21 @@ const prefabs = [
       '            ##.....##',
       '             ##...##',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 25,
+      floors: 325,
+      floorsSpecial: 0,
+      walls: 96,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'kylemenalhal',
@@ -32100,7 +44784,21 @@ const prefabs = [
       '      ##.........##',
       '       ###.....###',
       '         ###+###'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 25,
+      floors: 373,
+      floorsSpecial: 0,
+      walls: 96,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'lynoryn',
@@ -32130,7 +44828,21 @@ const prefabs = [
       '#.....##   #+#   ##.....#',
       '#....##           ##....#',
       '######             ######'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 25,
+      floors: 345,
+      floorsSpecial: 0,
+      walls: 148,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'chafradmen',
@@ -32160,7 +44872,21 @@ const prefabs = [
       '        #.......#',
       '        ###...###',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 25,
+      floors: 281,
+      floorsSpecial: 0,
+      walls: 92,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'amenim',
@@ -32190,7 +44916,21 @@ const prefabs = [
       '  ##....#       #....##',
       '   ##...#       #...##',
       '    #####       #####'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 25,
+      floors: 305,
+      floorsSpecial: 0,
+      walls: 140,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'keresoi',
@@ -32220,7 +44960,21 @@ const prefabs = [
       '             #...#',
       '             #...#',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 25,
+      floors: 202,
+      floorsSpecial: 0,
+      walls: 92,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'halosk',
@@ -32250,7 +45004,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 25,
+      floors: 189,
+      floorsSpecial: 0,
+      walls: 92,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'avesa',
@@ -32288,7 +45056,21 @@ const prefabs = [
       '     ##.....##',
       '      ##...##',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 19,
+      floors: 351,
+      floorsSpecial: 0,
+      walls: 110,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'wraquoi',
@@ -32326,7 +45108,21 @@ const prefabs = [
       '   ##........##',
       '    ###....###',
       '      ##+###'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 19,
+      floors: 401,
+      floorsSpecial: 0,
+      walls: 104,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'driesmathord',
@@ -32352,7 +45148,21 @@ const prefabs = [
       '                    ##.....##',
       '                     ##...##',
       '                      ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 31,
+      floors: 315,
+      floorsSpecial: 0,
+      walls: 93,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'schihalaegrw',
@@ -32388,7 +45198,21 @@ const prefabs = [
       '#...#           #...#',
       '#...#           #...#',
       '##+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 21,
+      floors: 243,
+      floorsSpecial: 0,
+      walls: 140,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'keramy',
@@ -32420,7 +45244,21 @@ const prefabs = [
       '+........##   ##........+',
       '#........#     #........#',
       '##+####+##     ##+####+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 25,
+      floors: 285,
+      floorsSpecial: 0,
+      walls: 132,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'ihalack',
@@ -32450,7 +45288,21 @@ const prefabs = [
       '       #...#   #...#',
       '       #...#   #...#',
       '       ##+##   ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 27,
+      floors: 289,
+      floorsSpecial: 0,
+      walls: 136,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'ophioves',
@@ -32482,7 +45334,21 @@ const prefabs = [
       '  ###....##   ##....###',
       '    ###..#     #..###',
       '      ##+#     #+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 25,
+      floors: 391,
+      floorsSpecial: 0,
+      walls: 136,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'ydarosyn',
@@ -32513,7 +45379,21 @@ const prefabs = [
       '+....##',
       '#...##',
       '#####'
-    ]
+    ],
+    details: {
+      height: 26,
+      width: 26,
+      floors: 241,
+      floorsSpecial: 0,
+      walls: 115,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'otulas',
@@ -32551,7 +45431,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 21,
+      floors: 303,
+      floorsSpecial: 0,
+      walls: 130,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'kerimenesll',
@@ -32580,7 +45474,21 @@ const prefabs = [
       '            #...#',
       '            ##.##',
       '             #+#'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 29,
+      floors: 294,
+      floorsSpecial: 0,
+      walls: 103,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'veseba',
@@ -32622,7 +45530,21 @@ const prefabs = [
       '       #...#',
       '       #...#',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 19,
+      floors: 269,
+      floorsSpecial: 0,
+      walls: 118,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'ehaluw',
@@ -32658,7 +45580,21 @@ const prefabs = [
       '         #...#',
       '         #...#',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 23,
+      floors: 301,
+      floorsSpecial: 0,
+      walls: 100,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'sliryn',
@@ -32686,7 +45622,21 @@ const prefabs = [
       ' #.....#    ###+###    #.....#',
       ' ##...##               ##...##',
       '  ##+##                 ##+##'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 31,
+      floors: 409,
+      floorsSpecial: 0,
+      walls: 160,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'griryn',
@@ -32722,7 +45672,21 @@ const prefabs = [
       '      ##.......##',
       '       ##.....##',
       '        ###+###'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 23,
+      floors: 381,
+      floorsSpecial: 0,
+      walls: 100,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'shrif',
@@ -32752,7 +45716,21 @@ const prefabs = [
       '           #.....#',
       '           #.....#',
       '           ###+###'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 29,
+      floors: 289,
+      floorsSpecial: 0,
+      walls: 100,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'lynathamenryn',
@@ -32784,7 +45762,21 @@ const prefabs = [
       ' ##........## ##........##',
       '  ###.....##   ##.....###',
       '    ###+###     ###+###'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 513,
+      floorsSpecial: 0,
+      walls: 136,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'oswaryn',
@@ -32816,7 +45808,21 @@ const prefabs = [
       ' ##...##           ##...##',
       '  ##.##             ##.##',
       '   #+#               #+#'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 305,
+      floorsSpecial: 0,
+      walls: 166,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'smosyna',
@@ -32848,7 +45854,21 @@ const prefabs = [
       '         #.......#',
       '         #.......#',
       '         ####+####'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 401,
+      floorsSpecial: 0,
+      walls: 100,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'synishro',
@@ -32880,7 +45900,21 @@ const prefabs = [
       ' ##......###   ###......##',
       '  ###...##       ##...###',
       '    #####         #####'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 493,
+      floorsSpecial: 0,
+      walls: 121,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'keripi',
@@ -32912,7 +45946,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 253,
+      floorsSpecial: 0,
+      walls: 108,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'aboph',
@@ -32944,7 +45992,21 @@ const prefabs = [
       '   #...#           #...#',
       '   #...#           #...#',
       '   ##+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 297,
+      floorsSpecial: 0,
+      walls: 150,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'inoikyl',
@@ -32976,7 +46038,21 @@ const prefabs = [
       '          ##...##',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 289,
+      floorsSpecial: 0,
+      walls: 100,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'synomeni',
@@ -33008,7 +46084,21 @@ const prefabs = [
       '#....###           ###....#',
       '#..###               ###..#',
       '#+##                   ##+#'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 365,
+      floorsSpecial: 0,
+      walls: 140,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ywhasyn',
@@ -33040,7 +46130,21 @@ const prefabs = [
       '         ##.....##',
       '          ##...##',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 249,
+      floorsSpecial: 0,
+      walls: 124,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'sik',
@@ -33072,7 +46176,21 @@ const prefabs = [
       '      ##.....#.....##',
       '       ##...###...##',
       '        ##+## ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 429,
+      floorsSpecial: 0,
+      walls: 120,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'synom',
@@ -33104,7 +46222,21 @@ const prefabs = [
       '   #...#           #...#',
       '   #...#           #...#',
       '   ##+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 27,
+      floors: 397,
+      floorsSpecial: 0,
+      walls: 156,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'lielas',
@@ -33128,7 +46260,21 @@ const prefabs = [
       '       #.....#           #.....#',
       '       ##...##           ##...##',
       '        ##+##             ##+##'
-    ]
+    ],
+    details: {
+      height: 19,
+      width: 39,
+      floors: 339,
+      floorsSpecial: 0,
+      walls: 126,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'darollo',
@@ -33157,7 +46303,21 @@ const prefabs = [
       '         ##.........##',
       '          ###.....###',
       '            ###+###'
-    ]
+    ],
+    details: {
+      height: 24,
+      width: 31,
+      floors: 337,
+      floorsSpecial: 0,
+      walls: 116,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'wralas',
@@ -33188,7 +46348,21 @@ const prefabs = [
       '            #...#',
       '            #...#',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 26,
+      width: 29,
+      floors: 285,
+      floorsSpecial: 0,
+      walls: 149,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'haluque',
@@ -33226,7 +46400,21 @@ const prefabs = [
       '         #...#',
       '         #...#',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 23,
+      floors: 315,
+      floorsSpecial: 0,
+      walls: 104,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'tiesa',
@@ -33262,7 +46450,21 @@ const prefabs = [
       '            #...#',
       '            #...#',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 25,
+      floors: 251,
+      floorsSpecial: 0,
+      walls: 104,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kohal',
@@ -33292,7 +46494,21 @@ const prefabs = [
       '             #...#',
       '             #...#',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 31,
+      floors: 303,
+      floorsSpecial: 0,
+      walls: 128,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'iswish',
@@ -33328,7 +46544,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 25,
+      floors: 207,
+      floorsSpecial: 0,
+      walls: 104,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'synika',
@@ -33354,7 +46584,21 @@ const prefabs = [
       '             ##.......##',
       '              ###...###',
       '                ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 37,
+      floors: 297,
+      floorsSpecial: 0,
+      walls: 132,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'scromeni',
@@ -33396,7 +46640,21 @@ const prefabs = [
       '#...#           #...#',
       '#...#           #...#',
       '##+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 21,
+      floors: 291,
+      floorsSpecial: 0,
+      walls: 170,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'synospla',
@@ -33430,7 +46688,21 @@ const prefabs = [
       '+........#       #........+',
       '#........#       #........#',
       '##########       ##########'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 27,
+      floors: 303,
+      floorsSpecial: 0,
+      walls: 158,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'phascringsh',
@@ -33462,7 +46734,21 @@ const prefabs = [
       '    ###....##   ##....###',
       '      ###..#     #..###',
       '        ##+#     #+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 29,
+      floors: 481,
+      floorsSpecial: 0,
+      walls: 136,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'oty',
@@ -33506,7 +46792,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 21,
+      floors: 403,
+      floorsSpecial: 0,
+      walls: 131,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'menotaerlas',
@@ -33550,7 +46850,21 @@ const prefabs = [
       '      ##.....##',
       '       ##...##',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 21,
+      floors: 399,
+      floorsSpecial: 0,
+      walls: 134,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'darathor',
@@ -33580,7 +46894,21 @@ const prefabs = [
       '             #.....#',
       '             ##...##',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 33,
+      floors: 381,
+      floorsSpecial: 0,
+      walls: 108,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'quusc',
@@ -33602,7 +46930,21 @@ const prefabs = [
       '  ##.........##                   ##.........##',
       '   ###.....###                     ###.....###',
       '     ###+###                         ###+###'
-    ]
+    ],
+    details: {
+      height: 17,
+      width: 49,
+      floors: 407,
+      floorsSpecial: 0,
+      walls: 148,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'osynoi',
@@ -33634,7 +46976,21 @@ const prefabs = [
       '          #.........#',
       '          #.........#',
       '          ##+#####+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 31,
+      floors: 369,
+      floorsSpecial: 0,
+      walls: 170,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'shan',
@@ -33670,7 +47026,21 @@ const prefabs = [
       '#...#                 #...#',
       '#...#                 #...#',
       '##+##                 ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 27,
+      floors: 325,
+      floorsSpecial: 0,
+      walls: 190,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'meniet',
@@ -33706,7 +47076,21 @@ const prefabs = [
       '#...#',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 27,
+      floors: 253,
+      floorsSpecial: 0,
+      walls: 134,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'squehal',
@@ -33740,7 +47124,21 @@ const prefabs = [
       '  ##.....#         #.....##',
       '   ##...##         ##...##',
       '    #####           #####'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 29,
+      floors: 493,
+      floorsSpecial: 0,
+      walls: 146,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'whospe',
@@ -33774,7 +47172,21 @@ const prefabs = [
       '          ##.....##',
       '           ##...##',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 29,
+      floors: 337,
+      floorsSpecial: 0,
+      walls: 108,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'freryn',
@@ -33808,7 +47220,21 @@ const prefabs = [
       '+.........#       #.........+',
       '#.........#       #.........#',
       '##+#####+##       ##+#####+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 29,
+      floors: 509,
+      floorsSpecial: 0,
+      walls: 152,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 16
+    }
   },
   {
     name: 'keriomeni',
@@ -33842,7 +47268,21 @@ const prefabs = [
       '            #...#',
       '            #...#',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 29,
+      floors: 253,
+      floorsSpecial: 0,
+      walls: 108,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'blasynisynng',
@@ -33876,7 +47316,21 @@ const prefabs = [
       '   #...#             #...#',
       '   #...#             #...#',
       '   ##+##             ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 29,
+      floors: 409,
+      floorsSpecial: 0,
+      walls: 168,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'thriwi',
@@ -33910,7 +47364,21 @@ const prefabs = [
       '#.....#               #.....#',
       '#.....#               #.....#',
       '###+###               ###+###'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 29,
+      floors: 305,
+      floorsSpecial: 0,
+      walls: 168,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'braesta',
@@ -33944,7 +47412,21 @@ const prefabs = [
       '             ##....###',
       '              #..###',
       '              #+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 29,
+      floors: 433,
+      floorsSpecial: 0,
+      walls: 128,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'lynimen',
@@ -33970,7 +47452,21 @@ const prefabs = [
       '                  #...#',
       '                  #...#',
       '                  ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 41,
+      floors: 369,
+      floorsSpecial: 0,
+      walls: 144,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'darubr',
@@ -34003,7 +47499,21 @@ const prefabs = [
       '             #...#',
       '             #...#',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 28,
+      width: 31,
+      floors: 378,
+      floorsSpecial: 0,
+      walls: 110,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'halur',
@@ -34035,7 +47545,21 @@ const prefabs = [
       '   #...#                 #...#',
       '   #...#                 #...#',
       '   ##+##                 ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 33,
+      floors: 369,
+      floorsSpecial: 0,
+      walls: 190,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'lynithorakyll',
@@ -34073,7 +47597,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 27,
+      floors: 243,
+      floorsSpecial: 0,
+      walls: 112,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'oivesa',
@@ -34109,7 +47647,21 @@ const prefabs = [
       '#.....##             ##.....#',
       '##..###               ###..##',
       ' ####                   ####'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 29,
+      floors: 353,
+      floorsSpecial: 0,
+      walls: 180,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'alynick',
@@ -34135,7 +47687,21 @@ const prefabs = [
       '    ###...........###+###...........###',
       '      ###.......###     ###.......###',
       '        #########         #########'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 43,
+      floors: 351,
+      floorsSpecial: 0,
+      walls: 228,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'menesathormen',
@@ -34177,7 +47743,21 @@ const prefabs = [
       '           #.#',
       '           #.#',
       '           #+#'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 25,
+      floors: 475,
+      floorsSpecial: 0,
+      walls: 113,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'sisyn',
@@ -34219,7 +47799,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 25,
+      floors: 417,
+      floorsSpecial: 0,
+      walls: 152,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'saglokyls',
@@ -34261,7 +47855,21 @@ const prefabs = [
       '#...#               #...#',
       '#...#               #...#',
       '##+##               ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 25,
+      floors: 377,
+      floorsSpecial: 0,
+      walls: 206,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'vesify',
@@ -34296,7 +47904,21 @@ const prefabs = [
       '             #...#',
       '             #...#',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 30,
+      width: 31,
+      floors: 344,
+      floorsSpecial: 0,
+      walls: 114,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'esyno',
@@ -34336,7 +47958,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 27,
+      floors: 297,
+      floorsSpecial: 0,
+      walls: 148,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'spreivocrsyn',
@@ -34374,7 +48010,21 @@ const prefabs = [
       '            #...#',
       '            ##.##',
       '             #+#'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 29,
+      floors: 429,
+      floorsSpecial: 0,
+      walls: 128,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'phubidkyl',
@@ -34410,7 +48060,21 @@ const prefabs = [
       '+....##                 ##....+',
       '#...##                   ##...#',
       '#####                     #####'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 481,
+      floorsSpecial: 0,
+      walls: 172,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'atoi',
@@ -34446,7 +48110,21 @@ const prefabs = [
       '           ##.....##',
       '            ##...##',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 413,
+      floorsSpecial: 0,
+      walls: 116,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'oruh',
@@ -34482,7 +48160,21 @@ const prefabs = [
       '           +.......+',
       '           #.......#',
       '           ##+###+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 301,
+      floorsSpecial: 0,
+      walls: 136,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 16
+    }
   },
   {
     name: 'daramenei',
@@ -34518,7 +48210,21 @@ const prefabs = [
       '             #...#',
       '             #...#',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 473,
+      floorsSpecial: 0,
+      walls: 116,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'liba',
@@ -34554,7 +48260,21 @@ const prefabs = [
       '                      #.....##',
       '                      +...###',
       '                      #####'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 317,
+      floorsSpecial: 0,
+      walls: 116,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ischo',
@@ -34590,7 +48310,21 @@ const prefabs = [
       '                      #.....##',
       '                      #...###',
       '                      #####'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 337,
+      floorsSpecial: 0,
+      walls: 118,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'spliesa',
@@ -34626,7 +48360,21 @@ const prefabs = [
       '       #...#       #...#',
       '       #...#       #...#',
       '       ##+##       ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 369,
+      floorsSpecial: 0,
+      walls: 224,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'amenach',
@@ -34662,7 +48410,21 @@ const prefabs = [
       '            #.....#',
       '            #.....#',
       '            ###+###'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 301,
+      floorsSpecial: 0,
+      walls: 116,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'uvesih',
@@ -34698,7 +48460,21 @@ const prefabs = [
       '         #...........#',
       '         #...........#',
       '         ###+#####+###'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 413,
+      floorsSpecial: 0,
+      walls: 160,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'keriquiquh',
@@ -34734,7 +48510,21 @@ const prefabs = [
       '           ###...###',
       '             #...#',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 285,
+      floorsSpecial: 0,
+      walls: 140,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'ehalives',
@@ -34764,7 +48554,21 @@ const prefabs = [
       '                 #...#',
       '                 #...#',
       '                 ##+##'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 39,
+      floors: 301,
+      floorsSpecial: 0,
+      walls: 146,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'halekyl',
@@ -34808,7 +48612,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 25,
+      floors: 475,
+      floorsSpecial: 0,
+      walls: 120,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'haliso',
@@ -34840,7 +48658,21 @@ const prefabs = [
       '               ##...##',
       '                #...#',
       '                ##+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 37,
+      floors: 261,
+      floorsSpecial: 0,
+      walls: 137,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'opom',
@@ -34878,7 +48710,21 @@ const prefabs = [
       '     #...#           #...#',
       '     #...#           #...#',
       '     ##+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 31,
+      floors: 379,
+      floorsSpecial: 0,
+      walls: 220,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'sasho',
@@ -34915,7 +48761,21 @@ const prefabs = [
       '         #...#',
       '         #...#',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 32,
+      width: 32,
+      floors: 300,
+      floorsSpecial: 0,
+      walls: 118,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'vesokylio',
@@ -34956,7 +48816,21 @@ const prefabs = [
       '             #.#',
       '             #.#',
       '             #+#'
-    ]
+    ],
+    details: {
+      height: 36,
+      width: 29,
+      floors: 466,
+      floorsSpecial: 0,
+      walls: 169,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'vipa',
@@ -34990,7 +48864,21 @@ const prefabs = [
       '              ###...###',
       '                #...#',
       '                ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 37,
+      floors: 337,
+      floorsSpecial: 0,
+      walls: 152,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'ekylio',
@@ -35020,7 +48908,21 @@ const prefabs = [
       '    ##......#                 #......##',
       '     ###...##                 ##...###',
       '       #####                   #####'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 43,
+      floors: 611,
+      floorsSpecial: 0,
+      walls: 158,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'synokyl',
@@ -35060,7 +48962,21 @@ const prefabs = [
       '   ##.....#         #.....##',
       '    ###...#         #...###',
       '      #####         #####'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 31,
+      floors: 489,
+      floorsSpecial: 0,
+      walls: 184,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'threthor',
@@ -35100,7 +49016,21 @@ const prefabs = [
       '  ###....##         ##....###',
       '    ###..#           #..###',
       '      ##+#           #+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 31,
+      floors: 529,
+      floorsSpecial: 0,
+      walls: 200,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'fryri',
@@ -35138,7 +49068,21 @@ const prefabs = [
       '+......##               ##......+',
       '#....###                 ###....#',
       '######                     ######'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 33,
+      floors: 385,
+      floorsSpecial: 0,
+      walls: 224,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'vata',
@@ -35176,7 +49120,21 @@ const prefabs = [
       '              #...#',
       '              #...#',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 33,
+      floors: 429,
+      floorsSpecial: 0,
+      walls: 220,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'aclid',
@@ -35214,7 +49172,21 @@ const prefabs = [
       '       ##.....#   #.....##',
       '        ##...##   ##...##',
       '         ##+##     ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 33,
+      floors: 685,
+      floorsSpecial: 0,
+      walls: 164,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'omenib',
@@ -35252,7 +49224,21 @@ const prefabs = [
       '     ##...##         ##...##',
       '      #...#           #...#',
       '      ##+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 33,
+      floors: 529,
+      floorsSpecial: 0,
+      walls: 184,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'ima',
@@ -35290,7 +49276,21 @@ const prefabs = [
       '              #...#',
       '              #...#',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 33,
+      floors: 501,
+      floorsSpecial: 0,
+      walls: 176,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'synobri',
@@ -35328,7 +49328,21 @@ const prefabs = [
       '      ##...#         #...##',
       '       #...#         #...#',
       '       ##+##         ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 33,
+      floors: 481,
+      floorsSpecial: 0,
+      walls: 192,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'menabie',
@@ -35366,7 +49380,21 @@ const prefabs = [
       '            ##.....##',
       '             ##...##',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 33,
+      floors: 421,
+      floorsSpecial: 0,
+      walls: 164,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'iwoi',
@@ -35404,7 +49432,21 @@ const prefabs = [
       '  ##+##       #...#       ##+##',
       '              #...#',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 33,
+      floors: 425,
+      floorsSpecial: 0,
+      walls: 228,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'daraekyl',
@@ -35442,7 +49484,21 @@ const prefabs = [
       '#......#                 #......#',
       '#.....##                 ##.....#',
       '###+###                   ###+###'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 33,
+      floors: 361,
+      floorsSpecial: 0,
+      walls: 200,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'daraelas',
@@ -35476,7 +49532,21 @@ const prefabs = [
       '                #.....#',
       '                ##...##',
       '                 ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 39,
+      floors: 312,
+      floorsSpecial: 0,
+      walls: 162,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'otaj',
@@ -35520,7 +49590,21 @@ const prefabs = [
       '            #...#',
       '            #...#',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 29,
+      floors: 393,
+      floorsSpecial: 0,
+      walls: 181,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'hen',
@@ -35558,7 +49642,21 @@ const prefabs = [
       '    #...#                 #...#',
       '    #...#                 #...#',
       '    ##+##                 ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 35,
+      floors: 329,
+      floorsSpecial: 0,
+      walls: 208,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'strieschu',
@@ -35596,7 +49694,21 @@ const prefabs = [
       '  #...#',
       '  #...#',
       '  ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 35,
+      floors: 421,
+      floorsSpecial: 0,
+      walls: 166,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'spero',
@@ -35635,7 +49747,21 @@ const prefabs = [
       '       ##.....#',
       '        ##...##',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 34,
+      width: 34,
+      floors: 380,
+      floorsSpecial: 0,
+      walls: 128,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'blemena',
@@ -35666,7 +49792,21 @@ const prefabs = [
       '                    ##.##',
       '                     #.#',
       '                     #+#'
-    ]
+    ],
+    details: {
+      height: 26,
+      width: 45,
+      floors: 409,
+      floorsSpecial: 0,
+      walls: 178,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'ajib',
@@ -35704,7 +49844,21 @@ const prefabs = [
       '                      ##...##',
       '                       ##.##',
       '                        #+#'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 36,
+      floors: 277,
+      floorsSpecial: 0,
+      walls: 141,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'spasch',
@@ -35745,7 +49899,21 @@ const prefabs = [
       '         ##...........##',
       '          ###.......###',
       '            ####+####'
-    ]
+    ],
+    details: {
+      height: 36,
+      width: 33,
+      floors: 455,
+      floorsSpecial: 0,
+      walls: 188,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kerukylos',
@@ -35784,7 +49952,21 @@ const prefabs = [
       '               ##.##',
       '                #.#',
       '                #+#'
-    ]
+    ],
+    details: {
+      height: 34,
+      width: 35,
+      floors: 382,
+      floorsSpecial: 0,
+      walls: 158,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'kerug',
@@ -35826,7 +50008,21 @@ const prefabs = [
       '             #.....#',
       '             #.....#',
       '             ###+###'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 33,
+      floors: 433,
+      floorsSpecial: 0,
+      walls: 153,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'darohalu',
@@ -35868,7 +50064,21 @@ const prefabs = [
       '             ##...##',
       '              #...#',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 33,
+      floors: 521,
+      floorsSpecial: 0,
+      walls: 132,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kyles',
@@ -35906,7 +50116,21 @@ const prefabs = [
       '              #.......#',
       '              #.......#',
       '              ##+###+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 37,
+      floors: 349,
+      floorsSpecial: 0,
+      walls: 195,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'kerarathorgh',
@@ -35948,7 +50172,21 @@ const prefabs = [
       '         #...#',
       '         #...#',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 33,
+      floors: 345,
+      floorsSpecial: 0,
+      walls: 184,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'darasc',
@@ -35988,7 +50226,21 @@ const prefabs = [
       '               #...#',
       '               #...#',
       '               ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 35,
+      floors: 317,
+      floorsSpecial: 0,
+      walls: 132,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'wosu',
@@ -36028,7 +50280,21 @@ const prefabs = [
       '         +......##',
       '         #....###',
       '         ######'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 35,
+      floors: 325,
+      floorsSpecial: 0,
+      walls: 180,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'vesakylaehalkyl',
@@ -36068,7 +50334,21 @@ const prefabs = [
       '             ###...###',
       '               #...#',
       '               ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 35,
+      floors: 297,
+      floorsSpecial: 0,
+      walls: 156,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'twopre',
@@ -36108,7 +50388,21 @@ const prefabs = [
       '    #....####',
       '    +..###',
       '    ####'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 35,
+      floors: 533,
+      floorsSpecial: 0,
+      walls: 172,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'bud',
@@ -36148,7 +50442,21 @@ const prefabs = [
       '            #.........#',
       '            ###.....###',
       '              ###+###'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 35,
+      floors: 637,
+      floorsSpecial: 0,
+      walls: 132,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ocolas',
@@ -36188,7 +50496,21 @@ const prefabs = [
       '             #.......#',
       '             ###...###',
       '               ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 35,
+      floors: 437,
+      floorsSpecial: 0,
+      walls: 164,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'itio',
@@ -36228,7 +50550,21 @@ const prefabs = [
       '             ###...###',
       '               #...#',
       '               ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 35,
+      floors: 297,
+      floorsSpecial: 0,
+      walls: 156,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'gumen',
@@ -36268,7 +50604,21 @@ const prefabs = [
       '           ##.........##',
       '            ###.....###',
       '              ###+###'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 35,
+      floors: 593,
+      floorsSpecial: 0,
+      walls: 164,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'quarikyll',
@@ -36308,7 +50658,21 @@ const prefabs = [
       '               #...#',
       '               #...#',
       '               ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 35,
+      floors: 333,
+      floorsSpecial: 0,
+      walls: 132,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'tyn',
@@ -36348,7 +50712,21 @@ const prefabs = [
       '        ##...............##',
       '         ####.........####',
       '            ##+#####+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 35,
+      floors: 419,
+      floorsSpecial: 0,
+      walls: 185,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'lynithoru',
@@ -36388,7 +50766,21 @@ const prefabs = [
       '  ##.....##             ##.....##',
       '   ##...##               ##...##',
       '    ##+##                 ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 35,
+      floors: 501,
+      floorsSpecial: 0,
+      walls: 220,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'darario',
@@ -36428,7 +50820,21 @@ const prefabs = [
       '                   ###....##',
       '                     ###...+',
       '                       #####'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 35,
+      floors: 301,
+      floorsSpecial: 0,
+      walls: 188,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ras',
@@ -36468,7 +50874,21 @@ const prefabs = [
       '#..#                           #..#',
       '#.##                           ##.#',
       '#+#                             #+#'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 35,
+      floors: 349,
+      floorsSpecial: 0,
+      walls: 228,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'lyneil',
@@ -36508,7 +50928,21 @@ const prefabs = [
       '           ##.........##',
       '            ###.....###',
       '              ###+###'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 35,
+      floors: 617,
+      floorsSpecial: 0,
+      walls: 188,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'synomenu',
@@ -36548,7 +50982,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 35,
+      floors: 349,
+      floorsSpecial: 0,
+      walls: 168,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'ruc',
@@ -36584,7 +51032,21 @@ const prefabs = [
       '                  #...#',
       '                  #...#',
       '                  ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 41,
+      floors: 427,
+      floorsSpecial: 0,
+      walls: 172,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'synothorocrw',
@@ -36626,7 +51088,21 @@ const prefabs = [
       '               #...#',
       '               #...#',
       '               ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 35,
+      floors: 471,
+      floorsSpecial: 0,
+      walls: 136,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ikimen',
@@ -36666,7 +51142,21 @@ const prefabs = [
       '     #...#      #...#      #...#',
       '     ##+##      #...#      ##+##',
       '                ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 37,
+      floors: 467,
+      floorsSpecial: 0,
+      walls: 297,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 11
+    }
   },
   {
     name: 'darisli',
@@ -36707,7 +51197,21 @@ const prefabs = [
       '                     #...#',
       '                     #...#',
       '                     ##+##'
-    ]
+    ],
+    details: {
+      height: 36,
+      width: 36,
+      floors: 387,
+      floorsSpecial: 0,
+      walls: 202,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'blalas',
@@ -36747,7 +51251,21 @@ const prefabs = [
       '   ###...##',
       '     ###..#',
       '       ##+#'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 39,
+      floors: 283,
+      floorsSpecial: 0,
+      walls: 158,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'keriesn',
@@ -36791,7 +51309,21 @@ const prefabs = [
       '     #..# #+#         #+# #..#',
       '     ##.#                 #.##',
       '      #+#                 #+#'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 35,
+      floors: 561,
+      floorsSpecial: 0,
+      walls: 409,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'baheisynl',
@@ -36833,7 +51365,21 @@ const prefabs = [
       '       ##...##',
       '        ##.##',
       '         #+#'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 37,
+      floors: 407,
+      floorsSpecial: 0,
+      walls: 156,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'usynahal',
@@ -36875,7 +51421,21 @@ const prefabs = [
       '                 #.#',
       '                 #.#',
       '                 #+#'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 37,
+      floors: 277,
+      floorsSpecial: 0,
+      walls: 140,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'dral',
@@ -36917,7 +51477,21 @@ const prefabs = [
       '       ##...##',
       '        ##.##',
       '         #+#'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 37,
+      floors: 509,
+      floorsSpecial: 0,
+      walls: 212,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'snahiprth',
@@ -36959,7 +51533,21 @@ const prefabs = [
       '       ##...##################',
       '        ##.##',
       '         #+#'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 37,
+      floors: 611,
+      floorsSpecial: 0,
+      walls: 268,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'vesamen',
@@ -37001,7 +51589,21 @@ const prefabs = [
       '               ##...##',
       '                ##.##',
       '                 #+#'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 37,
+      floors: 325,
+      floorsSpecial: 0,
+      walls: 180,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'clokylamensh',
@@ -37043,7 +51645,21 @@ const prefabs = [
       '          #...#       #...#',
       '          #...#       #...#',
       '          ##+##       ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 37,
+      floors: 553,
+      floorsSpecial: 0,
+      walls: 236,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'voithori',
@@ -37085,7 +51701,21 @@ const prefabs = [
       '                #...#',
       '                #...#',
       '                ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 37,
+      floors: 545,
+      floorsSpecial: 0,
+      walls: 284,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'lynakyl',
@@ -37127,7 +51757,21 @@ const prefabs = [
       '          #...#       #...#',
       '          #...#       #...#',
       '          ##+##       ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 37,
+      floors: 569,
+      floorsSpecial: 0,
+      walls: 224,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'haletomenryn',
@@ -37169,7 +51813,21 @@ const prefabs = [
       '            #...........#',
       '            #...........#',
       '            ##+###+###+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 37,
+      floors: 505,
+      floorsSpecial: 0,
+      walls: 180,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'ybaryn',
@@ -37214,7 +51872,21 @@ const prefabs = [
       '               #...#',
       '               #...#',
       '               ##+##'
-    ]
+    ],
+    details: {
+      height: 40,
+      width: 35,
+      floors: 359,
+      floorsSpecial: 0,
+      walls: 205,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'heimena',
@@ -37254,7 +51926,21 @@ const prefabs = [
       '                  #...#',
       '                  #...#',
       '                  ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 41,
+      floors: 476,
+      floorsSpecial: 0,
+      walls: 210,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'idarot',
@@ -37298,7 +51984,21 @@ const prefabs = [
       '#.....##                     ##.....#',
       '##..###                       ###..##',
       ' #+##                           ##+#'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 37,
+      floors: 549,
+      floorsSpecial: 0,
+      walls: 250,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'clib',
@@ -37347,7 +52047,21 @@ const prefabs = [
       '              #...#',
       '              #...#',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 44,
+      width: 33,
+      floors: 354,
+      floorsSpecial: 0,
+      walls: 146,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'lynusithb',
@@ -37388,7 +52102,21 @@ const prefabs = [
       '     ##.........##     ##.........##',
       '      ##......###       ###......##',
       '       ####+###           ###+####'
-    ]
+    ],
+    details: {
+      height: 36,
+      width: 41,
+      floors: 964,
+      floorsSpecial: 0,
+      walls: 194,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'rusynu',
@@ -37438,7 +52166,21 @@ const prefabs = [
       '                        ##......+',
       '                         ###....#',
       '                           ######'
-    ]
+    ],
+    details: {
+      height: 45,
+      width: 33,
+      floors: 319,
+      floorsSpecial: 0,
+      walls: 162,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'afrokyl',
@@ -37488,7 +52230,21 @@ const prefabs = [
       '              #...#',
       '              #...#',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 45,
+      width: 33,
+      floors: 589,
+      floorsSpecial: 0,
+      walls: 306,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'eschoi',
@@ -37528,7 +52284,21 @@ const prefabs = [
       '         #...#               #...#',
       '         #...#               #...#',
       '         ##+##               ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 43,
+      floors: 523,
+      floorsSpecial: 0,
+      walls: 276,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'ahaliegh',
@@ -37568,7 +52338,21 @@ const prefabs = [
       '#...#                                 #...#',
       '#...#                                 #...#',
       '##+##                                 ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 43,
+      floors: 383,
+      floorsSpecial: 0,
+      walls: 245,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'otwahal',
@@ -37612,7 +52396,21 @@ const prefabs = [
       '                  #.#',
       '                  #.#',
       '                  #+#'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 39,
+      floors: 449,
+      floorsSpecial: 0,
+      walls: 232,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'tatae',
@@ -37656,7 +52454,21 @@ const prefabs = [
       '  ##...##                     ##...##',
       '   #...#                       #...#',
       '   ##+##                       ##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 39,
+      floors: 433,
+      floorsSpecial: 0,
+      walls: 256,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'badi',
@@ -37708,7 +52520,21 @@ const prefabs = [
       '              #...#',
       '              #...#',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 33,
+      floors: 553,
+      floorsSpecial: 0,
+      walls: 244,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'esprup',
@@ -37756,7 +52582,21 @@ const prefabs = [
       '                #...#',
       '                #...#',
       '                ##+##'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 37,
+      floors: 482,
+      floorsSpecial: 0,
+      walls: 215,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'vesahal',
@@ -37802,7 +52642,21 @@ const prefabs = [
       '                    #...#',
       '                    #...#',
       '                    ##+##'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 39,
+      floors: 323,
+      floorsSpecial: 0,
+      walls: 206,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'striol',
@@ -37847,7 +52701,21 @@ const prefabs = [
       '                     ###......####',
       '                       ###.......+',
       '                         #########'
-    ]
+    ],
+    details: {
+      height: 40,
+      width: 40,
+      floors: 416,
+      floorsSpecial: 0,
+      walls: 240,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'olynab',
@@ -37889,7 +52757,21 @@ const prefabs = [
       '   #...#                             #...#',
       '   #...#                             #...#',
       '   ##+##                             ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 45,
+      floors: 469,
+      floorsSpecial: 0,
+      walls: 290,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 14
+    }
   },
   {
     name: 'menoso',
@@ -37935,7 +52817,21 @@ const prefabs = [
       '                ##.....##',
       '                 ##...##',
       '                  ##+##'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 41,
+      floors: 689,
+      floorsSpecial: 0,
+      walls: 204,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'ogasyn',
@@ -37981,7 +52877,21 @@ const prefabs = [
       '        #...#',
       '        #...#',
       '        ##+##'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 41,
+      floors: 449,
+      floorsSpecial: 0,
+      walls: 172,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'oidaral',
@@ -38027,7 +52937,21 @@ const prefabs = [
       '        #...#               #...#',
       '        #...#               #...#',
       '        ##+##               ##+##'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 41,
+      floors: 597,
+      floorsSpecial: 0,
+      walls: 256,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'ograng',
@@ -38073,7 +52997,21 @@ const prefabs = [
       '                  #...#',
       '                  #...#',
       '                  ##+##'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 41,
+      floors: 285,
+      floorsSpecial: 0,
+      walls: 156,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'esyna',
@@ -38119,7 +53057,21 @@ const prefabs = [
       '                  #...#',
       '                  #...#',
       '                  ##+##'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 41,
+      floors: 529,
+      floorsSpecial: 0,
+      walls: 309,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'oslom',
@@ -38165,7 +53117,21 @@ const prefabs = [
       '                #...#',
       '                #...#',
       '                ##+##'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 41,
+      floors: 323,
+      floorsSpecial: 0,
+      walls: 176,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'kerithora',
@@ -38203,7 +53169,21 @@ const prefabs = [
       '                      ##...##',
       '                       ##.##',
       '                        #+#'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 51,
+      floors: 373,
+      floorsSpecial: 0,
+      walls: 207,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 3
+    }
   },
   {
     name: 'imenes',
@@ -38253,7 +53233,21 @@ const prefabs = [
       '              ##.......##',
       '               ###...###',
       '                 ##+##'
-    ]
+    ],
+    details: {
+      height: 45,
+      width: 39,
+      floors: 851,
+      floorsSpecial: 0,
+      walls: 272,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'twiomoi',
@@ -38290,7 +53284,21 @@ const prefabs = [
       '+.....###                                     ###.....+',
       '#...###                                         ###...#',
       '#####                                             #####'
-    ]
+    ],
+    details: {
+      height: 32,
+      width: 55,
+      floors: 357,
+      floorsSpecial: 0,
+      walls: 220,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'twiohebm',
@@ -38336,7 +53344,21 @@ const prefabs = [
       '#..#                                   #..#',
       '#.##                                   ##.#',
       '#+#                                     #+#'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 43,
+      floors: 505,
+      floorsSpecial: 0,
+      walls: 268,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'iesa',
@@ -38384,7 +53406,21 @@ const prefabs = [
       '            #...#       #...#',
       '            #...#       #...#',
       '            ##+##       ##+##'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 41,
+      floors: 449,
+      floorsSpecial: 0,
+      walls: 332,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'lynaquo',
@@ -38434,7 +53470,21 @@ const prefabs = [
       '         #...#',
       '         #...#',
       '         ##+##'
-    ]
+    ],
+    details: {
+      height: 45,
+      width: 41,
+      floors: 521,
+      floorsSpecial: 0,
+      walls: 248,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'bosynu',
@@ -38482,7 +53532,21 @@ const prefabs = [
       '#....####                         ####....#',
       '#..###                               ###..#',
       '#+##                                   ##+#'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 43,
+      floors: 773,
+      floorsSpecial: 0,
+      walls: 266,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'kylalokylh',
@@ -38530,7 +53594,21 @@ const prefabs = [
       '                  ##...##',
       '                   #...#',
       '                   ##+##'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 43,
+      floors: 457,
+      floorsSpecial: 0,
+      walls: 212,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'aevesiem',
@@ -38578,7 +53656,21 @@ const prefabs = [
       '                ##.......##',
       '                 ###...###',
       '                   ##+##'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 43,
+      floors: 469,
+      floorsSpecial: 0,
+      walls: 324,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'menowu',
@@ -38626,7 +53718,21 @@ const prefabs = [
       '                ##.......##',
       '                 ###...###',
       '                   ##+##'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 43,
+      floors: 589,
+      floorsSpecial: 0,
+      walls: 376,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'lynolosmsch',
@@ -38674,7 +53780,21 @@ const prefabs = [
       '                  ##...##',
       '                   #...#',
       '                   ##+##'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 43,
+      floors: 661,
+      floorsSpecial: 0,
+      walls: 308,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'kuhal',
@@ -38722,7 +53842,21 @@ const prefabs = [
       '               ##.........##',
       '                ###.....###',
       '                  ###+###'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 43,
+      floors: 565,
+      floorsSpecial: 0,
+      walls: 228,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'brati',
@@ -38770,7 +53904,21 @@ const prefabs = [
       '                 ##.....##',
       '                  #.....#',
       '                  ###+###'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 43,
+      floors: 577,
+      floorsSpecial: 0,
+      walls: 210,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'yxiryn',
@@ -38818,7 +53966,21 @@ const prefabs = [
       '                 ##.....##',
       '                  #.....#',
       '                  ###+###'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 43,
+      floors: 785,
+      floorsSpecial: 0,
+      walls: 244,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'ebigh',
@@ -38862,7 +54024,21 @@ const prefabs = [
       '                      #...#',
       '                      #...#',
       '                      ##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 49,
+      floors: 712,
+      floorsSpecial: 0,
+      walls: 181,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'ahalosh',
@@ -38902,7 +54078,21 @@ const prefabs = [
       '      #...#                                   #...#',
       '      #...#                                   #...#',
       '      ##+##                                   ##+##'
-    ]
+    ],
+    details: {
+      height: 35,
+      width: 57,
+      floors: 597,
+      floorsSpecial: 0,
+      walls: 324,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'romen',
@@ -38952,7 +54142,21 @@ const prefabs = [
       '   #...#            #...#            #...#',
       '   #...#            #...#            #...#',
       '   ##+##            ##+##            ##+##'
-    ]
+    ],
+    details: {
+      height: 45,
+      width: 45,
+      floors: 857,
+      floorsSpecial: 0,
+      walls: 484,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'vesahumenlas',
@@ -39002,7 +54206,21 @@ const prefabs = [
       '                    #...#',
       '                    #...#',
       '                    ##+##'
-    ]
+    ],
+    details: {
+      height: 45,
+      width: 45,
+      floors: 633,
+      floorsSpecial: 0,
+      walls: 348,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'bole',
@@ -39052,7 +54270,21 @@ const prefabs = [
       '                    #...#',
       '                    #...#',
       '                    ##+##'
-    ]
+    ],
+    details: {
+      height: 45,
+      width: 45,
+      floors: 493,
+      floorsSpecial: 0,
+      walls: 204,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'arynamook',
@@ -39102,7 +54334,21 @@ const prefabs = [
       '             ###.............###',
       '               ####.......####',
       '                  ####+####'
-    ]
+    ],
+    details: {
+      height: 45,
+      width: 45,
+      floors: 797,
+      floorsSpecial: 0,
+      walls: 496,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ihalatores',
@@ -39152,7 +54398,21 @@ const prefabs = [
       '                  #...#',
       '                  #...#',
       '                  ##+##'
-    ]
+    ],
+    details: {
+      height: 45,
+      width: 45,
+      floors: 407,
+      floorsSpecial: 0,
+      walls: 264,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'lynascho',
@@ -39203,7 +54463,21 @@ const prefabs = [
       '                                ###....##',
       '                                  ###...+',
       '                                    #####'
-    ]
+    ],
+    details: {
+      height: 46,
+      width: 46,
+      floors: 532,
+      floorsSpecial: 0,
+      walls: 264,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'backamenmen',
@@ -39247,7 +54521,21 @@ const prefabs = [
       '+.....###                                     ###.....+',
       '#...###                                         ###...#',
       '#####                                             #####'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 55,
+      floors: 485,
+      floorsSpecial: 0,
+      walls: 332,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 6
+    }
   },
   {
     name: 'etu',
@@ -39298,7 +54586,21 @@ const prefabs = [
       '                      #.#',
       '                      #.#',
       '                      #+#'
-    ]
+    ],
+    details: {
+      height: 46,
+      width: 47,
+      floors: 440,
+      floorsSpecial: 0,
+      walls: 178,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'cliple',
@@ -39349,7 +54651,21 @@ const prefabs = [
       '                      ##...##',
       '                       ##..#',
       '                        ##+#'
-    ]
+    ],
+    details: {
+      height: 46,
+      width: 47,
+      floors: 871,
+      floorsSpecial: 0,
+      walls: 275,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'darat',
@@ -39391,7 +54707,21 @@ const prefabs = [
       '                           #...#',
       '                           #...#',
       '                           ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 59,
+      floors: 431,
+      floorsSpecial: 0,
+      walls: 240,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'ilynoryn',
@@ -39443,7 +54773,21 @@ const prefabs = [
       '                      #.#',
       '                      #.#',
       '                      #+#'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 47,
+      floors: 565,
+      floorsSpecial: 0,
+      walls: 396,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'obie',
@@ -39495,7 +54839,21 @@ const prefabs = [
       '                  ##.......+',
       '                   ###.....#',
       '                     #######'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 47,
+      floors: 517,
+      floorsSpecial: 0,
+      walls: 284,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'vesim',
@@ -39547,7 +54905,21 @@ const prefabs = [
       '                 ##.........##',
       '                  ###.....###',
       '                    #+###+#'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 47,
+      floors: 673,
+      floorsSpecial: 0,
+      walls: 256,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'darasynu',
@@ -39599,7 +54971,21 @@ const prefabs = [
       '                    ##...##',
       '                     #...#',
       '                     ##+##'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 47,
+      floors: 517,
+      floorsSpecial: 0,
+      walls: 220,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'lung',
@@ -39651,7 +55037,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 47,
+      floors: 501,
+      floorsSpecial: 0,
+      walls: 260,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'homen',
@@ -39709,7 +55109,21 @@ const prefabs = [
       '       #..#  #+#           #+#  #..#',
       '       ##.#                     #.##',
       '        #+#                     #+#'
-    ]
+    ],
+    details: {
+      height: 53,
+      width: 43,
+      floors: 937,
+      floorsSpecial: 0,
+      walls: 579,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'kylapri',
@@ -39765,7 +55179,21 @@ const prefabs = [
       '                      #.#',
       '                      #.#',
       '                      #+#'
-    ]
+    ],
+    details: {
+      height: 51,
+      width: 47,
+      floors: 1039,
+      floorsSpecial: 0,
+      walls: 362,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'arynas',
@@ -39819,7 +55247,21 @@ const prefabs = [
       '              ##.....##   ##.....##',
       '               ##...##     ##...##',
       '                ##+##       ##+##'
-    ]
+    ],
+    details: {
+      height: 49,
+      width: 49,
+      floors: 945,
+      floorsSpecial: 0,
+      walls: 414,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'vesiemenimenr',
@@ -39873,7 +55315,21 @@ const prefabs = [
       '                      #...#',
       '                      #...#',
       '                      ##+##'
-    ]
+    ],
+    details: {
+      height: 49,
+      width: 49,
+      floors: 857,
+      floorsSpecial: 0,
+      walls: 404,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'darygh',
@@ -39927,7 +55383,21 @@ const prefabs = [
       '              #...#           #...#',
       '              #...#           #...#',
       '              ##+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 49,
+      width: 49,
+      floors: 733,
+      floorsSpecial: 0,
+      walls: 472,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'chobismen',
@@ -39981,7 +55451,21 @@ const prefabs = [
       '                  ##.........##',
       '                   ###.....###',
       '                     ###+###'
-    ]
+    ],
+    details: {
+      height: 49,
+      width: 49,
+      floors: 741,
+      floorsSpecial: 0,
+      walls: 428,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'synosyniblas',
@@ -40035,7 +55519,21 @@ const prefabs = [
       '           +.....###',
       '           #...###',
       '           #####'
-    ]
+    ],
+    details: {
+      height: 49,
+      width: 49,
+      floors: 377,
+      floorsSpecial: 0,
+      walls: 276,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'bit',
@@ -40090,7 +55588,21 @@ const prefabs = [
       '              #+#       ##..#',
       '                         ##.+',
       '                          ###'
-    ]
+    ],
+    details: {
+      height: 50,
+      width: 50,
+      floors: 898,
+      floorsSpecial: 0,
+      walls: 420,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'veseimi',
@@ -40146,7 +55658,21 @@ const prefabs = [
       '                   ##.........##',
       '                    ###.....###',
       '                      ###+###'
-    ]
+    ],
+    details: {
+      height: 51,
+      width: 51,
+      floors: 1029,
+      floorsSpecial: 0,
+      walls: 452,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'chamenae',
@@ -40202,7 +55728,21 @@ const prefabs = [
       '             +.......##',
       '             #.....###',
       '             #######'
-    ]
+    ],
+    details: {
+      height: 51,
+      width: 51,
+      floors: 435,
+      floorsSpecial: 0,
+      walls: 256,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'shriwa',
@@ -40258,7 +55798,21 @@ const prefabs = [
       '         +......###',
       '         #...####',
       '         #####'
-    ]
+    ],
+    details: {
+      height: 51,
+      width: 51,
+      floors: 493,
+      floorsSpecial: 0,
+      walls: 308,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'scresynuscrkyl',
@@ -40314,7 +55868,21 @@ const prefabs = [
       '                       #...#',
       '                       #...#',
       '                       ##+##'
-    ]
+    ],
+    details: {
+      height: 51,
+      width: 51,
+      floors: 645,
+      floorsSpecial: 0,
+      walls: 386,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'iryne',
@@ -40370,7 +55938,21 @@ const prefabs = [
       '                        #.#',
       '                        #.#',
       '                        #+#'
-    ]
+    ],
+    details: {
+      height: 51,
+      width: 52,
+      floors: 735,
+      floorsSpecial: 0,
+      walls: 514,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'whimeniech',
@@ -40427,7 +56009,21 @@ const prefabs = [
       '                   #...##',
       '                   ##.##',
       '                    #+#'
-    ]
+    ],
+    details: {
+      height: 52,
+      width: 53,
+      floors: 933,
+      floorsSpecial: 0,
+      walls: 405,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'chira',
@@ -40476,7 +56072,21 @@ const prefabs = [
       '       ##...##',
       '        ##.##',
       '         #+#'
-    ]
+    ],
+    details: {
+      height: 44,
+      width: 63,
+      floors: 553,
+      floorsSpecial: 0,
+      walls: 275,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'kerome',
@@ -40536,7 +56146,21 @@ const prefabs = [
       '             +.......##         ##.......+',
       '             #.....###           ###.....#',
       '             #######               #######'
-    ]
+    ],
+    details: {
+      height: 55,
+      width: 55,
+      floors: 845,
+      floorsSpecial: 0,
+      walls: 500,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'kyloshio',
@@ -40599,7 +56223,21 @@ const prefabs = [
       '                   #..#       #..#',
       '                   ##.#       #.##',
       '                    #+#       #+#'
-    ]
+    ],
+    details: {
+      height: 58,
+      width: 53,
+      floors: 1052,
+      floorsSpecial: 0,
+      walls: 594,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'slathorodryn',
@@ -40658,7 +56296,21 @@ const prefabs = [
       '                        #.......#',
       '                        #.......#',
       '                        ##+###+##'
-    ]
+    ],
+    details: {
+      height: 54,
+      width: 57,
+      floors: 478,
+      floorsSpecial: 0,
+      walls: 213,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'odaros',
@@ -40720,7 +56372,21 @@ const prefabs = [
       '             #...#',
       '             #...#',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 57,
+      width: 57,
+      floors: 650,
+      floorsSpecial: 0,
+      walls: 308,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'aedaramen',
@@ -40784,7 +56450,21 @@ const prefabs = [
       '       ##...##',
       '        ##.##',
       '         #+#'
-    ]
+    ],
+    details: {
+      height: 59,
+      width: 58,
+      floors: 792,
+      floorsSpecial: 0,
+      walls: 463,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 14
+    }
   },
   {
     name: 'odarang',
@@ -40849,7 +56529,21 @@ const prefabs = [
       '       ##...##',
       '        ##.##',
       '         #+#'
-    ]
+    ],
+    details: {
+      height: 60,
+      width: 58,
+      floors: 807,
+      floorsSpecial: 0,
+      walls: 470,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 19
+    }
   },
   {
     name: 'sat',
@@ -40915,7 +56609,21 @@ const prefabs = [
       '               #.#                         #.#',
       '               #.#                         #.#',
       '               #+#                         #+#'
-    ]
+    ],
+    details: {
+      height: 61,
+      width: 61,
+      floors: 925,
+      floorsSpecial: 0,
+      walls: 556,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'daremen',
@@ -40984,7 +56692,21 @@ const prefabs = [
       '       ##...##',
       '        ##.##',
       '         #+#'
-    ]
+    ],
+    details: {
+      height: 64,
+      width: 63,
+      floors: 535,
+      floorsSpecial: 0,
+      walls: 264,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'asynaryn',
@@ -41014,7 +56736,21 @@ const prefabs = [
       '+...............+',
       '#...............#',
       '#################'
-    ]
+    ],
+    details: {
+      height: 25,
+      width: 17,
+      floors: 282,
+      floorsSpecial: 0,
+      walls: 132,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 11
+    }
   },
   {
     name: 'vesisitgh',
@@ -41040,7 +56776,21 @@ const prefabs = [
       '#.....#...#...#.....#',
       '#.....#...#...#.....#',
       '###+#############+###'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 21,
+      floors: 289,
+      floorsSpecial: 0,
+      walls: 136,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 16
+    }
   },
   {
     name: 'iotae',
@@ -41057,7 +56807,21 @@ const prefabs = [
       '   #...#       #...............#       #...#',
       '   #...#       #...............#       #...#',
       '   ##+##       #################       ##+##'
-    ]
+    ],
+    details: {
+      height: 12,
+      width: 47,
+      floors: 294,
+      floorsSpecial: 0,
+      walls: 174,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'kerohi',
@@ -41095,7 +56859,21 @@ const prefabs = [
       '#####...........#####',
       '    #...........#',
       '    #############'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 21,
+      floors: 419,
+      floorsSpecial: 0,
+      walls: 208,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'yflulas',
@@ -41129,7 +56907,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 25,
+      floors: 245,
+      floorsSpecial: 0,
+      walls: 148,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'kerehaloscrb',
@@ -41167,7 +56959,21 @@ const prefabs = [
       '        #.....#',
       '        #.....#',
       '        ###+###'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 23,
+      floors: 275,
+      floorsSpecial: 0,
+      walls: 152,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'darokyl',
@@ -41199,7 +57005,21 @@ const prefabs = [
       '    ###....##   ##....###',
       '      ###..#     #..###',
       '        ##+#     #+##'
-    ]
+    ],
+    details: {
+      height: 27,
+      width: 29,
+      floors: 377,
+      floorsSpecial: 0,
+      walls: 232,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 16
+    }
   },
   {
     name: 'kerocl',
@@ -41237,7 +57057,21 @@ const prefabs = [
       '         ##...##',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 25,
+      floors: 305,
+      floorsSpecial: 0,
+      walls: 156,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'uvesoives',
@@ -41275,7 +57109,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 25,
+      floors: 353,
+      floorsSpecial: 0,
+      walls: 178,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 14
+    }
   },
   {
     name: 'obisyn',
@@ -41309,7 +57157,21 @@ const prefabs = [
       '                #...........+',
       '                #...........#',
       '                #############'
-    ]
+    ],
+    details: {
+      height: 29,
+      width: 29,
+      floors: 504,
+      floorsSpecial: 0,
+      walls: 197,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'shuscho',
@@ -41363,7 +57225,21 @@ const prefabs = [
       '       #...#',
       '       #...#',
       '       ##+##'
-    ]
+    ],
+    details: {
+      height: 49,
+      width: 19,
+      floors: 430,
+      floorsSpecial: 0,
+      walls: 233,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 16
+    }
   },
   {
     name: 'othremen',
@@ -41399,7 +57275,21 @@ const prefabs = [
       '             #...#',
       '             #...#',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 369,
+      floorsSpecial: 0,
+      walls: 164,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'aclam',
@@ -41435,7 +57325,21 @@ const prefabs = [
       '             #...#',
       '             #...#',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 369,
+      floorsSpecial: 0,
+      walls: 212,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'kerieves',
@@ -41471,7 +57375,21 @@ const prefabs = [
       '+....##    #...#...#    ##....+',
       '#...##     #...#...#     ##...#',
       '#####      #########      #####'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 553,
+      floorsSpecial: 0,
+      walls: 236,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'sweth',
@@ -41507,7 +57425,21 @@ const prefabs = [
       '            #.....#',
       '            #.....#',
       '            ###+###'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 401,
+      floorsSpecial: 0,
+      walls: 164,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'haloibimensk',
@@ -41543,7 +57475,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 337,
+      floorsSpecial: 0,
+      walls: 164,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'biomenaekylsch',
@@ -41581,7 +57527,21 @@ const prefabs = [
       '             #...#',
       '             #...#',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 31,
+      floors: 419,
+      floorsSpecial: 0,
+      walls: 190,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 14
+    }
   },
   {
     name: 'darashek',
@@ -41618,7 +57578,21 @@ const prefabs = [
       '+..........#',
       '#..........#',
       '############'
-    ]
+    ],
+    details: {
+      height: 32,
+      width: 32,
+      floors: 349,
+      floorsSpecial: 0,
+      walls: 188,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'ongi',
@@ -41656,7 +57630,21 @@ const prefabs = [
       '             #.....#',
       '             #.....#',
       '             ###+###'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 33,
+      floors: 421,
+      floorsSpecial: 0,
+      walls: 172,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'vesaeves',
@@ -41702,7 +57690,21 @@ const prefabs = [
       '           #...#',
       '           #...#',
       '           ##+##'
-    ]
+    ],
+    details: {
+      height: 41,
+      width: 27,
+      floors: 423,
+      floorsSpecial: 0,
+      walls: 228,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 15
+    }
   },
   {
     name: 'phaskithorb',
@@ -41746,7 +57748,21 @@ const prefabs = [
       '              #...#',
       '              #...#',
       '              ##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 29,
+      floors: 369,
+      floorsSpecial: 0,
+      walls: 216,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 13
+    }
   },
   {
     name: 'ewiv',
@@ -41790,7 +57806,21 @@ const prefabs = [
       '                #...#',
       '                #...#',
       '                ##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 33,
+      floors: 331,
+      floorsSpecial: 0,
+      walls: 184,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'synoqueikylh',
@@ -41832,7 +57862,21 @@ const prefabs = [
       '                #...#',
       '                #...#',
       '                ##+##'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 37,
+      floors: 617,
+      floorsSpecial: 0,
+      walls: 324,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'etie',
@@ -41870,7 +57914,21 @@ const prefabs = [
       '#...# #################',
       '#...#',
       '##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 43,
+      floors: 385,
+      floorsSpecial: 0,
+      walls: 220,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'vesople',
@@ -41914,7 +57972,21 @@ const prefabs = [
       '              ##.......##',
       '               ###...###',
       '                 ##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 39,
+      floors: 652,
+      floorsSpecial: 0,
+      walls: 248,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'lahalusplmen',
@@ -41952,7 +58024,21 @@ const prefabs = [
       '             #...#           #...#',
       '             #...#           #...#',
       '             ##+##           ##+##'
-    ]
+    ],
+    details: {
+      height: 33,
+      width: 47,
+      floors: 548,
+      floorsSpecial: 0,
+      walls: 318,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 14
+    }
   },
   {
     name: 'aemaryn',
@@ -42000,7 +58086,21 @@ const prefabs = [
       '                ##.......##',
       '                 ###...###',
       '                   ##+##'
-    ]
+    ],
+    details: {
+      height: 43,
+      width: 43,
+      floors: 581,
+      floorsSpecial: 0,
+      walls: 340,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'afi',
@@ -42052,7 +58152,21 @@ const prefabs = [
       '                  #...#',
       '                  #...#',
       '                  ##+##'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 41,
+      floors: 617,
+      floorsSpecial: 0,
+      walls: 290,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 14
+    }
   },
   {
     name: 'caves',
@@ -42104,7 +58218,21 @@ const prefabs = [
       '          #...#',
       '          #...#',
       '          ##+##'
-    ]
+    ],
+    details: {
+      height: 47,
+      width: 47,
+      floors: 609,
+      floorsSpecial: 0,
+      walls: 316,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 20
+    }
   },
   {
     name: 'iewack',
@@ -42160,7 +58288,21 @@ const prefabs = [
       '                   ##.........##',
       '                    ###.....###',
       '                      ###+###'
-    ]
+    ],
+    details: {
+      height: 51,
+      width: 51,
+      floors: 1101,
+      floorsSpecial: 0,
+      walls: 500,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 12
+    }
   },
   {
     name: 'rasynosynryn',
@@ -42216,7 +58358,21 @@ const prefabs = [
       '                   ##.........##',
       '                    ###.....###',
       '                      ###+###'
-    ]
+    ],
+    details: {
+      height: 51,
+      width: 51,
+      floors: 985,
+      floorsSpecial: 0,
+      walls: 492,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 8
+    }
   },
   {
     name: 'syneves',
@@ -42260,7 +58416,21 @@ const prefabs = [
       '                 #...#',
       '                 #...#',
       '                 ##+##'
-    ]
+    ],
+    details: {
+      height: 39,
+      width: 39,
+      floors: 613,
+      floorsSpecial: 0,
+      walls: 346,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 10
+    }
   },
   {
     name: 'twimena',
@@ -42310,7 +58480,21 @@ const prefabs = [
       '                   ##...##',
       '                    #...#',
       '                    ##+##'
-    ]
+    ],
+    details: {
+      height: 45,
+      width: 45,
+      floors: 470,
+      floorsSpecial: 0,
+      walls: 260,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 7
+    }
   },
   {
     name: 'dararyn',
@@ -42346,7 +58530,21 @@ const prefabs = [
       '           ##.....##',
       '            ##...##',
       '             ##+##'
-    ]
+    ],
+    details: {
+      height: 31,
+      width: 31,
+      floors: 417,
+      floorsSpecial: 0,
+      walls: 116,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'asenth',
@@ -42364,7 +58562,21 @@ const prefabs = [
       ' ##.......##',
       '  ###...###',
       '    ##+##'
-    ]
+    ],
+    details: {
+      height: 13,
+      width: 13,
+      floors: 89,
+      floorsSpecial: 0,
+      walls: 44,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'darongy',
@@ -42390,7 +58602,21 @@ const prefabs = [
       '  #####  ##.......##  #####',
       '          ###...###',
       '            ##+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 29,
+      floors: 200,
+      floorsSpecial: 0,
+      walls: 120,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 9
+    }
   },
   {
     name: 'riobothorsyn',
@@ -42432,7 +58658,21 @@ const prefabs = [
       '            ##.........##',
       '             ###.....###',
       '               ###+###'
-    ]
+    ],
+    details: {
+      height: 37,
+      width: 37,
+      floors: 658,
+      floorsSpecial: 0,
+      walls: 140,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 59,
+      doors: 4
+    }
   },
   {
     name: 'asmem',
@@ -42460,7 +58700,21 @@ const prefabs = [
       '   ##.....##',
       '    #.....#',
       '    ###+###'
-    ]
+    ],
+    details: {
+      height: 23,
+      width: 15,
+      floors: 168,
+      floorsSpecial: 0,
+      walls: 73,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   },
   {
     name: 'antho',
@@ -42486,7 +58740,21 @@ const prefabs = [
       '      ##.........##',
       '       #.........#',
       '       ##+#####+##'
-    ]
+    ],
+    details: {
+      height: 21,
+      width: 25,
+      floors: 220,
+      floorsSpecial: 0,
+      walls: 92,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 0,
+      removed: 0,
+      void: 0,
+      doors: 5
+    }
   },
   {
     name: 'ivesaves',
@@ -42521,7 +58789,21 @@ const prefabs = [
       '           ##.........##',
       '            ###.....###',
       '              ###+###'
-    ]
+    ],
+    details: {
+      height: 30,
+      width: 35,
+      floors: 451,
+      floorsSpecial: 0,
+      walls: 129,
+      wallsSpecial: 0,
+      water: 0,
+      waterSpecial: 0,
+      window: 18,
+      removed: 0,
+      void: 0,
+      doors: 4
+    }
   }
-];
+]
 module.exports = {prefabs};

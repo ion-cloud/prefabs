@@ -58,12 +58,10 @@ prefabs.forEach((prefab,index)=>{
       widths.push(
         prefab.data.reduce((max,cur)=> max>cur.length?max:cur.length,0)
       );
-      const prefabDoors = prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char==='+'?cur+1:cur,cur),0);
-
-      if(!prefabDoors){
+      if(!prefab.details.doors){
         error('no doors',index,prefab);
       }else{
-        doors.push(prefabDoors);
+        doors.push(prefab.details.doors);
       } //end if
       const illegalCharLine = prefab.data.find(line=>{
         return line.split('').find(char=> !allowedChars[char]);
@@ -73,15 +71,15 @@ prefabs.forEach((prefab,index)=>{
 
         error(`illegal character: ${char}`,index,prefab);
       } //end if
-      floors.push(prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char==='.'?cur+1:cur,cur),0));
-      floorsSpecial.push(prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char===','?cur+1:cur,cur),0));
-      walls.push(prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char==='#'?cur+1:cur,cur),0));
-      wallsSpecial.push(prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char==='%'?cur+1:cur,cur),0));
-      water.push(prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char==='~'?cur+1:cur,cur),0));
-      waterSpecial.push(prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char==='-'?cur+1:cur,cur),0));
-      window.push(prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char==='*'?cur+1:cur,cur),0));
-      removed.push(prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char==='x'?cur+1:cur,cur),0));
-      voids.push(prefab.data.reduce((cur,line)=> line.split('').reduce((cur,char)=> char==='?'?cur+1:cur,cur),0));
+      floors.push(prefab.details.floors);
+      floorsSpecial.push(prefab.details.floorsSpecial);
+      walls.push(prefab.details.walls);
+      wallsSpecial.push(prefab.details.wallsSpecial);
+      water.push(prefab.details.water);
+      waterSpecial.push(prefab.details.waterSpecial);
+      window.push(prefab.details.window);
+      removed.push(prefab.details.removed);
+      voids.push(prefab.details.void);
     } //end if
   } //end if
 });
