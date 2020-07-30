@@ -1,0 +1,32 @@
+{
+  "author": {
+    "name": "NathanielInman"
+  },
+  "bugs": {
+    "url": "https://github.com/ion-cloud/prefabs/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "JavaScript prefab library used by @ion-cloud/compass",
+  "homepage": "https://github.com/ion-cloud/prefabs#readme",
+  "keywords": [
+    "javascript",
+    "ion-cloud",
+    "game-dev",
+    "random",
+    "mapping",
+    "procedural",
+    "generation"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@ion-cloud/prefabs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ion-cloud/prefabs.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

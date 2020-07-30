@@ -14,7 +14,8 @@ const nameMap = {},
         '*': 'isWindow',
         'x': 'isRemoved',
         '?': 'isVoid',
-        '+': 'isDoor'
+        '+': 'isDoorConnectable',
+        '=': 'isDoor'
       },
       heights = [],
       widths = [],
