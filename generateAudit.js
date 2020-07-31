@@ -130,79 +130,83 @@ const column1width = 14,
       column3width = 10;
 
 console.log(
-  '[name]'.padEnd(column1width).cyan+
-  '[minimum]'.padEnd(column2width).cyan+
-  '[maximum]'.padEnd(column3width).cyan+
-  '[average]'.cyan
+  'Total prefabs: '.cyan+
+  (''+prefabs.length).yellow
 );
 console.log(
-  'height'.padEnd(column1width).brightCyan+
+  '[name]'.padEnd(column1width).blue+
+  '[minimum]'.padEnd(column2width).blue+
+  '[maximum]'.padEnd(column3width).blue+
+  '[average]'.blue
+);
+console.log(
+  'height'.padEnd(column1width).cyan+
   (''+heightsMin).padEnd(column2width).yellow+
   (''+heightsMax).padEnd(column3width).yellow+
   heightsAverage.toFixed(4).yellow
 );
 console.log(
-  'width'.padEnd(column1width).brightCyan+
+  'width'.padEnd(column1width).cyan+
   (''+widthsMin).padEnd(column2width).yellow+
   (''+widthsMax).padEnd(column3width).yellow+
   widthsAverage.toFixed(4).yellow
 );
 console.log(
-  'doors'.padEnd(column1width).brightCyan+
+  'doors'.padEnd(column1width).cyan+
   (''+doorsMin).padEnd(column2width).yellow+
   (''+doorsMax).padEnd(column3width).yellow+
   doorsAverage.toFixed(4).yellow
 );
 console.log(
-  'floors'.padEnd(column1width).brightCyan+
+  'floors'.padEnd(column1width).cyan+
   (''+floorsMin).padEnd(column2width).yellow+
   (''+floorsMax).padEnd(column3width).yellow+
   floorsAverage.toFixed(4).yellow
 );
 console.log(
-  'floorsSpecial'.padEnd(column1width).brightCyan+
+  'floorsSpecial'.padEnd(column1width).cyan+
   (''+floorsSpecialMin).padEnd(column2width).yellow+
   (''+floorsSpecialMax).padEnd(column3width).yellow+
   floorsSpecialAverage.toFixed(4).yellow
 );
 console.log(
-  'walls'.padEnd(column1width).brightCyan+
+  'walls'.padEnd(column1width).cyan+
   (''+wallsMin).padEnd(column2width).yellow+
   (''+wallsMax).padEnd(column3width).yellow+
   wallsAverage.toFixed(4).yellow
 );
 console.log(
-  'wallsSpecial'.padEnd(column1width).brightCyan+
+  'wallsSpecial'.padEnd(column1width).cyan+
   (''+wallsSpecialMin).padEnd(column2width).yellow+
   (''+wallsSpecialMax).padEnd(column3width).yellow+
   wallsSpecialAverage.toFixed(4).yellow
 );
 console.log(
-  'water'.padEnd(column1width).brightCyan+
+  'water'.padEnd(column1width).cyan+
   (''+waterMin).padEnd(column2width).yellow+
   (''+waterMax).padEnd(column3width).yellow+
   waterAverage.toFixed(4).yellow
 );
 console.log(
-  'waterSpecial'.padEnd(column1width).brightCyan+
+  'waterSpecial'.padEnd(column1width).cyan+
   (''+waterSpecialMin).padEnd(column2width).yellow+
   (''+waterSpecialMax).padEnd(column3width).yellow+
   waterSpecialAverage.toFixed(4).yellow
 );
 console.log(
-  'windows'.padEnd(column1width).brightCyan+
+  'windows'.padEnd(column1width).cyan+
   (''+windowMin).padEnd(column2width).yellow+
   (''+windowMax).padEnd(column3width).yellow+
   windowAverage.toFixed(4).yellow
 );
 console.log(
-  'removed'.padEnd(column1width).brightCyan+
+  'removed'.padEnd(column1width).cyan+
   (''+removedMin).padEnd(column2width).yellow+
   (''+removedMax).padEnd(column3width).yellow+
   removedAverage.toFixed(4).yellow
 );
 console.log(
-  'voids'.padEnd(column1width).brightCyan+
+  'voids'.padEnd(column1width).cyan+
   (''+voidsMin).padEnd(column2width).yellow+
   (''+voidsMax).padEnd(column3width).yellow+
   voidsAverage.toFixed(4).yellow
